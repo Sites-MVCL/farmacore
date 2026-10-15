@@ -1,0 +1,182 @@
+{
+  "id": "m9",
+  "tempo": 30,
+  "intro": "Esta aula apresenta as principais classes de medicamentos por sistema do corpo. Cada seção explica primeiro a condição que o medicamento trata, para que as classes façam sentido mesmo para quem nunca estudou o assunto.",
+  "secoes": [
+    {
+      "titulo": "Como estudar as classes de medicamentos",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Existem milhares de medicamentos, mas eles se **agrupam por função no organismo**, formando as **classes farmacológicas**. Aprender a classe é mais útil do que decorar nomes soltos: se você sabe a classe, já sabe **para que serve** e **quais cuidados** costumam acompanhá-la.",
+          "Para cada classe, guarde quatro coisas: **para que serve**, **exemplos** (pelo nome genérico), **cuidado de enfermagem** e **efeitos de atenção**. Lembre também que todo medicamento tem um **nome genérico** (o princípio ativo) e um **nome comercial** (do fabricante), e que não existem medicamentos sem efeitos colaterais."]},
+        {"t": "callout", "kind": "nota", "titulo": "Sobre os exemplos desta aula", "texto": "Os exemplos seguem o módulo de estudo, com os nomes genéricos. Alguns nomes comerciais e fármacos citados em materiais antigos podem ter saído do mercado. **Consulte sempre a prescrição, a bula e a lista de medicamentos da sua instituição.** Nenhuma dose é indicada aqui."}
+      ]
+    },
+    {
+      "titulo": "Sistema circulatório: coração e pressão",
+      "blocos": [
+        {"t": "texto", "p": [
+          "O **coração** é uma bomba que empurra o sangue pelo corpo. Quando essa bomba falha, o sangue circula mal e se acumula nas veias, nas câmaras do coração e nos pulmões. Isso se chama **insuficiência cardíaca**. Os medicamentos do sistema circulatório atuam em problemas como esse, no **ritmo** do coração, na **pressão** e na **circulação**."]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Digitálicos", "tag": "digoxina", "d": "Usados na **insuficiência cardíaca**. Fortalecem a contração do músculo do coração, que passa a esvaziar melhor: aumenta o **débito cardíaco** (volume de sangue bombeado), reduz a pressão venosa e o edema e favorece a diurese. **Cuidados:** verificar o **pulso antes**: se estiver **abaixo de 60**, comunicar o responsável do setor; se EV, aplicar **lentamente**; observar sinais de toxicidade (anorexia, náuseas, cefaleia, confusão); lembrar que as doses são **cumulativas**."},
+          {"t": "Inotrópicos (catecolaminas)", "tag": "dobutamina, dopamina", "d": "Aumentam a **força de contração** do coração e são usados na descompensação cardíaca. A dobutamina estimula os **receptores beta** do coração. A dopamina também aumenta o fluxo renal. **Atenção:** efeitos adversos da dopamina incluem angina, batimentos ectópicos, cefaleia e hipotensão. Cuidado com os **nomes parecidos**."},
+          {"t": "Antiarrítmicos", "tag": "amiodarona, verapamil, lidocaína, propranolol", "d": "O ritmo do coração é comandado por um “marca-passo” natural, o **nodo sinoatrial**, no átrio direito. Qualquer desvio desse ritmo é uma **arritmia**. Os antiarrítmicos corrigem esses desvios. **Atenção:** a lidocaína pode causar efeitos no sistema nervoso central (sonolência, desorientação, confusão, perturbações visuais; raramente convulsões e coma)."},
+          {"t": "Anti-hipertensivos", "tag": "captopril, enalapril, nifedipina, espironolactona", "d": "Regulam a **pressão arterial** por mecanismos diferentes. **Cuidados:** controlar a **pressão arterial**, o **peso** e a **diurese**."},
+          {"t": "Vasodilatadores", "tag": "cinarizina, flunarizina", "d": "Melhoram a circulação nos tecidos, aumentando o fluxo de sangue."},
+          {"t": "Antianginosos", "tag": "isossorbida, nifedipina", "d": "A **angina** é a dor no peito causada por falta de sangue no coração. Esses medicamentos **reduzem a crise de angina**."}]},
+        {"t": "pense", "q": "Antes de administrar um digitálico, o pulso do paciente é 54 por minuto. O que você faz?", "a": "Comunica o responsável do setor antes de administrar: pulso abaixo de 60 é o sinal de alerta descrito no módulo."}
+      ]
+    },
+    {
+      "titulo": "Sistema respiratório: tosse e respiração",
+      "blocos": [
+        {"t": "texto", "p": [
+          "A tosse pode ser **seca** (sem secreção, “improdutiva”) ou **produtiva** (com catarro). Os medicamentos respiratórios escolhem entre **acalmar a tosse**, **soltar o catarro** ou **abrir os brônquios**."]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Antitussígenos", "tag": "codeína", "d": "**Acalmam a tosse improdutiva**, sem secreção."},
+          {"t": "Mucolíticos", "tag": "acetilcisteína, ambroxol", "d": "**Diminuem a aderência das secreções**, deixando o catarro menos grudento."},
+          {"t": "Expectorantes", "tag": "guaiacol, cloreto de amônio", "d": "**Favorecem a tosse produtiva**: ajudam a eliminar as secreções."},
+          {"t": "Broncodilatadores", "tag": "salbutamol, aminofilina", "d": "**Dilatam os brônquios**, facilitando a saída do catarro e a respiração. **Cuidado:** aminofilina por EV deve ser aplicada **lentamente** (no mínimo 10 minutos a cada 10 mL), com **controle dos sinais vitais** depois."}]}
+      ]
+    },
+    {
+      "titulo": "Sistema digestório",
+      "blocos": [
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Antiácidos", "tag": "hidróxido de alumínio e de magnésio", "d": "**Tamponam a acidez** do estômago e protegem a mucosa. O alumínio pode causar **constipação**; o magnésio pode ter **ação purgativa**."},
+          {"t": "Antieméticos", "tag": "ondansetrona, metoclopramida", "d": "Combatem **náuseas e vômitos**."},
+          {"t": "Laxantes e purgativos", "tag": "plantago, bisacodil, óleo mineral", "d": "Os **reeducadores intestinais** têm ação suave; os **purgativos**, ação enérgica; os **estimulantes do peristaltismo** aumentam o movimento do intestino."},
+          {"t": "Antidiarreicos e protetores", "tag": "loperamida, carvão ativado", "d": "Diminuem ou eliminam a **diarreia**. Absorventes e protetores recobrem a mucosa inflamada."},
+          {"t": "Antifiséticos", "tag": "dimeticona", "d": "Agente **antiespumante**: altera a tensão superficial das bolhas de gás."},
+          {"t": "Bloqueadores da secreção gástrica", "tag": "omeprazol, cimetidina", "d": "**Reduzem a secreção de suco gástrico.** Incluem antagonistas dos receptores H2 e **inibidores da bomba de prótons**."}]}
+      ]
+    },
+    {
+      "titulo": "Sistema geniturinário e nutrição",
+      "blocos": [
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Diuréticos", "tag": "furosemida, hidroclorotiazida", "d": "Estimulam a **saída de íons e de líquidos** do organismo, evitando o **edema**. Usados também na hipertensão. **Cuidado:** controlar **peso e diurese**."},
+          {"t": "Antissépticos urinários", "tag": "nitrofurantoína", "d": "Agem **somente nas vias urinárias**."},
+          {"t": "Ocitócicos", "tag": "ocitocina, metilergometrina", "d": "Provocam **contração uterina**: induzem o parto e ajudam a conter a **hemorragia pós-parto**."},
+          {"t": "Vitaminas", "tag": "B1, B12, C, A, D, K", "d": "Atuam em vários processos do metabolismo. A necessidade vem **quase toda da alimentação**, mas gravidez e pós-cirúrgico podem exigir suplemento. **Atenção:** cálcio e vitamina D em tratamento prolongado podem **calcificar tecidos**, inclusive o rim (cálculo renal). A falta de vitamina C causa **escorbuto**. A vitamina K participa da **coagulação**."}]}
+      ]
+    },
+    {
+      "titulo": "Alergia e inflamação: histamina e corticoides",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Em uma **reação alérgica**, o corpo libera uma substância chamada **histamina**, que age nos vasos e nos músculos lisos. Os **anti-histamínicos** se opõem a essa ação. Os **corticoides**, por sua vez, derivam de hormônios das glândulas suprarrenais e são **anti-inflamatórios e antialérgicos potentes**."]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Anti-histamínicos", "tag": "dexclorfeniramina, prometazina", "d": "Agem nas reações alérgicas **opondo-se à ação da histamina**. **Atenção:** podem causar **sonolência**; alguns estimulam o apetite."},
+          {"t": "Corticoides", "tag": "prednisona, dexametasona, hidrocortisona", "d": "Anti-inflamatórios e antialérgicos potentes. Devem ser usados **com muita cautela, somente com orientação médica**. **Atenção:** podem provocar **retenção de líquidos** (rosto arredondado) e **imunossupressão**. O corticoide que vem de fora **inibe** a produção do corticoide do próprio corpo."}]}
+      ]
+    },
+    {
+      "titulo": "Sistema nervoso central: sono, ansiedade, convulsão",
+      "blocos": [
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Hipnóticos", "tag": "fenobarbital, midazolam", "d": "**Deprimem o SNC** e facilitam o início e a manutenção do sono. Conforme a dose, podem ter efeito hipnótico, sedativo ou anestésico geral."},
+          {"t": "Neurolépticos", "tag": "haloperidol, clorpromazina", "d": "Agem na **excitação, na agressividade e nos delírios e alucinações**."},
+          {"t": "Tranquilizantes", "tag": "diazepam, bromazepam", "d": "Agem na **ansiedade e na tensão**. Em doses baixas facilitam o sono; alguns têm ação anticonvulsivante."},
+          {"t": "Antidepressivos", "tag": "amitriptilina, imipramina", "d": "**Diminuem a depressão.** Costumam exigir cerca de **três semanas de uso** para os efeitos positivos."},
+          {"t": "Anestésicos", "tag": "fentanil, lidocaína, bupivacaína", "d": "**Gerais** agem por depressão do SNC. **Locais** agem **bloqueando os axônios** dos nervos periféricos."},
+          {"t": "Anticonvulsivantes", "tag": "fenitoína, carbamazepina, ácido valproico", "d": "**Elevam o limiar excitatório**, prevenindo convulsões."},
+          {"t": "Antiparkinsonianos", "tag": "levodopa, biperideno", "d": "Precursores da **dopamina**, o neurotransmissor envolvido na doença de Parkinson."}]}
+      ]
+    },
+    {
+      "titulo": "Dor, febre e inflamação",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Tanto a dor quanto a febre e a inflamação envolvem uma substância do próprio corpo chamada **prostaglandina**. Muitos medicamentos desta seção funcionam **bloqueando a síntese de prostaglandinas**."]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Analgésicos e antitérmicos", "tag": "paracetamol, dipirona, AAS", "d": "**Bloqueiam a síntese de prostaglandinas** (dor de cabeça, dores musculares e articulares). Também têm **ação antitérmica**: atuam no **hipotálamo**, o “termostato” do corpo, e estimulam a perda de calor."},
+          {"t": "Analgésicos opioides (narcóticos)", "tag": "morfina, meperidina", "d": "Agem em **receptores opioides do SNC**. Usados em **dores severas** (cólicas renais e biliares, câncer). **Atenção:** podem causar **dependência e euforia**."},
+          {"t": "Anti-inflamatórios não esteroidais (AINEs)", "tag": "diclofenaco, cetoprofeno, naproxeno", "d": "**Inibem a produção de prostaglandinas**, ligadas à reação inflamatória."}]}
+      ]
+    },
+    {
+      "titulo": "Hormônios, diabetes e insulina",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Hormônios** são substâncias produzidas por glândulas e transportadas pelo sangue para agir em órgãos e tecidos. Os medicamentos desse grupo incluem os corticoides (já vistos), os **hormônios sexuais** (androgênios, estrogênios e progestágenos), os **tireoidianos** (como a levotiroxina, para o hipotireoidismo), e os usados no **diabetes**."]},
+        {"t": "texto", "titulo": "Diabetes e insulina", "p": [
+          "A **insulina** é um hormônio produzido pelo **pâncreas** e liberado no sangue quando a **glicose** (açúcar do sangue) está elevada. Na pessoa que não produz o suficiente, a insulina é aplicada como **reposição** (ação substitutiva). Os tipos de insulina diferem no **início** e na **duração** do efeito (segundo o módulo):"]},
+        {"t": "tabela", "cab": ["Tipo", "Ação", "Início", "Duração"], "linhas": [
+          ["Regular ou simples", "Rápida", "30 minutos", "5 a 7 horas"],
+          ["NPH", "Intermediária", "1 a 3 horas", "24 a 28 horas"],
+          ["Protamina-zíncica", "Prolongada", "4 a 6 horas", "cerca de 36 horas"]]},
+        {"t": "callout", "kind": "nota", "titulo": "Valores do módulo", "texto": "Os tempos acima são os do módulo de estudo. Existem insulinas modernas com perfis diferentes. Em serviço, **confira sempre a bula e o protocolo da instituição**, e não confunda tipos de insulina: são nomes parecidos com ações diferentes."},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Sulfonilureias", "tag": "glibenclamida", "d": "**Estimulam a produção de insulina do próprio corpo**. Não atuam em quem não tem essa produção."},
+          {"t": "Biguanidas", "tag": "metformina", "d": "**Diminuem a absorção de glicose** no intestino, e o organismo passa a precisar de menos insulina."}]}
+      ]
+    },
+    {
+      "titulo": "Sangue: coagulação e anemia",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Coagulação** é o processo que faz o sangue formar um coágulo para estancar um sangramento. Em algumas doenças é preciso **diminuir** a coagulação (para evitar coágulos perigosos) e em outras **aumentá-la** (para conter hemorragias)."]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Heparina", "tag": "anticoagulante", "d": "Ação **rápida e fugaz**, por isso é a **preferida nas emergências**. É **inativa por via oral**, então é usada por **via parenteral**."},
+          {"t": "Antagonistas da vitamina K", "tag": "varfarina", "d": "Anticoagulantes úteis em **tratamentos prolongados**. O efeito só aparece **24 a 48 horas** após a primeira dose e **dura cerca de 7 dias** depois da interrupção."},
+          {"t": "Hemostáticos e coagulantes", "tag": "vitamina K, esponja de gelatina", "d": "**Interrompem a hemorragia.** A vitamina K participa da coagulação."},
+          {"t": "Antianêmicos", "tag": "sulfato ferroso, vitamina B12, ácido fólico", "d": "A **anemia** pode ser causada por falta de ferro, de vitamina B12 ou de ácido fólico. O ferro é indispensável para formar a **hemoglobina**."}]}
+      ]
+    },
+    {
+      "titulo": "Sistema nervoso autônomo: luta ou repouso",
+      "blocos": [
+        {"t": "texto", "p": [
+          "O **sistema nervoso autônomo** controla funções viscerais necessárias à vida, **fora do controle voluntário**: músculo liso (do intestino e dos vasos), algumas secreções, a frequência e a força do coração e alguns processos do metabolismo. Ele tem **duas divisões**, que funcionam o tempo todo:"]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Simpático", "tag": "luta ou fuga", "d": "Sai da região toracolombar da coluna. **Predomina no estresse** e é altamente **catabólico**. Os neurônios pós-ganglionares liberam principalmente **noradrenalina**."},
+          {"t": "Parassimpático", "tag": "repouso e digestão", "d": "Sai da região craniossacral. **Predomina na saciedade e no repouso** e é **anabólico**. Os neurônios pós-ganglionares liberam **acetilcolina**."}]},
+        {"t": "texto", "p": [
+          "Os dois sistemas têm ações opostas em alguns órgãos (como no coração e no intestino), mas não em todos. Dois grupos de medicamentos mexem com o parassimpático:"]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Colinérgicos", "tag": "neostigmina, pilocarpina", "d": "**Estimulam** o parassimpático: aumentam o **peristaltismo** e provocam **miose** (pupila contraída)."},
+          {"t": "Anticolinérgicos", "tag": "atropina, escopolamina", "d": "**Bloqueiam** o parassimpático: reduzem o **peristaltismo** e provocam **midríase** (pupila dilatada)."}]}
+      ]
+    },
+    {
+      "titulo": "Anti-infecciosos: antibióticos e outros",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Antibióticos** são substâncias que, em condições propícias, **inibem ou destroem o crescimento de micro-organismos** que causam doenças. Eles se dividem em dois grandes grupos:"]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Bacteriostáticos", "tag": "“param” a bactéria", "d": "**Impedem o crescimento bacteriano.** Exemplos: tetraciclina, eritromicina, sulfa."},
+          {"t": "Bactericidas", "tag": "“matam” a bactéria", "d": "**Provocam a morte da bactéria.** Exemplos: penicilina, aminoglicosídeos, cefalosporinas."}]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Penicilinas", "tag": "ampicilina, oxacilina", "d": "Bactericidas, por VO, IM ou EV. Algumas são **destruídas pelo suco gástrico** se tomadas por boca. **Atenção:** o principal efeito colateral é a **hipersensibilidade**, que pode chegar ao **choque anafilático**. Boa prática: perguntar sobre **alergia a penicilina** antes e **observar** o paciente após a administração."},
+          {"t": "Cefalosporinas", "tag": "cefalexina, cefazolina, ceftriaxona", "d": "Também **beta-lactâmicas**, como as penicilinas, e por isso podem ter **hipersensibilidade cruzada**. São divididas em **quatro gerações**, conforme o desenvolvimento."},
+          {"t": "Macrolídeos e tetraciclinas", "tag": "eritromicina, doxiciclina", "d": "Em geral **bacteriostáticos**."},
+          {"t": "Aminoglicosídeos", "tag": "gentamicina, amicacina", "d": "**Não são absorvidos por via oral.** **Atenção:** podem ser **nefrotóxicos** (agridem os rins) e **ototóxicos** (agridem o ouvido)."},
+          {"t": "Sulfamídicos", "tag": "sulfametoxazol + trimetoprima", "d": "Antibacterianos de ampla aplicação. **Atenção:** podem causar **reações alérgicas graves**, náuseas, vômitos e tonturas."},
+          {"t": "Antivirais, antifúngicos e antiparasitários", "tag": "aciclovir, fluconazol, metronidazol, mebendazol", "d": "Tratam infecções por **vírus** (como herpes), **fungos** e **parasitas**, provocando a morte ou a expulsão do agente sem lesar gravemente o paciente."}]},
+        {"t": "pense", "q": "Um paciente vai receber uma penicilina. Qual risco você deve ter em mente?", "a": "Hipersensibilidade, que pode chegar ao choque anafilático. É importante saber se ele tem alergia prévia e observar o paciente depois da administração."}
+      ]
+    }
+  ],
+  "resumo": [
+    "Classes farmacológicas agrupam medicamentos pela função. Aprenda a classe, o exemplo, o cuidado e o alerta.",
+    "Digitálicos: pulso antes (abaixo de 60, comunicar), EV lento, doses cumulativas. Anti-hipertensivos e diuréticos: controlar pressão, peso e diurese. Lidocaína: efeitos no SNC.",
+    "Aminofilina EV: aplicar lentamente (mínimo 10 min a cada 10 mL) e controlar sinais vitais.",
+    "Corticoides só com orientação médica; anti-histamínicos causam sonolência; opioides podem causar dependência.",
+    "Heparina é parenteral (inativa por via oral); varfarina leva 24 a 48 h para agir e dura cerca de 7 dias após parar.",
+    "Insulina: regular (rápida, 30 min), NPH (intermediária, 1 a 3 h), protamina-zíncica (prolongada, 4 a 6 h).",
+    "Colinérgicos: miose e mais peristaltismo. Anticolinérgicos: midríase e menos peristaltismo.",
+    "Penicilinas e cefalosporinas: risco de hipersensibilidade (cruzada). Aminoglicosídeos: nefrotóxicos e ototóxicos."
+  ],
+  "glossario": [
+    {"t": "Insuficiência cardíaca", "d": "Quando o coração não bombeia o sangue de forma satisfatória."},
+    {"t": "Arritmia", "d": "Desvio do ritmo normal do coração."},
+    {"t": "Angina", "d": "Dor no peito por falta de sangue no músculo do coração."},
+    {"t": "Prostaglandina", "d": "Substância do corpo ligada à dor, à febre e à inflamação."},
+    {"t": "Histamina", "d": "Substância liberada nas reações alérgicas."},
+    {"t": "Anticoagulante", "d": "Medicamento que previne ou diminui a coagulação do sangue."},
+    {"t": "Nefrotóxico", "d": "Que pode causar dano aos rins."},
+    {"t": "Ototóxico", "d": "Que pode causar dano ao ouvido."},
+    {"t": "Miose e midríase", "d": "Contração e dilatação da pupila."}
+  ]
+}

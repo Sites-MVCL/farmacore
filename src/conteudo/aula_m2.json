@@ -1,0 +1,104 @@
+{
+  "id": "m2",
+  "tempo": 14,
+  "intro": "Aqui você aprende o que é dose, como ler uma dose na prescrição e por que a mesma quantidade pode ser segura para uma pessoa e perigosa para outra.",
+  "secoes": [
+    {
+      "titulo": "O que é dose?",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Dose** é a quantidade de uma droga que, quando administrada ao organismo, produz um efeito terapêutico. **Posologia** é o estudo das doses de administração dos medicamentos: quanto, quantas vezes, por quanto tempo.",
+          "Pense no volume do rádio. Muito baixo, você não escuta nada. No ponto certo, escuta bem. Alto demais, machuca o ouvido. Com os medicamentos acontece o mesmo: **a dose é o botão de volume**."]},
+        {"t": "texto", "titulo": "Lendo uma dose: mg, g, mL e concentração", "p": [
+          "Antes de seguir, vale conhecer as unidades que aparecem na prescrição e nos rótulos:"]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "mg e g", "d": "**mg** é miligrama e **g** é grama. Como 1 g = 1.000 mg, uma dose de 1 g é a mesma que 1.000 mg."},
+          {"t": "mL", "d": "**mL** é mililitro, uma medida de volume de líquido. Ampolas e frascos trazem o volume em mL."},
+          {"t": "Concentração", "d": "Diz **quanto fármaco existe em cada mL**. “500 mg/mL” significa 500 mg de fármaco em cada mL de líquido."},
+          {"t": "Apresentação", "d": "É a forma como o produto vem: “comprimido de 40 mg”, “ampola de 2 mL”, “frasco de 100 mL”. Dose prescrita e apresentação nem sempre falam a mesma língua."}]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Exemplo passo a passo", "texto": "A prescrição pede **1 g** de um medicamento. A ampola do estoque é de **500 mg/mL**. Como 1 g = 1.000 mg, e cada mL tem 500 mg, são necessários **2 mL** (2 × 500 = 1.000). Se você preparasse 4 mL, estaria dando o dobro da dose."},
+        {"t": "callout", "kind": "nota", "titulo": "Cálculo de medicação", "texto": "Este exemplo serve só para você entender a lógica. O cálculo de doses é um assunto à parte do curso. Na prática, **confira sempre o resultado com o protocolo da instituição e, quando exigido, com outro profissional**."}
+      ]
+    },
+    {
+      "titulo": "As quatro doses e a janela terapêutica",
+      "blocos": [
+        {"t": "texto", "p": [
+          "O módulo classifica as doses em quatro tipos. Imagine uma régua que vai de “quase nada” até “perigoso”: cada dose marca um ponto dessa régua."]},
+        {"t": "barra", "titulo": "A régua da dose", "segs": [
+          {"n": "Sem efeito", "c": "n", "d": "Abaixo da dose mínima"},
+          {"n": "Terapêutica", "c": "ok", "d": "Entre a mínima e a máxima"},
+          {"n": "Tóxica", "c": "al", "d": "Acima da máxima"},
+          {"n": "Letal", "c": "x", "d": "Pode causar a morte"}]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Dose mínima", "tag": "onde o efeito começa", "d": "É a **menor quantidade** de um medicamento capaz de produzir o efeito terapêutico. Abaixo dela, o tratamento não funciona."},
+          {"t": "Dose máxima", "tag": "o limite seguro", "d": "É a **maior quantidade** capaz de produzir o efeito terapêutico. Se for ultrapassada, aparecem efeitos tóxicos no organismo doente."},
+          {"t": "Dose tóxica", "tag": "zona de perigo", "d": "É a quantidade que **ultrapassa a dose máxima**, causando perturbações e intoxicação, que podem chegar à morte."},
+          {"t": "Dose letal", "tag": "zona fatal", "d": "É a quantidade de um medicamento que **causa a morte**."}]},
+        {"t": "texto", "p": [
+          "A faixa que fica entre a dose mínima e a dose máxima é o que se costuma chamar de **janela terapêutica**: é nela que o medicamento faz o efeito desejado com segurança. O objetivo da prescrição é manter o paciente dentro dessa janela."]},
+        {"t": "callout", "kind": "atencao", "titulo": "Por que “dose certa” é um dos 5 certos", "texto": "Uma dose errada não é só um número errado. Ela pode empurrar o paciente para fora da janela: para baixo (o tratamento falha) ou para cima (intoxicação). Para alguns fármacos, a janela é estreita e a margem de erro é pequena."},
+        {"t": "pense", "q": "O paciente tomou uma dose menor do que a dose mínima. Ele ficou intoxicado?", "a": "Não. Abaixo da dose mínima o problema é outro: o efeito terapêutico não aparece e o tratamento não funciona. A intoxicação vem de doses acima da máxima."}
+      ]
+    },
+    {
+      "titulo": "Quem muda a dose? Os nove fatores do módulo",
+      "blocos": [
+        {"t": "texto", "p": [
+          "A mesma dose não vale para todo mundo. O módulo lista **nove fatores** que modificam a dosagem. A explicação de cada um ajuda a entender por que a prescrição é individual:"]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Idade", "d": "Crianças e idosos absorvem, metabolizam e eliminam os fármacos de forma diferente dos adultos."},
+          {"t": "Peso corporal", "d": "Um corpo maior distribui o fármaco em mais volume. Em muitos casos a dose depende do peso."},
+          {"t": "Sexo", "d": "Diferenças do organismo entre homens e mulheres podem influenciar a resposta."},
+          {"t": "Condições do paciente", "d": "Doenças, estado nutricional e o funcionamento do **fígado, dos rins, do coração e do intestino** alteram a resposta."},
+          {"t": "Fatores psicológicos", "d": "Expectativa, ansiedade e crença influenciam o efeito percebido, como no placebo."},
+          {"t": "Fatores ambientais", "d": "O ambiente em que o paciente está pode influenciar a resposta ao medicamento."},
+          {"t": "Temperatura", "d": "Mudanças de temperatura corporal ou do ambiente podem alterar a absorção e o efeito."},
+          {"t": "Método de administração", "d": "A via e a técnica mudam quanto do fármaco chega ao sangue e com que rapidez."},
+          {"t": "Fatores genéticos", "d": "As enzimas que processam os fármacos variam de pessoa para pessoa, por herança genética."}]},
+        {"t": "callout", "kind": "memo", "titulo": "Lição de enfermagem", "texto": "Você não decide a dose, mas pode **perceber sinais** de que o paciente é diferente do esperado: idoso frágil, criança, doença renal ou hepática, paciente muito magro. Esses sinais devem ser comunicados ao enfermeiro."}
+      ]
+    },
+    {
+      "titulo": "Quando medicamentos se encontram: adição, potencialização, antagonismo",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Muitos pacientes tomam **vários medicamentos ao mesmo tempo**. Eles podem se ajudar, se atrapalhar ou se somar. O módulo traz os conceitos básicos dessas combinações:"]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Adição", "tag": "1 + 1 = 2", "d": "É o **efeito combinado** de dois fármacos: um soma o seu efeito ao do outro."},
+          {"t": "Potencialização", "tag": "1 + 1 = 3", "d": "Ocorre quando um fármaco **aumenta ou prolonga a ação** de outro."},
+          {"t": "Antagonismo", "tag": "um freia, outro acelera", "d": "Duas ou mais substâncias administradas têm **efeito contrário**: uma reduz ou anula o efeito da outra."}]},
+        {"t": "pense", "q": "Um paciente usa um remédio que acelera o coração e outro que o desacelera. Que conceito se aplica?", "a": "Antagonismo: os dois têm efeitos contrários."}
+      ]
+    },
+    {
+      "titulo": "Efeitos que fogem do plano",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Todo medicamento faz **o que foi escolhido para fazer** (o efeito terapêutico) e pode fazer **outras coisas** também. O módulo é direto: **não existem medicamentos sem efeitos colaterais, apenas medicamentos com efeitos colaterais de maior ou menor intensidade**."]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Efeito adverso ou indesejado", "d": "Uma **ação diferente do efeito planejado**."},
+          {"t": "Efeito colateral", "d": "Efeito **imprevisível**, que não está relacionado à principal ação do fármaco."},
+          {"t": "Efeito cumulativo", "d": "A eliminação do medicamento é **mais lenta do que a absorção**, e a concentração vai aumentando no organismo."}]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Analogia da banheira", "texto": "Imagine uma banheira com a torneira aberta e um ralo pequeno. Se a água entra mais rápido do que sai, o nível sobe. Um medicamento **cumulativo** funciona assim: se cada dose entra mais rápido do que o corpo elimina, o nível no organismo vai subindo, até chegar à zona tóxica. A **digitalina** (digitálico) é o exemplo clássico do módulo."},
+        {"t": "callout", "kind": "atencao", "titulo": "O que fazer diante de um efeito inesperado", "texto": "Observe o paciente, **não ignore** queixas novas depois de um medicamento e **comunique** ao enfermeiro. Deixar de comunicar um efeito indesejado é uma forma de negligência (você vai ver na missão 7)."},
+        {"t": "pense", "q": "Por que um medicamento cumulativo exige mais atenção às doses anteriores?", "a": "Porque o que foi dado antes ainda está no corpo. Se o organismo elimina mais devagar do que absorve, a soma das doses pode chegar a níveis tóxicos mesmo que cada dose isolada pareça normal."}
+      ]
+    }
+  ],
+  "resumo": [
+    "Dose é a quantidade que produz o efeito terapêutico; posologia estuda as doses.",
+    "1 g = 1.000 mg. Concentração diz quanto fármaco há em cada mL (ex.: 500 mg/mL).",
+    "Dose mínima = menor quantidade com efeito; máxima = maior quantidade com efeito; tóxica = acima da máxima; letal = causa a morte. A janela terapêutica fica entre a mínima e a máxima.",
+    "Nove fatores modificam a dose: idade, sexo, condições do paciente, fatores psicológicos, ambientais, temperatura, método de administração, fatores genéticos e peso corporal.",
+    "Adição soma efeitos; potencialização aumenta ou prolonga a ação de outro fármaco; antagonismo é efeito contrário.",
+    "Efeito adverso é ação diferente da planejada; efeito colateral é imprevisível e sem relação com a ação principal; cumulativo é quando a eliminação é mais lenta que a absorção (ex.: digitalina)."
+  ],
+  "glossario": [
+    {"t": "Posologia", "d": "Estudo das doses: quanto, quantas vezes e por quanto tempo."},
+    {"t": "Janela terapêutica", "d": "Faixa de dose entre a mínima e a máxima, em que o efeito é obtido com segurança."},
+    {"t": "Intoxicação", "d": "Conjunto de efeitos nocivos causados por quantidade excessiva de uma substância."},
+    {"t": "Terapêutico", "d": "Relativo ao tratamento. Efeito terapêutico é o efeito desejado."},
+    {"t": "Concentração", "d": "Quantidade de fármaco por volume de líquido, como mg/mL."}
+  ]
+}

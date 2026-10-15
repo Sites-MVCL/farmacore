@@ -1,0 +1,136 @@
+{
+  "id": "m8",
+  "tempo": 20,
+  "intro": "Esta é a aula mais prática do curso. Você vai aprender, certo por certo, o que conferir antes de administrar um medicamento e em que ordem fazer cada coisa.",
+  "secoes": [
+    {
+      "titulo": "A regra mais importante da administração",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Antes de dar qualquer medicamento, a equipe de enfermagem passa por uma conferência chamada **os 5 certos**. O módulo chama de **“a regra mais importante”**. São cinco perguntas que você faz sobre o que tem em mãos:"]},
+        {"t": "fluxo", "passos": [
+          {"t": "Paciente certo", "d": "é a pessoa certa?"},
+          {"t": "Medicamento certo", "d": "é o remédio certo?"},
+          {"t": "Dose certa", "d": "é a quantidade certa?"},
+          {"t": "Via certa", "d": "é o caminho certo?"},
+          {"t": "Hora certa", "d": "é o momento certo?"}]},
+        {"t": "texto", "p": [
+          "A ideia é simples: se **os cinco** conferirem com a prescrição, você pode administrar. Se **um** deles não conferir, você **para**. Cada certo é uma barreira. Se a primeira falhar, a segunda pega o erro, e assim por diante."]},
+        {"t": "callout", "kind": "memo", "titulo": "Por que existe uma regra assim", "texto": "Erros de medicação acontecem **mesmo com profissionais experientes**, em especial em momentos de correria, cansaço e interrupção. A regra dos 5 certos é uma **rede de segurança** contra o erro humano."}
+      ]
+    },
+    {
+      "titulo": "1º certo: paciente certo",
+      "blocos": [
+        {"t": "texto", "p": [
+          "É o primeiro porque de nada adianta o medicamento estar certo se ele for para a pessoa errada. Aqui o que importa é **identificar com certeza quem está na sua frente** e compará-lo com a prescrição."]},
+        {"t": "lista", "titulo": "Como conferir", "itens": [
+          "Compare o nome da **prescrição** com o da **pulseira de identificação**, letra por letra.",
+          "Sempre que possível, **peça ao paciente que diga o nome completo**, em vez de perguntar “o senhor é o João?”. Quem está confuso ou sedado pode dizer “sim” a qualquer nome.",
+          "**Não se identifica paciente pelo número do leito.** Pacientes mudam de leito.",
+          "Atenção a **homônimos** e a nomes parecidos na mesma enfermaria. Em muitos serviços esses pacientes recebem um aviso visual."]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Exemplo", "texto": "A prescrição é de “João **Pedro** Alves” e a pulseira diz “João **Pereira** Alves”. Parecem iguais à primeira vista, mas são **pessoas diferentes**. O paciente certo não confere: **pare e comunique**."}
+      ]
+    },
+    {
+      "titulo": "2º certo: medicamento certo",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Aqui você compara o **medicamento que tem em mãos** com o que foi prescrito. O que importa é o **princípio ativo**: lembre-se de que um mesmo remédio pode ter nomes diferentes (genérico e comercial). O Código de Ética é direto: é proibido ministrar medicamentos **sem certificar-se da natureza das drogas** (Art. 47)."]},
+        {"t": "lista", "titulo": "Como conferir", "itens": [
+          "**Leia o rótulo** inteiro, sem confiar na embalagem pela cor ou pelo formato.",
+          "Compare o **nome e o princípio ativo** do rótulo com o da prescrição.",
+          "Atenção a **nomes parecidos**. O módulo traz exemplos que se confundem fácil, como **dopamina e dobutamina**, ou **insulina regular e NPH**.",
+          "Confira o **prazo de validade** e se o produto parece **inalterado** (cor, transparência, ausência de partículas). Se algo parecer diferente, **não use** e comunique. Essa conferência faz parte das boas práticas dos serviços.",
+          "Se você **não conhece** o medicamento, **pesquise ou pergunte** antes de administrar."]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Exemplo", "texto": "A prescrição pede **dopamina** e a ampola na bandeja diz **dobutamina**. As duas são medicamentos que agem no coração e têm nomes quase iguais, mas são fármacos **diferentes**. Medicamento errado: **pare e comunique**."}
+      ]
+    },
+    {
+      "titulo": "3º certo: dose certa",
+      "blocos": [
+        {"t": "texto", "p": [
+          "A dose que você **prepara** precisa ser igual à dose **prescrita**. É o certo em que a matemática entra, e é onde aparecem os erros por troca de unidade ou conta errada."]},
+        {"t": "lista", "titulo": "Como conferir", "itens": [
+          "Compare a **dose escrita** (por exemplo, 1 g) com a **apresentação disponível** (por exemplo, ampola de 500 mg/mL).",
+          "Atenção às **unidades**: mg, g, mL. Lembre que **1 g = 1.000 mg**.",
+          "Revise o **cálculo**. Em muitos serviços ele é conferido por outro profissional.",
+          "Se o resultado parecer **estranho** (muito alto, muito baixo, muitos comprimidos), pare e confirme."]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Exemplo", "texto": "Prescrito: **1 g (2 mL)**, com ampola de **500 mg/mL**. Preparado: **4 mL**, o que equivale a **2 g**. É **o dobro** da dose. Dose errada: **pare, refaça o cálculo e comunique**."},
+        {"t": "callout", "kind": "memo", "titulo": "Lembrete", "texto": "Uma dose acima da máxima leva à **zona tóxica** (missão 2). Para alguns medicamentos, como os aminoglicosídeos, a margem de erro é pequena."}
+      ]
+    },
+    {
+      "titulo": "4º certo: via certa",
+      "blocos": [
+        {"t": "texto", "p": [
+          "A **via preparada e aplicada** precisa ser a que está na prescrição. Como você viu na missão 5, a via decide a velocidade e o risco, e **nem toda apresentação serve para toda via**."]},
+        {"t": "lista", "titulo": "Como conferir", "itens": [
+          "Compare a **via escrita** (VO, EV, IM, SC, SL, VR...) com a **apresentação** que você tem: comprimido é oral; frasco injetável não é para a boca.",
+          "Verifique no **rótulo** se o produto pode ser dado pela via prescrita.",
+          "Na **via EV**, além da via, vale a **velocidade**: alguns medicamentos precisam de aplicação lenta (digitálicos, aminofilina).",
+          "Se a via prescrita parece **inadequada ao estado do paciente** (por exemplo, via oral em quem está vomitando), **comunique**."]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Exemplo", "texto": "Prescrito **IM**, mas o preparo está feito para **EV**. Mesmo que o medicamento e a dose estejam certos, a via errada muda a velocidade e os riscos. Via errada: **pare e comunique**."}
+      ]
+    },
+    {
+      "titulo": "5º certo: hora certa",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Todo medicamento precisa ser dado no **horário** ou no **intervalo** da prescrição. O horário mantém o nível do fármaco na **janela terapêutica**: se atrasa, o nível cai; se antecipa ou repete, pode subir demais."]},
+        {"t": "lista", "titulo": "Como conferir", "itens": [
+          "Veja o horário prescrito (por exemplo, **10:00** ou **6/6 h**) e compare com a **hora atual**.",
+          "Cada serviço define uma **tolerância** (nos exercícios deste site, 30 minutos para mais ou para menos).",
+          "Se estiver **fora da tolerância**, não decida sozinho: **comunique** ao enfermeiro.",
+          "Atenção a **dose repetida**: antes de administrar, confira se não foi dada por outro colega."]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Exemplo", "texto": "Prescrito para **14:00** e o relógio marca **15:45**. São **1h45 de atraso**, fora da tolerância. Hora errada: **pare e comunique**."}
+      ]
+    },
+    {
+      "titulo": "Passo a passo de uma administração segura",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Os 5 certos não são uma checagem única no final. Eles se encaixam em uma **rotina** que começa antes de você chegar ao paciente. Estas são as etapas que costumam ser seguidas (boas práticas dos serviços):"]},
+        {"t": "lista", "ord": true, "itens": [
+          "**Higienizar as mãos** antes de preparar.",
+          "**Ler a prescrição** com atenção: medicamento, dose, via e horário.",
+          "**Separar e conferir o rótulo**, comparando com a prescrição. Em seguida, **preparar**.",
+          "**Identificar o paciente** (pulseira e nome completo) e **explicar o procedimento**, como pede o Art. 26.",
+          "**Administrar** na via e velocidade corretas.",
+          "**Registrar** (checar o horário na prescrição) e **observar** possíveis reações."]},
+        {"t": "callout", "kind": "nota", "titulo": "Três momentos de checagem", "texto": "Muitos serviços orientam conferir **três vezes**: ao retirar o medicamento do local de guarda, ao prepará-lo e imediatamente antes de administrá-lo, já ao lado do paciente."}
+      ]
+    },
+    {
+      "titulo": "Quando parar e como comunicar",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Se **qualquer** dos cinco certos não conferir, **você não administra**. Isso não é erro seu: é o sistema funcionando. O erro seria ir em frente com a dúvida."]},
+        {"t": "lista", "titulo": "Ao comunicar ao enfermeiro, diga com clareza", "itens": [
+          "**Quem** é o paciente (nome completo e leito).",
+          "**Qual** medicamento está em questão.",
+          "**O que divergiu**: paciente, medicamento, dose, via ou hora.",
+          "**O que você já fez** (parou, separou o medicamento, revisou o cálculo)."]},
+        {"t": "callout", "kind": "atencao", "titulo": "Na dúvida, pare", "texto": "Dúvida é motivo para **parar e comunicar**, não para tentar adivinhar. Esse é o espírito do Código de Ética: nunca ministrar sem certeza do que está dando."},
+        {"t": "texto", "titulo": "Bônus: os 9 certos", "p": [
+          "Muitos serviços ampliam a regra para **nove certos**, acrescentando: **registro certo** (anotar o que foi feito), **orientação certa** (explicar ao paciente), **forma farmacêutica certa** e **monitoramento certo** (observar a resposta). O módulo de estudo ensina os cinco primeiros; o **protocolo da sua instituição** diz qual versão você deve seguir."]}
+      ]
+    }
+  ],
+  "resumo": [
+    "Os 5 certos são: paciente, medicamento, dose, via e hora. Se qualquer um não conferir, não administre: pare e comunique.",
+    "Paciente: compare prescrição e pulseira, peça o nome completo e não use o número do leito.",
+    "Medicamento: leia o rótulo, compare o princípio ativo, cuidado com nomes parecidos (dopamina × dobutamina; insulina regular × NPH).",
+    "Dose: compare dose prescrita × apresentação, revise unidades (1 g = 1.000 mg) e o cálculo.",
+    "Via: a via preparada precisa ser a prescrita; na EV, atenção à velocidade.",
+    "Hora: respeite horário ou intervalo, dentro da tolerância do serviço.",
+    "Rotina segura: mãos, ler a prescrição, conferir e preparar, identificar o paciente, administrar, registrar e observar."
+  ],
+  "glossario": [
+    {"t": "Homônimo", "d": "Pessoa com o mesmo nome ou nome muito parecido."},
+    {"t": "Apresentação", "d": "A forma e a concentração em que o produto vem (ex.: ampola de 500 mg/mL)."},
+    {"t": "Tolerância de horário", "d": "Margem de tempo, definida pelo serviço, para dar a dose antes ou depois do horário prescrito."},
+    {"t": "Barreira de segurança", "d": "Etapa de conferência que pode impedir um erro de chegar ao paciente."},
+    {"t": "Diluição", "d": "Mistura do medicamento com um líquido para reduzir a concentração."}
+  ]
+}

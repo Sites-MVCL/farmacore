@@ -1,0 +1,119 @@
+{
+  "id": "m5",
+  "tempo": 18,
+  "intro": "Aqui você aprende o que é uma via de administração, conhece cada uma delas e entende por que a escolha da via muda a velocidade e o risco do tratamento.",
+  "secoes": [
+    {
+      "titulo": "O que é via de administração e por que ela importa",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Via de administração** é o **caminho pelo qual o medicamento entra no organismo**: pela boca, por baixo da língua, por uma veia, por um músculo, pela pele, pela via respiratória e assim por diante.",
+          "A via decide três coisas: **quão rápido** o fármaco age, **quanto** dele chega ao sangue e **com que risco**. Por isso o módulo afirma que a via de administração é um fator importante na ação terapêutica do fármaco."]},
+        {"t": "texto", "titulo": "Duas palavras que vão aparecer muito", "p": [
+          "Algumas vias passam pelo **trato gastrointestinal** (boca, estômago, intestino, reto): costumam ser chamadas de **enterais**. As que usam **injeção**, como a endovenosa, a intramuscular e a subcutânea, são chamadas de **parenterais**. Você verá a palavra “parenteral” em bulas e prescrições."]},
+        {"t": "callout", "kind": "memo", "titulo": "Lembrete da aula anterior", "texto": "**Absorção** é a passagem do fármaco do local de administração para o sangue. Em todas as vias existe absorção, **menos na endovenosa (EV)**, em que o fármaco já entra direto na circulação. Por isso a EV é a via mais rápida e precisa."}
+      ]
+    },
+    {
+      "titulo": "Vias pela boca: oral e sublingual",
+      "blocos": [
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Via oral (VO)", "tag": "pela boca, engolindo", "d": "Na grande maioria dos casos, os fármacos são tomados pela boca e **engolidos**. Em regra, cerca de **75%** de um fármaco administrado por via oral é absorvido em **1 a 3 horas**. É a via mais **segura, cômoda e econômica**. As formas (comprimidos, drágeas, cápsulas, xaropes) são simples e práticas, e podem ser feitas para liberar o fármaco aos poucos, reduzindo o número de doses e os efeitos adversos de picos altos no sangue."},
+          {"t": "Via sublingual (SL)", "tag": "debaixo da língua", "d": "O fármaco é **colocado sob a língua** e absorvido pela mucosa oral, que é extremamente irrigada e ligada a vasos de bom calibre. É indicada quando se precisa de **resposta rápida**, especialmente se o fármaco é **instável ao pH do estômago** ou é metabolizado rápido pelo fígado, pois a sublingual **evita a primeira passagem**."}]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Vantagens da via oral", "d": "Maior segurança, comodidade e economia; esquemas fáceis de cumprir; absorção favorecida pela grande superfície das vilosidades do intestino."},
+          {"t": "Desvantagens da via oral", "d": "Náuseas, vômitos e diarreia por irritação da mucosa; absorção que varia (enzimas digestivas, estômago cheio ou vazio, formulação, pH); **exige cooperação do paciente**."},
+          {"t": "Vantagens da via sublingual", "d": "Absorção **rápida** de substâncias hidrossolúveis; reduz a metabolização no fígado por atingir direto a circulação."},
+          {"t": "Desvantagens da via sublingual", "d": "**Imprópria** para substâncias irritantes ou de sabor desagradável."}]},
+        {"t": "pense", "q": "Por que a via oral exige cooperação do paciente?", "a": "Porque o paciente precisa estar em condições de engolir e de aceitar o medicamento. Se está inconsciente ou vomitando, a via oral deixa de ser adequada."}
+      ]
+    },
+    {
+      "titulo": "Outras vias: retal, cutânea, ocular e inalatória",
+      "blocos": [
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Via retal (VR)", "tag": "pelo reto", "d": "Usada quando se quer **efeito local** ou **efeito sistêmico**. A absorção costuma ser **irregular e incompleta**, mas a via é útil em pacientes que **não conseguem tomar pela boca**: vômitos, crianças (especialmente lactentes), idosos, transtornos psiquiátricos ou coma. Reduz a biotransformação hepática. Desvantagem: irritação da mucosa retal."},
+          {"t": "Via cutânea e transdérmica", "tag": "pela pele", "d": "Usada principalmente para **efeito local sobre a pele**. A absorção pode ser considerável e levar a efeitos sistêmicos. Muitas drogas são mal absorvidas pela pele. Cada vez mais se usa a forma **transdérmica**: o fármaco vem em um **adesivo** colado a uma área de pele fina, o que mantém um nível estável e **facilita a retirada em caso de efeito indesejado**. Só serve para fármacos relativamente lipossolúveis e as preparações são caras."},
+          {"t": "Via ocular", "tag": "gotas no olho", "d": "Muitos fármacos são aplicados como **gotas oculares**, e o efeito vem da absorção pelo epitélio do **saco conjuntival**."},
+          {"t": "Via inalatória", "tag": "pelo pulmão", "d": "É a via usada para **anestésicos voláteis e gasosos**. Aqui o pulmão serve de via de **administração e de eliminação**. A grande área de superfície e o grande fluxo de sangue permitem **ajustes rápidos** da concentração no plasma."}]}
+      ]
+    },
+    {
+      "titulo": "Vias por injeção: endovenosa, intramuscular e subcutânea",
+      "blocos": [
+        {"t": "texto", "p": [
+          "As vias injetáveis são as **parenterais**. A resposta é geralmente mais rápida do que a da via oral, mas exigem mais técnica e mais cuidado."]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Endovenosa (EV)", "tag": "dentro da veia", "d": "É a via **mais rápida e precisa**. **Não ocorre absorção, só distribuição.** A concentração máxima que chega aos tecidos depende fundamentalmente da **rapidez da injeção**. Permite grandes volumes em infusões lentas, aceita substâncias irritantes se diluídas e permite controle da dose para evitar toxicidade."},
+          {"t": "Intramuscular (IM)", "tag": "dentro do músculo", "d": "Absorção **rápida**. Serve para pacientes inconscientes. Adequada para volumes moderados, veículos aquosos, não aquosos e suspensões. A velocidade depende do local da injeção e do fluxo de sangue local."},
+          {"t": "Subcutânea (SC)", "tag": "sob a pele", "d": "Absorção **boa e constante** para **soluções** e **lenta** para **suspensões**. Costuma produzir efeito mais rápido que a oral, mas depende do local e do fluxo sanguíneo."}]},
+        {"t": "cards", "cols": 3, "itens": [
+          {"t": "Riscos da EV", "d": "**Superdosagem relativa** se a injeção for rápida; risco de **embolia**, irritação do endotélio da veia, **infecção** por contaminação e **reação anafilática**; impróprio para solventes oleosos e substâncias insolúveis."},
+          {"t": "Riscos da IM", "d": "**Dor**; lesões musculares por substâncias irritantes ou de pH distante do neutro; processos inflamatórios se a substância for irritante ou mal absorvida."},
+          {"t": "Riscos da SC", "d": "Facilidade de **sensibilização** do paciente; **dor e necrose** com substâncias irritantes."}]},
+        {"t": "texto", "titulo": "O que limita a velocidade da injeção IM e SC", "p": [
+          "A velocidade de absorção depende da **difusão pelo tecido**, da **remoção pelo fluxo de sangue** local, da **formação de complexos** entre fármacos (como insulina com protamina ou benzilpenicilina) e das **injeções oleosas** (usadas para hormônios)."]},
+        {"t": "callout", "kind": "atencao", "titulo": "Na EV, a velocidade é parte da prescrição", "texto": "Em alguns medicamentos, a velocidade de aplicação é uma **instrução de segurança**: digitálicos e aminofilina por via EV devem ser aplicados **lentamente**. Injetar rápido demais pode causar superdosagem relativa."},
+        {"t": "pense", "q": "Por que a EV é mais rápida que a IM?", "a": "Porque na EV o fármaco entra direto na circulação, sem etapa de absorção. Na IM ele ainda precisa passar do músculo para os vasos."}
+      ]
+    },
+    {
+      "titulo": "Comparando as vias",
+      "blocos": [
+        {"t": "tabela", "cab": ["Via", "Onde é absorvida", "Principal vantagem", "Principal cuidado"], "linhas": [
+          ["Oral", "Mucosa do trato gastrointestinal", "Segura, cômoda e econômica", "Náuseas e vômitos; exige cooperação"],
+          ["Sublingual", "Mucosa oral", "Absorção rápida; evita o fígado", "Imprópria para substâncias irritantes ou de mau sabor"],
+          ["Retal", "Mucosa retal", "Serve para quem não pode usar a boca", "Absorção irregular e incompleta"],
+          ["Intramuscular", "Capilares do músculo", "Absorção rápida; serve para inconsciente", "Dor; lesão muscular"],
+          ["Endovenosa", "Nenhuma: direto na circulação", "Mais rápida e precisa", "Embolia, infecção, anafilaxia, injeção rápida"],
+          ["Subcutânea", "Capilares sob a pele", "Absorção constante para soluções", "Dor e necrose com irritantes"]]},
+        {"t": "texto", "titulo": "Como se escolhe a via?", "p": [
+          "Quem escolhe a via é o prescritor, mas entender os critérios ajuda você a perceber quando algo não bate. Em geral, ponderam-se:"]},
+        {"t": "lista", "itens": [
+          "**Rapidez desejada** (urgência pede vias mais rápidas)",
+          "**Estado do paciente** (consciente ou não, vomitando, criança ou idoso)",
+          "**Características do fármaco** (estável ou não no estômago, irritante, lipossolúvel ou hidrossolúvel, oleoso)",
+          "**Volume a administrar**",
+          "**Risco de cada via**"]},
+        {"t": "callout", "kind": "nota", "titulo": "Quem decide a via é a prescrição", "texto": "A via **não pode ser trocada por conta própria**. Dar por via oral algo que é para EV, ou o contrário, é erro de via, um dos 5 certos. Se a via prescrita parece inadequada ao estado do paciente (por exemplo, via oral para quem está vomitando), **comunique ao enfermeiro**."}
+      ]
+    },
+    {
+      "titulo": "O que mexe na absorção",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Propriedades do fármaco e variações do organismo interferem na absorção. O módulo destaca:"]},
+        {"t": "lista", "itens": [
+          "**Natureza química** da molécula e **peso molecular**",
+          "**pH** do local onde o fármaco se dissolve",
+          "**Coeficiente de partição**, que mostra quão solúvel a molécula é em gordura em relação à água",
+          "**Motilidade gástrica**",
+          "**Área da superfície** de absorção",
+          "**Fluxo de sangue**",
+          "**Eliminação antes de chegar ao sangue** (efeito de primeira passagem)",
+          "Ingestão **com ou sem alimentos**"]},
+        {"t": "callout", "kind": "memo", "titulo": "Regra de bolso do pH", "texto": "Só o fármaco na forma **não ionizada** atravessa bem a membrana. Substâncias tendem a ficar ionizadas em ambiente de pH oposto ao delas: fármacos **ácidos** ionizam mais em meio **básico**, e fármacos **básicos** ionizam mais em meio **ácido**."}
+      ]
+    }
+  ],
+  "resumo": [
+    "Via de administração é o caminho de entrada do medicamento. Ela define velocidade, quantidade absorvida e risco.",
+    "Enteral: pelo trato gastrointestinal. Parenteral: por injeção (EV, IM, SC).",
+    "Oral: segura, cômoda e econômica, mas exige cooperação do paciente e sofre primeira passagem. Cerca de 75% são absorvidos em 1 a 3 h.",
+    "Sublingual: absorção rápida e evita a primeira passagem. Retal: útil quando a via oral não é possível, mas a absorção é irregular.",
+    "EV: mais rápida e precisa, sem absorção, 100% biodisponível; riscos de embolia, infecção, anafilaxia e superdose se for rápida.",
+    "IM: rápida, serve para inconsciente, mas dói e pode lesar o músculo. SC: constante para soluções, lenta para suspensões; dor e necrose com irritantes.",
+    "Cutânea/transdérmica: efeito local ou adesivo de liberação estável. Inalatória: anestésicos voláteis e gasosos; o pulmão administra e elimina.",
+    "A via vem da prescrição e não pode ser trocada por conta própria."
+  ],
+  "glossario": [
+    {"t": "Enteral", "d": "Pelo trato gastrointestinal."},
+    {"t": "Parenteral", "d": "Por injeção, fora do trato gastrointestinal (EV, IM, SC)."},
+    {"t": "Biodisponibilidade", "d": "Velocidade e extensão da absorção do princípio ativo."},
+    {"t": "Endotélio", "d": "Camada de células que reveste por dentro os vasos de sangue."},
+    {"t": "Embolia", "d": "Bloqueio de um vaso por um corpo estranho, como uma bolha de ar."},
+    {"t": "Anafilaxia", "d": "Reação alérgica grave, que pode ser fatal."},
+    {"t": "Suspensão", "d": "Preparação em que partículas sólidas estão espalhadas em um líquido."},
+    {"t": "Necrose", "d": "Morte do tecido."}
+  ]
+}

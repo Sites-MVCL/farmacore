@@ -1,0 +1,79 @@
+{
+  "id": "m7",
+  "tempo": 14,
+  "intro": "Aqui você entende por que administrar medicamento é um ato com responsabilidade legal e ética, e o que a lei espera de você em cada situação.",
+  "secoes": [
+    {
+      "titulo": "Um dos maiores pesos da enfermagem",
+      "blocos": [
+        {"t": "texto", "p": [
+          "O módulo afirma que **a responsabilidade de administrar medicamentos é um dos maiores pesos sobre a equipe de enfermagem**. Isso acontece porque um erro nesse momento pode causar dano direto ao paciente, e quem estava com o medicamento na mão responde por seus atos.",
+          "Por isso, quem administra uma medicação precisa conhecer duas coisas: a **legislação que regulamenta a profissão** e as **normas da instituição** onde trabalha. A medicação deve ser feita **conforme a prescrição médica**."]},
+        {"t": "texto", "titulo": "O que é “competência legal”?", "p": [
+          "Cada profissão da enfermagem tem atividades que a lei permite e outras que não. O técnico de enfermagem exerce atividades de **nível médio**, sob **orientação e supervisão do enfermeiro**, conforme a Lei do Exercício Profissional da Enfermagem (Lei nº 7.498/1986). Fazer algo que a lei não autoriza ao seu cargo é agir **fora da competência legal**. Em caso de dúvida sobre o que você pode ou não fazer, consulte o enfermeiro responsável e as normas do seu conselho."]},
+        {"t": "callout", "kind": "nota", "titulo": "Sobre a numeração dos artigos", "texto": "Os artigos citados nesta aula são os do **módulo de estudo**. O Código de Ética dos Profissionais de Enfermagem foi atualizado desde então (Resolução COFEN nº 564/2017) e a **numeração mudou**. Os princípios continuam valendo. Confira sempre o texto vigente no site do COFEN."}
+      ]
+    },
+    {
+      "titulo": "Os artigos do módulo, em linguagem simples",
+      "blocos": [
+        {"t": "cards", "titulo": "Princípios e responsabilidades", "cols": 1, "itens": [
+          {"t": "Art. 1º · Compromisso", "d": "A enfermagem é uma profissão **comprometida com a saúde do ser humano e da coletividade**. Atua na promoção, proteção e recuperação da saúde, **respeitando os preceitos éticos e legais**.", "tag": "princípio"},
+          {"t": "Art. 14 · Recusar o que não é da sua competência", "d": "É dever **recusar-se a executar atividades que não sejam de sua competência legal**. Não é desobediência: é proteger o paciente e a si mesmo.", "tag": "competência"},
+          {"t": "Art. 16 · Assistência livre de danos", "d": "Assegurar ao cliente uma assistência **livre de danos decorrentes de imperícia, negligência e imprudência**.", "tag": "responsabilidade"},
+          {"t": "Art. 17 · Só aceitar o que você faz com segurança", "d": "**Avaliar criteriosamente a própria competência técnica e legal** e só aceitar tarefas quando capaz de um desempenho seguro, para você e para o paciente.", "tag": "responsabilidade"},
+          {"t": "Art. 18 · Manter-se atualizado", "d": "Ampliar seus **conhecimentos técnicos, científicos e culturais** em benefício do paciente, da coletividade e da profissão.", "tag": "responsabilidade"}]},
+        {"t": "cards", "titulo": "Deveres, proibições e normas", "cols": 1, "itens": [
+          {"t": "Art. 24 · Assistência livre de riscos", "d": "Prestar assistência **livre dos riscos recorrentes de imperícia**.", "tag": "dever"},
+          {"t": "Art. 26 · Informar", "d": "Prestar **informações adequadas** ao cliente e à família sobre a assistência, os possíveis benefícios, os riscos e as consequências que possam ocorrer.", "tag": "dever"},
+          {"t": "Art. 33 · Proteger o paciente de qualquer colega", "d": "**Proteger o cliente** contra danos por imperícia, negligência ou imprudência **por parte de qualquer membro da equipe de saúde**.", "tag": "dever"},
+          {"t": "Art. 47 · Nunca ministrar sem saber o que é", "d": "É **proibido ministrar medicamentos sem certificar-se da natureza das drogas** que compõem e da existência de risco para o cliente.", "tag": "proibição"},
+          {"t": "Art. 50 · Não executar prescrição insegura", "d": "É **proibido executar prescrições terapêuticas quando contrárias à segurança do cliente**.", "tag": "proibição"},
+          {"t": "Art. 71 · Normas do conselho e da instituição", "d": "**Cumprir as normas do Conselho Federal e Regional de Enfermagem** e as da instituição. Quem administra deve conhecer bem a legislação e realizar a medicação conforme a prescrição médica.", "tag": "disciplinar"}]},
+        {"t": "callout", "kind": "memo", "titulo": "O que há de comum", "texto": "Em todos esses artigos a ideia é a mesma: o paciente está em primeiro lugar. Você deve **saber o que dá**, **dar só o que é seguro e é da sua competência**, **informar** e **proteger o paciente**, inclusive dos erros dos colegas."}
+      ]
+    },
+    {
+      "titulo": "Imperícia, negligência e imprudência",
+      "blocos": [
+        {"t": "texto", "p": [
+          "O módulo cita três tipos de falha, sem definir cada um. São conceitos clássicos do direito e da ética profissional, e conhecê-los ajuda a reconhecer o risco no dia a dia:"]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Imperícia", "tag": "faltou saber ou saber fazer", "d": "**Falta de habilidade ou de conhecimento técnico** para o que se faz. Exemplo: realizar um procedimento que nunca aprendeu, sem supervisão."},
+          {"t": "Negligência", "tag": "faltou fazer", "d": "**Omissão, descuido**: deixar de fazer o que deveria ser feito. Exemplo: esquecer de checar o pulso antes de um digitálico, ou não comunicar uma reação do paciente."},
+          {"t": "Imprudência", "tag": "fez sem cautela", "d": "**Agir de forma precipitada**, sem a cautela devida, mesmo sabendo da regra. Exemplo: aplicar rápido um medicamento que devia ser lento, para ganhar tempo."}]},
+        {"t": "callout", "kind": "nota", "titulo": "Consequências", "texto": "Uma falha na assistência pode gerar responsabilização **ética** (perante o conselho), **civil** (reparação de danos) e, em casos graves, **penal**. Por isso conhecer e cumprir as regras também protege o profissional."},
+        {"t": "pense", "q": "Um técnico não faz uma checagem que sabia que devia fazer, por falta de atenção. É imperícia, negligência ou imprudência?", "a": "Negligência: ele deixou de fazer algo que deveria ter feito."}
+      ]
+    },
+    {
+      "titulo": "Na prática: o que fazer em cada situação",
+      "blocos": [
+        {"t": "texto", "p": ["Com os artigos em mente, estas são as condutas esperadas nas situações mais comuns:"]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Prescrição ilegível ou com dúvida", "d": "**Pare e esclareça** antes de administrar (Art. 47). Nunca tente “adivinhar” o nome do medicamento."},
+          {"t": "Atividade fora da sua competência", "d": "**Recuse e comunique** (Art. 14)."},
+          {"t": "Prescrição que parece contrária à segurança do paciente", "d": "Por exemplo, o paciente tem **alergia registrada** ao medicamento. **Não execute e comunique** ao enfermeiro e ao prescritor (Art. 50)."},
+          {"t": "Colega prestes a errar", "d": "**Interrompa, proteja o paciente e comunique** (Art. 33). A responsabilidade não é só do colega."},
+          {"t": "Ordem verbal ou por telefone sem urgência", "d": "Solicite a **prescrição escrita**. Verbal só em urgência e deve ser transcrita pelo médico o quanto antes."},
+          {"t": "Medicamento que você não conhece", "d": "**Pesquise e esclareça** com o enfermeiro, o farmacêutico ou a bula antes de administrar (Arts. 17, 18 e 47)."},
+          {"t": "Paciente que pergunta sobre o remédio", "d": "**Informe dentro da sua competência** e acione o enfermeiro ou o médico quando a dúvida for maior (Art. 26)."}]},
+        {"t": "callout", "kind": "atencao", "titulo": "Regra de ouro", "texto": "Na dúvida, **pare e comunique**. Parar para esclarecer é sempre melhor do que seguir com insegurança. A lei protege quem para por segurança e cobra de quem age sem certeza."}
+      ]
+    }
+  ],
+  "resumo": [
+    "Administrar medicamentos é um dos maiores pesos da enfermagem: exige conhecer a lei do exercício profissional, as normas da instituição e executar conforme a prescrição.",
+    "Art. 14: recusar o que não é da sua competência legal. Art. 17: só aceitar o que faz com segurança. Art. 26: informar paciente e família. Art. 33: proteger o paciente de falhas de qualquer colega.",
+    "Art. 47: não ministrar sem certificar-se da natureza da droga. Art. 50: não executar prescrição contrária à segurança do paciente.",
+    "Imperícia = falta de habilidade ou conhecimento. Negligência = omissão. Imprudência = agir sem cautela.",
+    "Na dúvida: parar, esclarecer e comunicar. A numeração dos artigos mudou na versão atual do Código de Ética (Res. COFEN 564/2017), mas os princípios permanecem."
+  ],
+  "glossario": [
+    {"t": "Competência legal", "d": "O conjunto de atividades que a lei autoriza para cada categoria profissional."},
+    {"t": "Ministrar", "d": "Dar, administrar um medicamento."},
+    {"t": "Cliente", "d": "Termo usado no módulo para o paciente ou a pessoa assistida."},
+    {"t": "COFEN e COREN", "d": "Conselhos Federal e Regionais de Enfermagem, que fiscalizam e regulamentam a profissão."},
+    {"t": "Prescritor", "d": "Profissional habilitado que escreve a prescrição."}
+  ]
+}

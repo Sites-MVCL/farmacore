@@ -1,0 +1,160 @@
+{
+  "id": "m4",
+  "tempo": 20,
+  "intro": "Esta é a aula mais longa da parte básica. Vamos acompanhar a viagem do fármaco pelo corpo, etapa por etapa, e explicar cada conceito com calma.",
+  "secoes": [
+    {
+      "titulo": "A viagem completa: ADME",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Farmacocinética** é o caminho que o medicamento faz no organismo. Ela não trata do mecanismo de ação (isso é farmacodinâmica), e sim das etapas que a droga sofre **desde a administração até a excreção**.",
+          "São quatro etapas, resumidas na sigla **ADME**:"]},
+        {"t": "fluxo", "passos": [
+          {"t": "A · Absorção", "d": "entra no sangue"},
+          {"t": "D · Distribuição", "d": "circula até o local de ação"},
+          {"t": "M · Biotransformação", "d": "é transformado, no fígado"},
+          {"t": "E · Excreção", "d": "sai do organismo"}]},
+        {"t": "callout", "kind": "memo", "titulo": "Atenção a este detalhe do módulo", "texto": "Uma vez que o fármaco está no organismo, as etapas **acontecem ao mesmo tempo**. Dividir em quatro é apenas um recurso didático, para facilitar o estudo."},
+        {"t": "callout", "kind": "exemplo", "titulo": "Analogia da viagem", "texto": "Imagine uma encomenda: ela **entra** no sistema (absorção), é **entregue pelas ruas** da cidade (distribuição), é **reembalada** no centro de distribuição (biotransformação) e as sobras de embalagem são **descartadas** (excreção)."}
+      ]
+    },
+    {
+      "titulo": "Primeiro, a barreira: como o fármaco atravessa as membranas",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Quase tudo que o fármaco faz no corpo exige **atravessar membranas**: absorção, distribuição, biotransformação e eliminação envolvem passar pelas membranas das células. Por isso vale entender antes o que é essa barreira.",
+          "A membrana de uma célula é feita de **uma dupla camada de gordura (lipídios)** com proteínas espalhadas. Por ser feita de gordura, ela deixa passar mais facilmente o que é **solúvel em gordura (lipossolúvel)** e dificulta o que é **solúvel em água (hidrossolúvel)**, como acontece quando você mistura óleo e água."]},
+        {"t": "texto", "p": [
+          "A capacidade de uma droga de atravessar as paredes dos capilares, as membranas das células e outras barreiras depende do **tamanho e da forma da molécula** e da sua **solubilidade em água e em gordura**. O módulo descreve **seis caminhos**:"]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Difusão passiva de lipossolúveis", "tag": "principal", "d": "O fármaco “atravessa” a membrana de gordura, indo de onde há mais para onde há menos, **sem gastar energia**. É o **principal mecanismo** de transporte dos fármacos. A velocidade depende da concentração, do coeficiente de partição óleo/água, do pH e da área disponível."},
+          {"t": "Difusão passiva de hidrossolúveis", "d": "Só passam por **canais aquosos** da membrana (cerca de 8 Å), que restringem moléculas maiores do que as de peso molecular 150. **Não é o principal** mecanismo."},
+          {"t": "Transporte ativo", "d": "Usa **energia** e leva a substância **contra o gradiente** (de onde há menos para onde há mais). É seletivo, saturável e pode sofrer inibição competitiva. Ocorre em neurônios, túbulos renais e hepatócitos."},
+          {"t": "Difusão facilitada", "d": "Usa **transportadores**, a favor do gradiente e **sem gasto de energia**. Ocorre principalmente com substâncias do próprio corpo (endógenas)."},
+          {"t": "Pinocitose e fagocitose", "d": "A membrana **engloba** uma vesícula com o conteúdo extracelular. Importante para algumas macromoléculas, não para moléculas pequenas."},
+          {"t": "Lacunas intercelulares", "d": "Nos capilares (**exceto no SNC**), o fluxo pelas lacunas entre as células é o principal caminho. Por isso é importante nos rins (filtração) e na absorção das vias **IM e SC**."}]},
+        {"t": "texto", "titulo": "O papel do pH", "p": [
+          "Só o fármaco na forma **não ionizada** (sem carga elétrica) atravessa bem a membrana. O pH do local em que o remédio se dissolve define quanto dele fica nessa forma. A regra de bolso: as substâncias tendem a ficar ionizadas em ambientes de pH oposto ao delas. Assim, **fármacos ácidos** ionizam mais em locais básicos, e **fármacos básicos** ionizam mais em locais ácidos."]},
+        {"t": "pense", "q": "Um fármaco muito lipossolúvel tende a atravessar a membrana com facilidade ou com dificuldade?", "a": "Com facilidade, porque a membrana é feita de gordura. A difusão passiva de lipossolúveis é o principal mecanismo de transporte dos fármacos."}
+      ]
+    },
+    {
+      "titulo": "A · Absorção",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Absorção** é a passagem do fármaco do **local de administração para o plasma** (a parte líquida do sangue). Ela começa quando se escolhe a via de administração e termina quando a droga entra na corrente sanguínea.",
+          "Duas observações importantes do módulo:"]},
+        {"t": "lista", "itens": [
+          "As vias **endovenosa** e **intra-arterial** não passam pela absorção: o fármaco já entra direto na circulação.",
+          "Em alguns casos, como a inalação de um aerossol ou a aplicação tópica, a absorção **não é necessária** para a ação. Mas para a grande maioria dos fármacos só há ação farmacológica **se houver absorção**."]},
+        {"t": "texto", "titulo": "O que interfere na absorção", "p": ["Vários fatores podem acelerar, retardar ou reduzir a absorção:"]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "pH do local", "d": "Define quanto do fármaco fica na forma que atravessa a membrana."},
+          {"t": "Forma farmacêutica", "d": "Comprimido, cápsula, solução, drágea: cada forma libera o fármaco de um jeito."},
+          {"t": "Doenças", "d": "Condições como **úlceras** podem mudar a absorção."},
+          {"t": "Dose e concentração", "d": "Quanto foi administrado e a concentração no local e na circulação."},
+          {"t": "Motilidade gástrica", "d": "A velocidade com que o estômago e o intestino se movimentam."},
+          {"t": "Fluxo de sangue e área de absorção", "d": "Quanto mais sangue e mais superfície, mais rápida a absorção."},
+          {"t": "Alimentos", "d": "Ingerir com ou sem alimentos altera a absorção de alguns fármacos."},
+          {"t": "Natureza química e peso molecular", "d": "As características da própria molécula."}]},
+        {"t": "texto", "titulo": "Biodisponibilidade", "p": [
+          "Chamamos de **biodisponibilidade** a **velocidade e a extensão** com que o princípio ativo é absorvido a partir da forma farmacêutica. Na via endovenosa, por definição, a biodisponibilidade é de **100%**, pois toda a dose entra direto na circulação."]}
+      ]
+    },
+    {
+      "titulo": "O efeito de primeira passagem",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Quando você engole um comprimido, o fármaco é absorvido no intestino. O sangue que vem do intestino **passa primeiro pelo fígado** antes de se espalhar pelo resto do corpo. O fígado é o grande órgão que transforma substâncias, e ele pode **metabolizar parte do fármaco antes que ele chegue à circulação geral**.",
+          "Isso é o **efeito de primeira passagem**: a metabolização do medicamento pelo fígado (e pela microbiota intestinal) **antes** que ele chegue à circulação sistêmica."]},
+        {"t": "fluxo", "titulo": "O caminho do comprimido", "passos": [
+          {"t": "Boca e estômago", "d": "engole"},
+          {"t": "Intestino", "d": "absorve"},
+          {"t": "Fígado", "d": "primeira passagem"},
+          {"t": "Circulação geral", "d": "o que sobrou age"}]},
+        {"t": "cards", "cols": 3, "itens": [
+          {"t": "Via oral", "tag": "sofre", "d": "Está sujeita ao efeito de primeira passagem."},
+          {"t": "Via retal", "tag": "sofre pouco", "d": "Também, mas **em proporção bem reduzida**."},
+          {"t": "EV e sublingual", "tag": "evitam", "d": "Entram direto na circulação sistêmica, sem passar antes pelo fígado."}]},
+        {"t": "callout", "kind": "memo", "titulo": "Por que isso muda a conduta", "texto": "A primeira passagem explica por que algumas substâncias **precisam de via diferente da oral** ou de doses diferentes. Ela é um dos motivos de a via prescrita ser tão importante: trocar a via muda o quanto do fármaco chega ao sangue."}
+      ]
+    },
+    {
+      "titulo": "D · Distribuição",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Depois de absorvido, o fármaco é **levado pela circulação** para os tecidos. Ele chega primeiro aos órgãos **mais irrigados** (sistema nervoso central, pulmão e coração) e depois é **redistribuído** para tecidos menos irrigados, como o tecido adiposo (gordura). É nessa etapa que a droga chega ao ponto onde vai atuar.",
+          "Após a absorção, o fármaco se distribui nos líquidos do corpo e pode ser armazenado nos tecidos, metabolizado ou excretado diretamente."]},
+        {"t": "texto", "titulo": "Fração livre e fração ligada", "p": [
+          "No sangue, parte do fármaco **viaja grudada em proteínas do plasma**, como a **albumina**. Essa parte é chamada **fração ligada**: ela não consegue agir, funciona como um **reservatório** e é eliminada mais devagar. A parte que viaja solta é a **fração livre**, e só ela age."]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Analogia do ônibus", "texto": "Pense no fármaco como passageiros. Os que estão **dentro do ônibus** (ligados à proteína) estão só viajando. Só os que **descem no ponto** (fração livre) chegam ao destino e atuam. Se há menos ônibus (menos proteínas), mais passageiros ficam soltos pelas ruas."},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Quando faltam proteínas", "d": "Desnutrição, hepatite e cirrose reduzem as proteínas do plasma (as células do fígado produzem essas proteínas). Com menos “ônibus”, **aumenta a fração livre** e o efeito pode ficar mais intenso."},
+          {"t": "Deslocamento competitivo", "d": "Um fármaco muito ligado a proteínas pode ser **deslocado** por outro que também se liga muito. Isso é uma forma de interação entre medicamentos."},
+          {"t": "Volume de distribuição", "d": "É um **volume aparente**: o volume de líquido que seria necessário para conter todo o fármaco do corpo na mesma concentração do plasma. Mostra que a distribuição não é homogênea."}]},
+        {"t": "pense", "q": "Qual fração do fármaco no sangue é a que age: a ligada ou a livre?", "a": "A livre. A ligada às proteínas funciona como um reservatório e não age enquanto estiver ligada."}
+      ]
+    },
+    {
+      "titulo": "M · Biotransformação (metabolismo)",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Biotransformação** é a fase em que a droga é **transformada em um composto mais hidrossolúvel**, para facilitar a excreção. Ela ocorre principalmente no **fígado**, mas a maioria dos tecidos consegue metabolizar drogas específicas, conforme as enzimas que possui.",
+          "Depois das reações de metabolização, os compostos formados tendem a ser **mais solúveis em água e menos ativos biologicamente**."]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Fase 1", "tag": "preparar", "d": "**Oxidação, redução e hidrólise.** A maior parte das oxidações é feita por enzimas do grupo **citocromo P-450**, no fígado. Essa fase “prepara” a molécula e aumenta sua polaridade."},
+          {"t": "Fase 2", "tag": "conjugar", "d": "**Conjugação**: um grupo químico grande (como o ácido glicurônico) é ligado à molécula. Isso aumenta a solubilidade em água e facilita a excreção."}]},
+        {"t": "texto", "p": [
+          "Resultado da fase 1: o metabólito pode ser **inativo, menos ativo ou, às vezes, mais ativo** que a molécula original. Quando o próprio metabólito é a forma ativa, o composto original é chamado de **pró-droga**. Exemplo do módulo: o **enalapril**.",
+          "Um exemplo completo do módulo: o **ácido acetilsalicílico** (AAS) é metabolizado por hidrólise em ácido salicílico, que ainda tem atividade. Depois é conjugado ao ácido glicurônico ou à glicina, formando dois metabólitos **sem atividade e mais hidrossolúveis**, que os rins eliminam com facilidade."]},
+        {"t": "callout", "kind": "memo", "titulo": "Ressalva do módulo", "texto": "Um mesmo fármaco pode sofrer **várias vias de metabolização**, e nem sempre passa pelas duas fases, nem na ordem apresentada."},
+        {"t": "texto", "titulo": "Indução enzimática e diferenças entre pessoas", "p": [
+          "Algumas substâncias, como certas **drogas, álcool, tabagismo e constituintes da alimentação**, **estimulam o corpo a produzir mais enzimas**. Esse aumento se chama **indução** e pode mudar o efeito de outros medicamentos. Além disso, as enzimas variam de pessoa para pessoa por razões genéticas: por isso o mesmo remédio pode ser metabolizado mais rápido ou mais devagar em indivíduos diferentes."]}
+      ]
+    },
+    {
+      "titulo": "E · Excreção",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Excreção** é a remoção dos compostos do organismo para o meio externo. Os locais de excreção chamam-se **emunctórios**. A principal via é o **rim**, mas também há:"]},
+        {"t": "lista", "itens": [
+          "Fezes e secreção biliar (bile)",
+          "Pulmões (para fármacos gasosos ou voláteis)",
+          "Suor, lágrimas e saliva",
+          "Leite materno (a glândula mamária)"]},
+        {"t": "callout", "kind": "nota", "titulo": "Pele e cabelo", "texto": "A pele e o cabelo **não são órgãos de excreção**, mas servem de **depósito** para algumas substâncias."},
+        {"t": "texto", "titulo": "Como o rim elimina", "p": [
+          "A unidade funcional do rim é o **néfron**. O sangue arterial passa primeiro pelos **glomérulos**, que filtram parte da água do plasma e do que está dissolvido nela. Mais adiante, muitas substâncias são ainda **secretadas** nos túbulos. Por fim, a maior parte da água é **reabsorvida** ao longo do néfron. Assim, a eliminação renal de um fármaco resulta de **três processos**:"]},
+        {"t": "fluxo", "passos": [
+          {"t": "Filtração glomerular", "d": "o sangue é filtrado"},
+          {"t": "Secreção tubular", "d": "o rim joga mais substâncias na urina"},
+          {"t": "Reabsorção tubular", "d": "parte volta ao sangue"}]},
+        {"t": "lista", "itens": [
+          "Os metabólitos das fases 1 e 2 costumam ser eliminados **mais rápido** que o composto original.",
+          "O **pH da urina** (de cerca de 4,5 a 8) influencia: se a urina está ácida, há reabsorção de ácidos fracos; se está básica, há reabsorção de bases fracas.",
+          "Doenças dos rins (**nefropatias**) podem prejudicar a eliminação de algumas drogas.",
+          "Interações entre drogas podem mudar a velocidade de eliminação por qualquer via."]},
+        {"t": "pense", "q": "Por que um paciente com doença renal pode ter mais risco de acúmulo de certos medicamentos?", "a": "Porque o rim é a principal via de excreção. Se ele funciona mal, a eliminação fica lenta e o fármaco pode se acumular no organismo."}
+      ]
+    }
+  ],
+  "resumo": [
+    "Farmacocinética é o caminho do fármaco: Absorção, Distribuição, Biotransformação (metabolismo) e Excreção (ADME). As etapas acontecem ao mesmo tempo; a divisão é didática.",
+    "Para atravessar membranas (feitas de gordura), a difusão passiva de lipossolúveis é o principal mecanismo. Há também difusão de hidrossolúveis, transporte ativo, difusão facilitada, pinocitose e passagem por lacunas intercelulares.",
+    "Absorção: do local de administração ao plasma. EV e intra-arterial não têm absorção; biodisponibilidade da EV é 100%.",
+    "Efeito de primeira passagem: o fígado metaboliza parte do fármaco antes de ele chegar à circulação. Atinge a via oral, e em menor grau a retal.",
+    "Distribuição: pela circulação, primeiro para órgãos mais irrigados. Só a fração livre (não ligada a proteínas) age.",
+    "Biotransformação: no fígado, deixa o composto mais hidrossolúvel (fase 1: oxidação, redução, hidrólise; fase 2: conjugação). Pró-droga só fica ativa depois de transformada.",
+    "Excreção: principalmente pelos rins (filtração, secreção e reabsorção), mas também por fezes, bile, pulmões, suor, lágrimas, saliva e leite materno."
+  ],
+  "glossario": [
+    {"t": "Plasma", "d": "Parte líquida do sangue."},
+    {"t": "Hidrossolúvel", "d": "Que se dissolve bem em água."},
+    {"t": "Lipossolúvel", "d": "Que se dissolve bem em gordura."},
+    {"t": "Gradiente", "d": "Diferença de concentração entre dois lados de uma membrana."},
+    {"t": "Metabólito", "d": "Produto formado quando o corpo transforma um fármaco."},
+    {"t": "Emunctório", "d": "Local do corpo por onde substâncias são eliminadas."},
+    {"t": "Néfron", "d": "Unidade funcional do rim, que filtra o sangue."},
+    {"t": "Sistêmico", "d": "Que alcança o corpo todo, pela circulação."}
+  ]
+}

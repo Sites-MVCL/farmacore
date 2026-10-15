@@ -1,0 +1,380 @@
+{
+  "g5-vias": {
+    "tipo": "curvas", "titulo": "Simulador de vias", "dica": "Escolha uma via e compare a curva com a da via EV (tracejada). Visite as oito.", "pts": 3,
+    "vias": [
+      {"id": "ev", "nome": "Endovenosa", "sigla": "EV", "membrana": "Direto na circulação", "inicio": "Imediato", "ka": 0, "ke": 0.35, "h": 1,
+       "pros": ["Efeito rápido e preciso", "Grandes volumes em infusões lentas", "Aceita substâncias irritantes, se diluídas", "Permite controle da dose para evitar toxicidade"],
+       "contras": ["Superdosagem relativa se a injeção for rápida", "Risco de embolia, irritação do endotélio, infecção por contaminação e reação anafilática", "Impróprio para solventes oleosos e substâncias insolúveis"],
+       "enf": "Não há absorção, apenas distribuição. Aplique na velocidade correta."},
+      {"id": "sl", "nome": "Sublingual", "sigla": "SL", "membrana": "Mucosa oral", "inicio": "Muito rápido", "ka": 3, "ke": 0.35, "h": 0.85,
+       "pros": ["Absorção rápida de substâncias hidrossolúveis", "Reduz a biotransformação hepática, pois atinge a circulação direto", "Útil se o fármaco é instável ao pH gástrico"],
+       "contras": ["Imprópria para substâncias irritantes ou de sabor desagradável"],
+       "enf": "A região sublingual é muito irrigada. O comprimido deve ficar sob a língua, sem engolir."},
+      {"id": "im", "nome": "Intramuscular", "sigla": "IM", "membrana": "Capilares do músculo", "inicio": "Rápido", "ka": 2, "ke": 0.35, "h": 0.85,
+       "pros": ["Absorção rápida", "Serve para pacientes inconscientes", "Adequada para volumes moderados, veículos aquosos, não aquosos e suspensões"],
+       "contras": ["Dor", "Lesões musculares por substâncias irritantes ou de pH distante da neutro", "Processos inflamatórios se a substância for irritante ou mal absorvida"],
+       "enf": "A velocidade depende do local de injeção e do fluxo sanguíneo local."},
+      {"id": "sc", "nome": "Subcutânea", "sigla": "SC", "membrana": "Capilares sob a pele", "inicio": "Moderado", "ka": 1.1, "ke": 0.35, "h": 0.75,
+       "pros": ["Absorção boa e constante para soluções", "Absorção lenta para suspensões"],
+       "contras": ["Facilidade de sensibilização do paciente", "Dor e necrose com substâncias irritantes"],
+       "enf": "Em geral produz efeito mais rápido que a via oral, mas depende do local e do fluxo sanguíneo."},
+      {"id": "vo", "nome": "Oral", "sigla": "VO", "membrana": "Mucosa do trato gastrointestinal", "inicio": "Lento", "ka": 0.7, "ke": 0.35, "h": 0.6,
+       "pros": ["Maior segurança, comodidade e economia", "Esquemas fáceis de seguir pelo paciente", "Absorção intestinal favorecida pela grande superfície das vilosidades"],
+       "contras": ["Efeitos adversos como náuseas, vômitos e diarreia, por irritação da mucosa", "Absorção varia com enzimas digestivas, estômago cheio ou vazio, formulação e pH", "Exige a cooperação do paciente"],
+       "enf": "Cerca de 75% de um fármaco oral são absorvidos em 1 a 3 horas, em regra. Sofre o efeito de primeira passagem."},
+      {"id": "re", "nome": "Retal", "sigla": "VR", "membrana": "Mucosa retal", "inicio": "Variável", "ka": 0.8, "ke": 0.35, "h": 0.45,
+       "pros": ["Serve para pacientes inconscientes ou com náuseas e vômitos, particularmente lactentes", "Reduz a biotransformação hepática"],
+       "contras": ["Absorção irregular e incompleta", "Irritação da mucosa retal"],
+       "enf": "Útil em quem não consegue tomar pela boca: vômitos, crianças, idosos, transtornos psiquiátricos ou coma."},
+      {"id": "td", "nome": "Cutânea e transdérmica", "sigla": "TD", "membrana": "Pele", "inicio": "Lento e sustentado", "ka": 0.22, "ke": 0.12, "h": 0.5,
+       "pros": ["Efeito local na pele", "Adesivo transdérmico dá um estado de equilíbrio estável", "Fácil retirar o adesivo se houver efeito indesejado"],
+       "contras": ["Muitas drogas são mal absorvidas pela pele", "O adesivo só serve para fármacos relativamente lipossolúveis", "Preparações caras"],
+       "enf": "A absorção pode ser considerável e causar efeitos sistêmicos. Colírios agem pela absorção no saco conjuntival."},
+      {"id": "in", "nome": "Inalatória", "sigla": "INA", "membrana": "Pulmão", "inicio": "Muito rápido", "ka": 5, "ke": 0.8, "h": 0.8,
+       "pros": ["Usada para anestésicos voláteis e gasosos", "O pulmão é via de administração e de eliminação", "Grande área de superfície e fluxo de sangue permitem ajustes rápidos"],
+       "contras": ["Depende de equipamento e de técnica adequada"],
+       "enf": "Em aerossóis e uso tópico, a absorção nem sempre é necessária para a ação do fármaco."}
+    ]
+  },
+  "g5-qualvia": {
+    "tipo": "quiz", "titulo": "Qual via?", "dica": "Escolha a via descrita em cada situação, segundo o módulo.", "rotulo": "Situação", "pts": 10,
+    "itens": [
+      {"q": "Via mais rápida e precisa para administrar um fármaco.", "opts": ["Endovenosa", "Oral", "Subcutânea"], "a": 0, "why": "A EV não passa pela absorção: o efeito é rápido e a dose, controlável."},
+      {"q": "Precisa de resposta rápida, e o fármaco é instável ao pH gástrico.", "opts": ["Sublingual", "Oral", "Cutânea"], "a": 0, "why": "A região sublingual é muito irrigada e evita o fígado e o estômago."},
+      {"q": "Paciente com vômitos e incapaz de tomar pela boca (o módulo cita esta via como útil).", "opts": ["Retal", "Oral", "Sublingual"], "a": 0, "why": "A via retal é útil em pacientes que não conseguem tomar pela boca, embora a absorção seja irregular."},
+      {"q": "Via usada para anestésicos voláteis e gasosos.", "opts": ["Inalatória", "Retal", "Subcutânea"], "a": 0, "why": "O pulmão serve de via de administração e de eliminação."},
+      {"q": "Via mais simples, cômoda e econômica, que exige cooperação do paciente.", "opts": ["Oral", "Intramuscular", "Endovenosa"], "a": 0, "why": "A via oral é a mais usada, mas depende de o paciente engolir."},
+      {"q": "Absorção boa e constante para soluções; lenta para suspensões.", "opts": ["Subcutânea", "Sublingual", "Retal"], "a": 0, "why": "É a característica da via SC."},
+      {"q": "Via em que não ocorre absorção, apenas distribuição.", "opts": ["Endovenosa", "Intramuscular", "Oral"], "a": 0, "why": "Por definição, a EV tem 100% de biodisponibilidade."},
+      {"q": "Adesivo preso à pele fina que libera o fármaco de forma estável.", "opts": ["Transdérmica", "Sublingual", "Inalatória"], "a": 0, "why": "É vantajosa pela facilidade de retirada em caso de efeito indesejado."}
+    ]
+  },
+  "g5-procontra": {
+    "tipo": "quiz", "titulo": "Vantagem ou desvantagem?", "dica": "Classifique cada característica.", "rotulo": "Característica", "pts": 5,
+    "opts": ["Vantagem", "Desvantagem"], "tons": ["g", "r"],
+    "itens": [
+      {"q": "EV: permite controle da dose para prevenir efeitos tóxicos.", "a": 0, "why": "É vantagem da via EV."},
+      {"q": "EV: risco de embolia, infecção e reação anafilática.", "a": 1, "why": "Está entre as desvantagens da via EV."},
+      {"q": "Oral: pode causar náuseas, vômitos e diarreia por irritação da mucosa.", "a": 1, "why": "Desvantagem da via oral."},
+      {"q": "Sublingual: reduz a biotransformação hepática.", "a": 0, "why": "Atinge direto a circulação."},
+      {"q": "Retal: absorção irregular e incompleta.", "a": 1, "why": "Por isso a via retal nem sempre é confiável."},
+      {"q": "IM: absorção rápida e serve para paciente inconsciente.", "a": 0, "why": "Vantagem da via IM."},
+      {"q": "SC: absorção boa e constante para soluções.", "a": 0, "why": "Vantagem da via SC."},
+      {"q": "SC: dor e necrose com substâncias irritantes.", "a": 1, "why": "Desvantagem da via SC."}
+    ]
+  },
+
+  "g6-inspect": {
+    "tipo": "inspect", "titulo": "Inspetor de prescrições", "dica": "Casos fictícios. Marque cada campo e confira. Depois decida se dá para executar.", "pts": 2,
+    "casos": [
+      {"titulo": "Caso 1 · Clínica Médica", "campos": [
+        {"k": "Data e local", "v": "15/10 · Hospital Exemplo, Clínica Médica", "ok": true},
+        {"k": "Paciente", "v": "A. R. Lima · leito 12", "ok": true},
+        {"k": "Medicamento", "v": "Dipirona sódica", "ok": true},
+        {"k": "Dose", "v": "1 g", "ok": true},
+        {"k": "Via", "v": "Endovenosa", "ok": true},
+        {"k": "Horário", "v": "6/6 h (06-12-18-24)", "ok": true},
+        {"k": "Assinatura e carimbo", "v": "Assinada, com carimbo e registro no conselho", "ok": true}],
+       "fim": "Prescrição completa: pode ser executada, seguindo os 5 certos."},
+      {"titulo": "Caso 2 · Pronto atendimento", "campos": [
+        {"k": "Data e local", "v": "15/10 · UPA Exemplo", "ok": true},
+        {"k": "Paciente", "v": "M. S. Costa · box 3", "ok": true},
+        {"k": "Medicamento", "v": "Ceftriaxona", "ok": true},
+        {"k": "Dose", "v": "1 g", "ok": true},
+        {"k": "Via", "v": "— (em branco)", "ok": false, "why": "Sem a via, não dá para executar com segurança."},
+        {"k": "Horário", "v": "— (em branco)", "ok": false, "why": "Falta o horário ou intervalo da administração."},
+        {"k": "Assinatura e carimbo", "v": "Assinada, com carimbo e registro no conselho", "ok": true}],
+       "fim": "Faltam via e horário: pare e solicite a correção ao prescritor, via enfermeiro."},
+      {"titulo": "Caso 3 · Enfermaria", "campos": [
+        {"k": "Data e local", "v": "— (sem data)", "ok": false, "why": "Prescrição sem data."},
+        {"k": "Paciente", "v": "J. P. Alves · leito 07", "ok": true},
+        {"k": "Medicamento", "v": "Ate?!ol (letra ilegível)", "ok": false, "why": "O nome precisa estar em letra legível. Não adivinhe: Art. 47."},
+        {"k": "Dose", "v": "50 mg", "ok": true},
+        {"k": "Via", "v": "Oral", "ok": true},
+        {"k": "Horário", "v": "12/12 h", "ok": true},
+        {"k": "Assinatura e carimbo", "v": "Sem carimbo, só uma rubrica", "ok": false, "why": "Falta o carimbo com o registro no conselho."}],
+       "fim": "Data ausente, nome ilegível e sem carimbo: não execute. Esclareça antes."}
+    ]
+  },
+  "g6-tipos": {
+    "tipo": "quiz", "titulo": "Qual tipo de prescrição?", "dica": "Associe a situação ao tipo.", "rotulo": "Situação", "pts": 10,
+    "opts": ["Padrão", "Única", "Imediata", "Permanente", "Verbal ou telefônica"],
+    "itens": [
+      {"q": "Medicamento que o paciente deve usar apenas uma vez.", "a": 1, "why": "Prescrição única."},
+      {"q": "Paciente em problema urgente precisa do medicamento agora.", "a": 2, "why": "Prescrição imediata."},
+      {"q": "Rotina elaborada pela instituição, difundida como protocolo.", "a": 3, "why": "Prescrição permanente."},
+      {"q": "Ordem falada, que traz risco iminente de erros e deve ser transcrita pelo médico o quanto antes.", "a": 4, "why": "Deve ser evitada; só em urgência."},
+      {"q": "Define quanto medicamento e por quanto tempo, valendo por tempo indefinido ou período especificado.", "a": 0, "why": "Prescrição padrão."}
+    ]
+  },
+  "g6-bula": {
+    "tipo": "quiz", "titulo": "Onde procurar na bula?", "dica": "Qual seção responde à sua dúvida?", "rotulo": "Dúvida", "pts": 10,
+    "itens": [
+      {"q": "Quando o medicamento NÃO deve ser usado, porque os riscos superam o benefício?", "opts": ["Contraindicações", "Indicações e uso", "Formas do fármaco"], "a": 0, "why": "As contraindicações listam as situações em que o fármaco não deve ser usado."},
+      {"q": "Qual é a velocidade especial de administração de uma medicação parenteral?", "opts": ["Dose e modo de administração", "Descrição", "Reações adversas"], "a": 0, "why": "Essa seção traz dose usual, duração e velocidades especiais."},
+      {"q": "O que fazer em caso de superdose?", "opts": ["Dose excessiva", "Precauções", "Descrição"], "a": 0, "why": "Traz sinais, sintomas e princípios de tratamento."},
+      {"q": "Posso usar na gestação ou na amamentação?", "opts": ["Precauções", "Farmacologia clínica", "Formas do fármaco"], "a": 0, "why": "Gestação, lactação e uso pediátrico estão em precauções."},
+      {"q": "Qual a meia-vida de eliminação e quanto se liga às proteínas?", "opts": ["Farmacologia clínica", "Advertências", "Indicações e uso"], "a": 0, "why": "Os dados farmacocinéticos ficam em farmacologia clínica."},
+      {"q": "Quais efeitos indesejáveis são previsíveis e imprevisíveis?", "opts": ["Reações adversas", "Descrição", "Dose excessiva"], "a": 0, "why": "Organizadas por sistema ou frequência."}
+    ]
+  },
+  "g6-generico": {
+    "tipo": "quiz", "titulo": "Referência, genérico ou similar?", "dica": "Classifique cada descrição.", "rotulo": "Descrição", "pts": 10,
+    "opts": ["Referência", "Genérico", "Similar"], "tons": ["c", "g", "a"],
+    "itens": [
+      {"q": "Tem marca comercial e foi o primeiro registro, em geral patenteado.", "a": 0, "why": "É o inovador, em geral a referência."},
+      {"q": "Vendido pelo nome do princípio ativo (DCB), com bioequivalência comprovada.", "a": 1, "why": "É a base da intercambialidade."},
+      {"q": "Mesmo princípio ativo e dose, mas pode mudar tamanho, validade, embalagem e excipientes.", "a": 2, "why": "Essas diferenças são permitidas nos similares."},
+      {"q": "A embalagem traz “Medicamento genérico de acordo com a Lei nº 9.787/99”.", "a": 1, "why": "É o modo de reconhecer um genérico."},
+      {"q": "É eleito e divulgado oficialmente pelo Ministério da Saúde como padrão de comparação.", "a": 0, "why": "É o medicamento de referência."},
+      {"q": "A substituição na dispensação só pode ser feita para este tipo, correspondente ao prescrito.", "a": 1, "why": "Troca de referência por genérico correspondente. Nunca por similar."}
+    ]
+  },
+  "g6-bio": {
+    "tipo": "match", "titulo": "Conceitos do genérico", "dica": "Toque em um termo e depois na definição.", "pts": 5,
+    "pares": [
+      {"l": "Biodisponibilidade", "r": "Velocidade e extensão da absorção do princípio ativo"},
+      {"l": "Bioequivalência", "r": "Estudo que compara a biodisponibilidade de dois medicamentos"},
+      {"l": "Equivalente farmacêutico", "r": "Mesmo fármaco, mesma quantidade e mesma forma"},
+      {"l": "Medicamento de referência", "r": "Padrão com o qual os outros pretendem ser intercambiáveis"}
+    ]
+  },
+
+  "g7-erros": {
+    "tipo": "quiz", "titulo": "Imperícia, negligência ou imprudência?", "dica": "Identifique o tipo de erro em cada cena.", "rotulo": "Cena", "pts": 10,
+    "opts": ["Imperícia", "Negligência", "Imprudência"], "tons": ["v", "a", "r"],
+    "itens": [
+      {"q": "O técnico realiza um procedimento que nunca aprendeu, sem supervisão.", "a": 0, "why": "Falta de habilidade e conhecimento técnico."},
+      {"q": "Esquece de verificar o pulso antes de administrar um digitálico.", "a": 1, "why": "Omitiu um cuidado que devia ter feito."},
+      {"q": "Aplica aminofilina EV rápido, sabendo que deve ser lenta, para ganhar tempo.", "a": 2, "why": "Agiu de forma precipitada, sem a cautela devida."},
+      {"q": "Percebe uma reação ao medicamento e não comunica a equipe.", "a": 1, "why": "Deixou de fazer o que deveria."},
+      {"q": "Prepara uma diluição sem saber como fazer, por achar que “dá certo”.", "a": 0, "why": "Falta de conhecimento técnico. Art. 17: só aceite o que tem capacidade de fazer com segurança."}
+    ]
+  },
+  "g7-decisao": {
+    "tipo": "quiz", "titulo": "O que você faz?", "dica": "Escolha a conduta correta.", "rotulo": "Situação", "pts": 10,
+    "itens": [
+      {"q": "A prescrição está ilegível e você não tem certeza de qual é o medicamento.", "opts": ["Parar e esclarecer antes de administrar", "Administrar o que parece ser", "Perguntar ao paciente o que ele toma"], "a": 0, "why": "Art. 47: é proibido ministrar sem certificar-se da natureza da droga."},
+      {"q": "Pedem a você um procedimento que está fora da sua competência legal.", "opts": ["Recusar e comunicar", "Fazer para ajudar a equipe", "Fazer se o paciente concordar"], "a": 0, "why": "Art. 14: recusar atividades que não sejam de sua competência legal."},
+      {"q": "Você percebe que um colega vai dar a medicação ao paciente errado.", "opts": ["Interromper, proteger o paciente e comunicar", "Deixar: a responsabilidade é dele", "Avisar só depois da administração"], "a": 0, "why": "Art. 33: proteger o cliente contra danos causados por qualquer membro da equipe."},
+      {"q": "A prescrição parece contrária à segurança do paciente (há alergia registrada ao medicamento).", "opts": ["Não executar e comunicar ao enfermeiro e ao prescritor", "Executar: ordem é ordem", "Dar metade da dose"], "a": 0, "why": "Art. 50: é proibido executar prescrições contrárias à segurança."},
+      {"q": "Um médico pede um medicamento por telefone, sem urgência.", "opts": ["Solicitar a prescrição escrita; verbal só em urgência", "Administrar e anotar depois", "Pedir ao paciente que confirme"], "a": 0, "why": "A prescrição verbal ou telefônica é arriscada, deve ser evitada e transcrita pelo médico."},
+      {"q": "Você nunca ouviu falar do medicamento prescrito.", "opts": ["Pesquisar e esclarecer antes de administrar", "Fazer como nos outros plantões", "Pular a dose"], "a": 0, "why": "Arts. 17, 18 e 47: conhecer o que se administra."},
+      {"q": "O paciente pergunta para que serve o remédio e quais os riscos.", "opts": ["Responder dentro da sua competência e acionar o enfermeiro se necessário", "Dizer que ele não precisa saber", "Ignorar a pergunta"], "a": 0, "why": "Art. 26: prestar informações adequadas ao cliente e à família."}
+    ]
+  },
+
+  "g8-sequencia": {
+    "tipo": "order", "titulo": "Sequência segura", "dica": "Boas práticas: toque nos passos na ordem em que costumam acontecer.",
+    "passos": [
+      {"t": "Higienizar as mãos", "d": "Antes de preparar.", "dica": "Tudo começa pela higiene das mãos."},
+      {"t": "Ler a prescrição", "d": "Medicamento, dose, via e horário.", "dica": "Antes de separar qualquer coisa, leia a ordem."},
+      {"t": "Conferir o rótulo e preparar", "d": "Rótulo × prescrição, e então o preparo.", "dica": "Com a prescrição lida, vá ao medicamento."},
+      {"t": "Identificar o paciente", "d": "Pulseira e nome completo; explicar o procedimento.", "dica": "Chegando ao leito, confirme quem é o paciente."},
+      {"t": "Administrar", "d": "Na via e na velocidade corretas.", "dica": "Só depois de identificar."},
+      {"t": "Registrar e observar", "d": "Checar o horário e observar reações.", "dica": "O ciclo se fecha com o registro e a observação."}
+    ]
+  },
+  "g8-check": {
+    "tipo": "checkpoint", "titulo": "Simulador de checagem", "dica": "Compare a prescrição com o que está em mãos.", "ptsLinha": 2, "ptsDecisao": 4,
+    "certos": [
+      {"k": "paciente", "nome": "Paciente certo"},
+      {"k": "medicamento", "nome": "Medicamento certo"},
+      {"k": "dose", "nome": "Dose certa"},
+      {"k": "via", "nome": "Via certa"},
+      {"k": "hora", "nome": "Hora certa"}
+    ],
+    "casos": [
+      {"titulo": "Leito 04 · Rotina", "historia": "Plantão manhã. Ronda de medicação.",
+       "presc": {"paciente": "Rosa M. Andrade", "medicamento": "Furosemida", "dose": "40 mg (1 comp.)", "via": "Oral", "hora": "10:00"},
+       "mao": {"paciente": "Rosa M. Andrade", "medicamento": "Furosemida", "dose": "40 mg (1 comp.)", "via": "Oral", "hora": "10:10"},
+       "erros": {}, "fim": "Tudo confere, e 10 minutos dentro da tolerância. Administrar."},
+      {"titulo": "Leito 09 · Nomes parecidos", "historia": "Dois pacientes com nomes semelhantes na enfermaria.",
+       "presc": {"paciente": "João Pedro Alves", "medicamento": "Dipirona", "dose": "1 g", "via": "EV", "hora": "14:00"},
+       "mao": {"paciente": "João Pereira Alves", "medicamento": "Dipirona", "dose": "1 g", "via": "EV", "hora": "14:05"},
+       "erros": {"paciente": "A pulseira diz “João Pereira Alves”, e a prescrição, “João Pedro Alves”. Paciente errado: parar e comunicar."},
+       "fim": "Paciente divergente. Parar e comunicar."},
+      {"titulo": "Leito 02 · Frascos parecidos", "historia": "Duas ampolas de nomes quase iguais, lado a lado.",
+       "presc": {"paciente": "Carlos H. Souza", "medicamento": "Dopamina", "dose": "Conforme prescrição", "via": "EV", "hora": "08:00"},
+       "mao": {"paciente": "Carlos H. Souza", "medicamento": "Dobutamina", "dose": "Conforme prescrição", "via": "EV", "hora": "08:00"},
+       "erros": {"medicamento": "Prescrito dopamina, mas o rótulo é de dobutamina. Nomes parecidos, fármacos diferentes."},
+       "fim": "Medicamento divergente. Parar e comunicar."},
+      {"titulo": "Leito 15 · A conta não fechou", "historia": "A ampola tem 500 mg/mL. Você preparou pelo cálculo.",
+       "presc": {"paciente": "Marta Lima", "medicamento": "Dipirona", "dose": "2 mL (1 g)", "via": "EV", "hora": "16:00"},
+       "mao": {"paciente": "Marta Lima", "medicamento": "Dipirona", "dose": "4 mL (2 g)", "via": "EV", "hora": "16:00"},
+       "erros": {"dose": "Prescrito 1 g (2 mL), mas o preparo está com 2 g (4 mL): o dobro. Refaça o cálculo."},
+       "fim": "Dose divergente. Parar, refazer o cálculo e comunicar."},
+      {"titulo": "Leito 07 · Atraso", "historia": "Plantão corrido. Você chega ao leito mais tarde.",
+       "presc": {"paciente": "Luiza F. Prado", "medicamento": "Paracetamol", "dose": "500 mg", "via": "Oral", "hora": "14:00"},
+       "mao": {"paciente": "Luiza F. Prado", "medicamento": "Paracetamol", "dose": "500 mg", "via": "Oral", "hora": "15:45"},
+       "erros": {"hora": "Prescrito para 14:00 e o relógio marca 15:45: 1h45 de atraso, fora da tolerância de 30 min."},
+       "fim": "Horário fora da tolerância. Parar e comunicar ao enfermeiro."},
+      {"titulo": "Leito 11 · Duplo erro", "historia": "Um aminoglicosídeo. Atenção redobrada.",
+       "presc": {"paciente": "Pedro N. Rocha", "medicamento": "Gentamicina", "dose": "80 mg", "via": "IM", "hora": "12:00"},
+       "mao": {"paciente": "Pedro N. Rocha", "medicamento": "Gentamicina", "dose": "160 mg", "via": "EV", "hora": "12:00"},
+       "erros": {"dose": "Prescrito 80 mg e preparado 160 mg: o dobro.", "via": "Prescrita IM, mas o preparo é para EV."},
+       "fim": "Dose e via divergentes. Parar e comunicar. Lembre: aminoglicosídeos podem ser nefrotóxicos e ototóxicos."}
+    ]
+  },
+  "g8-qual": {
+    "tipo": "quiz", "titulo": "Qual certo falhou?", "dica": "Em cada cena, um dos 5 certos foi violado.", "rotulo": "Cena", "pts": 10,
+    "opts": ["Paciente", "Medicamento", "Dose", "Via", "Hora"],
+    "itens": [
+      {"q": "A pulseira diz “Ana Beatriz Cruz”, e a prescrição, “Ana Paula Cruz”.", "a": 0, "why": "Prescrição e pulseira não conferem."},
+      {"q": "Prescrita insulina regular, e o frasco na bandeja é de insulina NPH.", "a": 1, "why": "Rótulos parecidos, tipos diferentes e tempos de ação diferentes."},
+      {"q": "Prescrito 5 mL; você preparou 10 mL.", "a": 2, "why": "A dose preparada tem de ser a prescrita."},
+      {"q": "Medicamento prescrito para via oral, mas a apresentação é injetável.", "a": 3, "why": "Nem toda apresentação serve para toda via."},
+      {"q": "Prescrito às 8h; são 11h.", "a": 4, "why": "Fora da tolerância definida pela instituição."},
+      {"q": "Prescrita dobutamina; o rótulo diz dopamina.", "a": 1, "why": "Nomes parecidos pedem atenção redobrada."}
+    ]
+  },
+
+  "g9-codex": {
+    "tipo": "codex", "titulo": "Arsenal de classes", "dica": "Filtre por sistema, busque pelo nome e abra os cartões.", "meta": 12, "ptsCartao": 2,
+    "sistemas": [
+      {"id": "cardio", "nome": "Circulatório"}, {"id": "resp", "nome": "Respiratório"}, {"id": "gi", "nome": "Digestório"},
+      {"id": "gu", "nome": "Geniturinário"}, {"id": "nut", "nome": "Nutrição"}, {"id": "alerg", "nome": "Antialérgicos"},
+      {"id": "snc", "nome": "Sistema nervoso"}, {"id": "dor", "nome": "Dor e inflamação"}, {"id": "horm", "nome": "Hormônios"},
+      {"id": "sangue", "nome": "Sangue"}, {"id": "auto", "nome": "Autonômico"}, {"id": "infec", "nome": "Anti-infecciosos"}
+    ],
+    "cartoes": [
+      {"id": "digit", "s": "cardio", "nome": "Digitálicos", "fn": "Fortalecem a contração do coração na insuficiência cardíaca: aumentam o débito, reduzem o edema e favorecem a diurese.", "ex": ["Digoxina"], "cuidado": "Verificar o pulso antes: se estiver abaixo de 60, comunicar o responsável do setor. Se EV, aplicar lentamente. As doses são cumulativas.", "alerta": "Toxicidade: anorexia, náuseas, vômitos, cefaleia, confusão mental e perturbações visuais. Dose letal pode causar parada cardíaca."},
+      {"id": "inot", "s": "cardio", "nome": "Inotrópicos (catecolaminas)", "fn": "Estimulam receptores beta do coração e aumentam a força de contração. Usados na descompensação cardíaca.", "ex": ["Dobutamina", "Dopamina"], "cuidado": "Atenção aos nomes parecidos (dopamina × dobutamina) ao conferir o rótulo.", "alerta": "Dopamina: angina, batimentos ectópicos, cefaleia e hipotensão."},
+      {"id": "arrit", "s": "cardio", "nome": "Antiarrítmicos", "fn": "Corrigem desvios do ritmo cardíaco (arritmias). O marcapasso natural é o nodo sinoatrial.", "ex": ["Amiodarona", "Verapamil", "Propranolol", "Lidocaína", "Procainamida"], "cuidado": "", "alerta": "Lidocaína: efeitos no sistema nervoso central, como sonolência, desorientação, confusão e perturbações visuais; raramente convulsões e coma."},
+      {"id": "hipert", "s": "cardio", "nome": "Anti-hipertensivos", "fn": "Regulam a pressão arterial por mecanismos diferentes.", "ex": ["Captopril", "Enalapril", "Nifedipina", "Clonidina", "Metildopa", "Espironolactona"], "cuidado": "Controlar a pressão arterial, o peso e a diurese.", "alerta": ""},
+      {"id": "vasod", "s": "cardio", "nome": "Vasodilatadores", "fn": "Melhoram a circulação nos tecidos ao aumentar o fluxo de sangue.", "ex": ["Cinarizina", "Flunarizina"], "cuidado": "", "alerta": ""},
+      {"id": "antiang", "s": "cardio", "nome": "Antianginosos", "fn": "Reduzem a crise de angina do peito.", "ex": ["Isossorbida", "Nifedipina", "Verapamil", "Propranolol"], "cuidado": "", "alerta": ""},
+
+      {"id": "antitus", "s": "resp", "nome": "Antitussígenos", "fn": "Acalmam a tosse improdutiva, sem secreção.", "ex": ["Codeína", "Clobutinol"], "cuidado": "", "alerta": ""},
+      {"id": "mucol", "s": "resp", "nome": "Mucolíticos", "fn": "Diminuem a aderência das secreções.", "ex": ["Acetilcisteína", "Bromexina", "Ambroxol", "Carbocisteína"], "cuidado": "", "alerta": ""},
+      {"id": "expect", "s": "resp", "nome": "Expectorantes", "fn": "Favorecem a tosse produtiva, para eliminar as secreções.", "ex": ["Cloreto de amônio", "Guaiacol", "Iodeto de potássio"], "cuidado": "", "alerta": ""},
+      {"id": "broncod", "s": "resp", "nome": "Broncodilatadores", "fn": "Dilatam os brônquios, facilitando a saída do catarro e a respiração.", "ex": ["Salbutamol", "Fenoterol", "Terbutalina", "Teofilina", "Aminofilina"], "cuidado": "Aminofilina EV: aplicar lentamente (no mínimo 10 min a cada 10 mL) e controlar os sinais vitais depois.", "alerta": ""},
+
+      {"id": "antiac", "s": "gi", "nome": "Antiácidos", "fn": "Tamponam a acidez gástrica e protegem a mucosa por barreira física.", "ex": ["Hidróxido de alumínio", "Hidróxido de magnésio"], "cuidado": "", "alerta": "O alumínio pode causar constipação; o magnésio pode ter ação purgativa."},
+      {"id": "antiem", "s": "gi", "nome": "Antieméticos", "fn": "Combatem náuseas e vômitos.", "ex": ["Dimenidrato", "Ondansetrona", "Metoclopramida"], "cuidado": "", "alerta": ""},
+      {"id": "laxat", "s": "gi", "nome": "Laxantes e purgativos", "fn": "Reeducadores intestinais têm ação suave; purgativos, ação enérgica; estimulantes aumentam o peristaltismo.", "ex": ["Plantago", "Senne", "Óleo mineral", "Bisacodil"], "cuidado": "", "alerta": ""},
+      {"id": "antidiar", "s": "gi", "nome": "Antidiarreicos e protetores", "fn": "Diminuem a diarreia. Absorventes e protetores recobrem a mucosa inflamada.", "ex": ["Loperamida", "Difenoxilato", "Carvão ativado", "Pectina"], "cuidado": "", "alerta": ""},
+      {"id": "antifis", "s": "gi", "nome": "Antifiséticos", "fn": "Agente antiespumante: altera a tensão superficial das bolhas de gás.", "ex": ["Dimeticona"], "cuidado": "", "alerta": ""},
+      {"id": "bloq", "s": "gi", "nome": "Bloqueadores da secreção gástrica", "fn": "Reduzem a secreção de suco gástrico: antagonistas H2 e inibidores da bomba de prótons.", "ex": ["Cimetidina", "Omeprazol"], "cuidado": "", "alerta": ""},
+
+      {"id": "diur", "s": "gu", "nome": "Diuréticos", "fn": "Estimulam a saída de íons e líquidos, evitando edema. Usados na hipertensão.", "ex": ["Furosemida", "Hidroclorotiazida", "Clortalidona", "Espironolactona"], "cuidado": "Controlar o peso e a diurese.", "alerta": ""},
+      {"id": "antisurin", "s": "gu", "nome": "Antissépticos urinários", "fn": "Agem somente nas vias urinárias.", "ex": ["Nitrofurantoína", "Ácido nalidíxico", "Fenazopiridina"], "cuidado": "", "alerta": ""},
+      {"id": "ocit", "s": "gu", "nome": "Ocitócicos", "fn": "Provocam contração uterina: induzem o parto e inibem a hemorragia pós-parto.", "ex": ["Ocitocina", "Metilergometrina"], "cuidado": "", "alerta": ""},
+
+      {"id": "vit", "s": "nut", "nome": "Vitaminas", "fn": "Atuam em processos metabólicos. A necessidade vem quase toda da alimentação; gravidez e pós-cirúrgico podem exigir suplemento.", "ex": ["B1", "B12", "C", "A", "D", "K"], "cuidado": "", "alerta": "Cálcio e vitamina D em tratamento prolongado podem calcificar tecidos, inclusive o rim (cálculo renal). A falta de vitamina C causa escorbuto."},
+      {"id": "apet", "s": "nut", "nome": "Tônicos e estimulantes do apetite", "fn": "Sais de cálcio, fósforo e flúor para ossos e dentes. Alguns anti-histamínicos estimulam o apetite.", "ex": ["Ciproeptadina", "Buclizina"], "cuidado": "", "alerta": ""},
+
+      {"id": "antihist", "s": "alerg", "nome": "Anti-histamínicos", "fn": "Opõem-se à ação da histamina nas reações alérgicas.", "ex": ["Dexclorfeniramina", "Prometazina"], "cuidado": "", "alerta": "Podem causar sonolência. Alguns estimulam o apetite."},
+      {"id": "cortic", "s": "alerg", "nome": "Corticoides", "fn": "Derivados de hormônios da suprarrenal, com ação anti-inflamatória e antialérgica potente.", "ex": ["Prednisona", "Dexametasona", "Hidrocortisona", "Metilprednisolona"], "cuidado": "Usar com muita cautela, somente com orientação médica.", "alerta": "Podem reter líquido (rosto arredondado) e causar imunossupressão. O corticoide que vem de fora inibe a produção do corpo."},
+
+      {"id": "hipn", "s": "snc", "nome": "Hipnóticos", "fn": "Deprimem o sistema nervoso central e facilitam o sono. Conforme a dose, sedam ou anestesiam.", "ex": ["Fenobarbital", "Midazolam", "Nitrazepam"], "cuidado": "", "alerta": ""},
+      {"id": "neurol", "s": "snc", "nome": "Neurolépticos", "fn": "Agem sobre a excitação, a agressividade, os delírios e as alucinações.", "ex": ["Haloperidol", "Clorpromazina"], "cuidado": "", "alerta": ""},
+      {"id": "tranq", "s": "snc", "nome": "Tranquilizantes", "fn": "Agem na ansiedade e na tensão. Em baixas doses facilitam o sono; alguns são anticonvulsivantes.", "ex": ["Diazepam", "Bromazepam", "Lorazepam"], "cuidado": "", "alerta": ""},
+      {"id": "antidep", "s": "snc", "nome": "Antidepressivos", "fn": "Diminuem a depressão.", "ex": ["Amitriptilina", "Imipramina", "Clomipramina"], "cuidado": "Costumam exigir cerca de três semanas de uso para o efeito positivo aparecer.", "alerta": ""},
+      {"id": "anest", "s": "snc", "nome": "Anestésicos", "fn": "Gerais: deprimem o sistema nervoso central. Locais: bloqueiam os axônios dos nervos periféricos.", "ex": ["Fentanil", "Halotano", "Lidocaína", "Bupivacaína"], "cuidado": "", "alerta": ""},
+      {"id": "anticonv", "s": "snc", "nome": "Anticonvulsivantes", "fn": "Elevam o limiar excitatório e previnem as convulsões.", "ex": ["Fenitoína", "Carbamazepina", "Ácido valproico"], "cuidado": "", "alerta": ""},
+      {"id": "antipark", "s": "snc", "nome": "Antiparkinsonianos", "fn": "Precursores da dopamina, o neurotransmissor envolvido na doença de Parkinson.", "ex": ["Levodopa + carbidopa", "Biperideno"], "cuidado": "", "alerta": ""},
+
+      {"id": "analg", "s": "dor", "nome": "Analgésicos e antitérmicos", "fn": "Bloqueiam a síntese de prostaglandinas (dor) e atuam no hipotálamo para baixar a temperatura.", "ex": ["Paracetamol", "Dipirona", "AAS"], "cuidado": "", "alerta": ""},
+      {"id": "opioid", "s": "dor", "nome": "Analgésicos opioides (narcóticos)", "fn": "Atuam em receptores opioides do sistema nervoso central. Usados em dores severas, como cólicas e câncer.", "ex": ["Morfina", "Meperidina", "Nalbufina"], "cuidado": "", "alerta": "Podem causar dependência e euforia."},
+      {"id": "aines", "s": "dor", "nome": "Anti-inflamatórios não esteroidais", "fn": "Inibem a produção de prostaglandinas, ligadas à reação inflamatória.", "ex": ["Diclofenaco", "Cetoprofeno", "Naproxeno", "Piroxicam"], "cuidado": "", "alerta": ""},
+
+      {"id": "sex", "s": "horm", "nome": "Hormônios sexuais", "fn": "Androgênios, estrogênios e progestágenos: usados em menopausa, irregularidades menstruais e anovulatórios, entre outros.", "ex": ["Testosterona", "Estradiol", "Progesterona"], "cuidado": "", "alerta": ""},
+      {"id": "tireo", "s": "horm", "nome": "Tireoidianos", "fn": "Tratam hipotireoidismo e bócio não tóxico, entre outras condições.", "ex": ["Levotiroxina"], "cuidado": "", "alerta": ""},
+      {"id": "insu", "s": "horm", "nome": "Insulina", "fn": "Hormônio do pâncreas. Em quem não produz, é reposição (ação substitutiva).", "ex": ["Regular", "NPH"], "cuidado": "Veja a linha do tempo das insulinas logo abaixo.", "alerta": ""},
+      {"id": "antidiab", "s": "horm", "nome": "Antidiabéticos orais", "fn": "Sulfonilureias estimulam a produção de insulina do próprio corpo; biguanidas diminuem a absorção de glicose e a necessidade de insulina.", "ex": ["Glibenclamida", "Metformina"], "cuidado": "", "alerta": ""},
+
+      {"id": "hep", "s": "sangue", "nome": "Heparina", "fn": "Anticoagulante de ação rápida e curta, preferido nas emergências.", "ex": ["Heparina"], "cuidado": "É inativa por via oral: usada por via parenteral.", "alerta": ""},
+      {"id": "antik", "s": "sangue", "nome": "Antagonistas da vitamina K", "fn": "Anticoagulantes úteis em tratamentos prolongados.", "ex": ["Varfarina"], "cuidado": "O efeito só aparece 24 a 48 h após a primeira dose e dura cerca de 7 dias após a interrupção.", "alerta": ""},
+      {"id": "hemost", "s": "sangue", "nome": "Hemostáticos e coagulantes", "fn": "Interrompem a hemorragia. A vitamina K participa da coagulação.", "ex": ["Esponja de gelatina", "Vitamina K"], "cuidado": "", "alerta": ""},
+      {"id": "antianem", "s": "sangue", "nome": "Antianêmicos", "fn": "Corrigem anemias causadas por falta de ferro, vitamina B12 ou ácido fólico.", "ex": ["Sulfato ferroso", "Vitamina B12", "Ácido fólico"], "cuidado": "", "alerta": ""},
+
+      {"id": "colin", "s": "auto", "nome": "Colinérgicos", "fn": "Estimulam o parassimpático: aumentam o peristaltismo e provocam miose (pupila contraída).", "ex": ["Neostigmina", "Piridostigmina", "Pilocarpina"], "cuidado": "", "alerta": ""},
+      {"id": "anticolin", "s": "auto", "nome": "Anticolinérgicos", "fn": "Bloqueiam o parassimpático: reduzem o peristaltismo e provocam midríase (pupila dilatada).", "ex": ["Atropina", "Escopolamina"], "cuidado": "", "alerta": ""},
+
+      {"id": "penic", "s": "infec", "nome": "Penicilinas", "fn": "Antibióticos bactericidas, por via oral, IM ou EV. Algumas são facilmente destruídas pelo suco gástrico.", "ex": ["Benzilpenicilina", "Ampicilina", "Oxacilina"], "cuidado": "Atenção à hipersensibilidade: investigar histórico de alergia e observar o paciente após a administração.", "alerta": "Efeito colateral principal: hipersensibilidade, que pode chegar ao choque anafilático."},
+      {"id": "cefal", "s": "infec", "nome": "Cefalosporinas", "fn": "Beta-lactâmicos como as penicilinas, divididos em quatro gerações.", "ex": ["Cefalexina", "Cefazolina", "Ceftriaxona"], "cuidado": "", "alerta": "Podem ter hipersensibilidade cruzada com as penicilinas."},
+      {"id": "macro", "s": "infec", "nome": "Macrolídeos e tetraciclinas", "fn": "Em geral bacteriostáticos: impedem o crescimento bacteriano.", "ex": ["Eritromicina", "Claritromicina", "Doxiciclina"], "cuidado": "", "alerta": ""},
+      {"id": "aminog", "s": "infec", "nome": "Aminoglicosídeos", "fn": "Bactericidas que não são absorvidos por via oral.", "ex": ["Gentamicina", "Amicacina", "Tobramicina"], "cuidado": "", "alerta": "Podem ser nefrotóxicos e ototóxicos."},
+      {"id": "sulfa", "s": "infec", "nome": "Sulfamídicos", "fn": "Antibacterianos de ampla aplicação.", "ex": ["Sulfametoxazol + trimetoprima"], "cuidado": "", "alerta": "Podem causar reações alérgicas graves, náuseas, vômitos e tonturas."},
+      {"id": "outros", "s": "infec", "nome": "Antivirais, antifúngicos e antiparasitários", "fn": "Tratam infecções virais, fúngicas e parasitoses, provocando a morte ou a expulsão do agente sem lesar gravemente o hospedeiro.", "ex": ["Aciclovir", "Fluconazol", "Metronidazol", "Mebendazol"], "cuidado": "", "alerta": ""}
+    ]
+  },
+  "g9-classe": {
+    "tipo": "quiz", "titulo": "Qual classe?", "dica": "Associe a função à classe.", "rotulo": "Função", "pts": 10,
+    "itens": [
+      {"q": "Diminuem a aderência das secreções respiratórias.", "opts": ["Mucolíticos", "Antitussígenos", "Broncodilatadores", "Antiácidos"], "a": 0, "why": "Mucolíticos fluidificam as secreções."},
+      {"q": "Acalmam a tosse improdutiva, sem secreção.", "opts": ["Mucolíticos", "Antitussígenos", "Expectorantes", "Anti-histamínicos"], "a": 1, "why": "Antitussígenos acalmam a tosse seca."},
+      {"q": "Dilatam os brônquios.", "opts": ["Broncodilatadores", "Mucolíticos", "Diuréticos", "Antieméticos"], "a": 0, "why": "Facilitam a respiração e a saída do catarro."},
+      {"q": "Tamponam a acidez do estômago.", "opts": ["Antiácidos", "Antieméticos", "Laxantes", "Antifiséticos"], "a": 0, "why": "Protegem a mucosa por barreira física."},
+      {"q": "Contraem o útero e inibem a hemorragia pós-parto.", "opts": ["Anticoagulantes", "Ocitócicos", "Diuréticos", "Hipnóticos"], "a": 1, "why": "Ocitócicos provocam a contração uterina."},
+      {"q": "Impedem ou diminuem a coagulação do sangue.", "opts": ["Hemostáticos", "Anticoagulantes", "Antianêmicos", "Vitaminas"], "a": 1, "why": "É o papel dos anticoagulantes."},
+      {"q": "Bloqueiam a síntese de prostaglandinas e baixam a febre.", "opts": ["Analgésicos e antitérmicos", "Opioides", "Corticoides", "Antibióticos"], "a": 0, "why": "Agem na dor e no hipotálamo."},
+      {"q": "Opõem-se à ação da histamina nas reações alérgicas.", "opts": ["Anti-histamínicos", "Diuréticos", "Neurolépticos", "Colinérgicos"], "a": 0, "why": "Podem causar sonolência."},
+      {"q": "Elevam o limiar excitatório e previnem convulsões.", "opts": ["Anticonvulsivantes", "Hipnóticos", "Antiparkinsonianos", "Tranquilizantes"], "a": 0, "why": "Anticonvulsivantes previnem as crises."}
+    ]
+  },
+  "g9-cuidado": {
+    "tipo": "quiz", "titulo": "Qual é o cuidado?", "dica": "Escolha a conduta de enfermagem descrita no módulo.", "rotulo": "Situação", "pts": 10,
+    "itens": [
+      {"q": "Antes de administrar um digitálico, o pulso do paciente é 54 bpm.", "opts": ["Comunicar o responsável do setor", "Administrar normalmente", "Dar a dose em dobro depois"], "a": 0, "why": "Pulso abaixo de 60 deve ser comunicado ao responsável antes de administrar."},
+      {"q": "Aminofilina por via EV está prescrita.", "opts": ["Aplicar lentamente (mín. 10 min a cada 10 mL) e controlar sinais vitais", "Aplicar rápido, em bolo", "Aplicar por via subcutânea"], "a": 0, "why": "A aplicação lenta e o controle de sinais vitais são os cuidados descritos."},
+      {"q": "O paciente usa anti-hipertensivo e diurético. O que acompanhar?", "opts": ["Pressão arterial, peso e diurese", "Apenas a glicemia", "Nenhum cuidado especial"], "a": 0, "why": "Esse controle é o cuidado de enfermagem descrito."},
+      {"q": "O paciente vai receber uma penicilina. Qual é o risco central?", "opts": ["Hipersensibilidade, que pode chegar ao choque anafilático", "Sonolência e aumento do apetite", "Constipação intestinal"], "a": 0, "why": "A hipersensibilidade é o principal efeito colateral."},
+      {"q": "Por que a heparina é aplicada por via parenteral?", "opts": ["É inativa por via oral", "Tem sabor desagradável", "Tem validade curta"], "a": 0, "why": "Sua ação rápida é aproveitada nas emergências."},
+      {"q": "Quando aparece o efeito da varfarina (antagonista da vitamina K)?", "opts": ["24 a 48 h após a primeira dose", "Imediatamente", "Só depois de três semanas"], "a": 0, "why": "E perdura cerca de 7 dias após a interrupção."},
+      {"q": "Os aminoglicosídeos podem causar:", "opts": ["Nefrotoxicidade e ototoxicidade", "Apenas náusea passageira", "Nenhum risco aos rins"], "a": 0, "why": "Não são absorvidos por via oral e exigem cautela."},
+      {"q": "Paciente em uso de lidocaína como antiarrítmico fica sonolento, confuso e com visão alterada.", "opts": ["Reconhecer possíveis efeitos no sistema nervoso central e comunicar", "Considerar normal", "Suspender por conta própria"], "a": 0, "why": "Efeitos no SNC são o principal risco da lidocaína."},
+      {"q": "O corticoide é de uso:", "opts": ["Com muita cautela, somente com orientação médica", "Livre, sem restrição", "Sempre por tempo indeterminado"], "a": 0, "why": "Pode reter líquido e causar imunossupressão."}
+    ]
+  },
+  "g9-insulina": {
+    "tipo": "insulina", "titulo": "Linha do tempo das insulinas", "dica": "Toque em cada tipo. Os tempos são os do módulo.", "pts": 5, "max": 40,
+    "tipos": [
+      {"id": "reg", "nome": "Regular ou simples", "acao": "Rápida", "ini": 0.5, "dur": 7, "iniTxt": "30 minutos", "durTxt": "5 a 7 horas"},
+      {"id": "nph", "nome": "NPH", "acao": "Intermediária", "ini": 2, "dur": 28, "iniTxt": "1 a 3 horas", "durTxt": "24 a 28 horas"},
+      {"id": "pz", "nome": "Protamina-zíncica", "acao": "Prolongada", "ini": 5, "dur": 36, "iniTxt": "4 a 6 horas", "durTxt": "cerca de 36 horas"}
+    ]
+  },
+  "g9-sna": {
+    "tipo": "explore", "titulo": "Simpático × parassimpático", "dica": "Toque nos dois cartões.", "pts": 5,
+    "pontos": [
+      {"t": "Simpático: luta ou fuga", "d": "Sai da região toracolombar. Predomina no estresse e é altamente catabólico. Os neurônios pós-ganglionares são principalmente noradrenérgicos (liberam noradrenalina); as glândulas sudoríparas são uma exceção, colinérgica."},
+      {"t": "Parassimpático: repouso e digestão", "d": "Sai da região craniossacral. Predomina na saciedade e no repouso e é anabólico. Os neurônios pós-ganglionares são colinérgicos (liberam acetilcolina) e agem em receptores muscarínicos."}
+    ]
+  },
+  "g9-colin": {
+    "tipo": "quiz", "titulo": "Colinérgico ou anticolinérgico?", "dica": "Estimula ou bloqueia o parassimpático?", "rotulo": "Efeito", "pts": 10,
+    "opts": ["Colinérgico", "Anticolinérgico"], "tons": ["g", "r"],
+    "itens": [
+      {"q": "Provoca miose (contração da pupila).", "a": 0, "why": "Colinérgicos estimulam o parassimpático."},
+      {"q": "Provoca midríase (dilatação da pupila).", "a": 1, "why": "Anticolinérgicos bloqueiam o parassimpático."},
+      {"q": "Aumenta o peristaltismo.", "a": 0, "why": "O parassimpático estimula o intestino."},
+      {"q": "Reduz o peristaltismo.", "a": 1, "why": "Bloqueia o parassimpático."},
+      {"q": "Atropina.", "a": 1, "why": "Atropina e escopolamina (Buscopan) são anticolinérgicos."},
+      {"q": "Pilocarpina em colírio.", "a": 0, "why": "Colinérgico, como neostigmina e piridostigmina."}
+    ]
+  },
+
+  "final-quiz": {
+    "tipo": "quiz", "titulo": "Desafio final", "dica": "Escolha a melhor resposta. Sem cronômetro.", "rotulo": "Pergunta", "pts": 15,
+    "itens": [
+      {"q": "Qual afirmação define melhor um medicamento?", "opts": ["Fármaco com benefício comprovado cientificamente", "Qualquer substância que altere o corpo", "Apenas o que é vendido em farmácia"], "a": 0, "why": "Missão 1: o que o diferencia do fármaco é a comprovação científica."},
+      {"q": "Como se chama a dose que ultrapassa a máxima e causa intoxicação?", "opts": ["Dose tóxica", "Dose mínima", "Dose terapêutica"], "a": 0, "why": "Missão 2: acima da máxima, surgem efeitos tóxicos."},
+      {"q": "A digitalina fortalece o coração, melhora a circulação e aumenta a diurese. Esse é um exemplo de ação:", "opts": ["Remota", "Local", "Sistêmica sem passar pelo sangue"], "a": 0, "why": "Missão 3: um órgão estimula outro, distante."},
+      {"q": "Que tipo de fármaco ocupa o sítio do receptor, sem estimulá-lo, e impede as ações de um agonista?", "opts": ["Antagonista competitivo", "Agonista", "Pró-droga"], "a": 0, "why": "Missão 3."},
+      {"q": "Qual etapa da farmacocinética NÃO acontece na via endovenosa?", "opts": ["Absorção", "Distribuição", "Excreção"], "a": 0, "why": "Missão 4: a EV entra direto na circulação."},
+      {"q": "O efeito de primeira passagem é mais relevante em qual via?", "opts": ["Oral", "Endovenosa", "Sublingual"], "a": 0, "why": "Missão 4: o fígado metaboliza antes de a droga chegar à circulação."},
+      {"q": "Qual via é descrita como a mais rápida e precisa?", "opts": ["Endovenosa", "Subcutânea", "Retal"], "a": 0, "why": "Missão 5."},
+      {"q": "Qual destes NÃO é um elemento essencial da prescrição?", "opts": ["Cor do papel", "Via de administração", "Horário ou intervalo"], "a": 0, "why": "Missão 6."},
+      {"q": "A prescrição verbal ou telefônica deve ser:", "opts": ["Evitada; só em urgência e transcrita pelo médico o quanto antes", "Preferida nos plantões noturnos", "Considerada equivalente à escrita"], "a": 0, "why": "Missão 6."},
+      {"q": "Qual troca o farmacêutico pode sugerir, se o prescritor não proibiu?", "opts": ["Referência por genérico correspondente", "Referência por qualquer similar", "Genérico por manipulado"], "a": 0, "why": "Missão 6."},
+      {"q": "A imprudência é:", "opts": ["Agir de forma precipitada, sem a cautela devida", "Não ter habilidade técnica", "Omitir um cuidado que devia ser feito"], "a": 0, "why": "Missão 7."},
+      {"q": "Você recebe uma tarefa fora da sua competência legal. Qual a conduta?", "opts": ["Recusar e comunicar", "Fazer para ajudar", "Fazer se o paciente concordar"], "a": 0, "why": "Missão 7: Art. 14."},
+      {"q": "Quais são os 5 certos?", "opts": ["Via, medicamento, paciente, dose e hora", "Via, marca, médico, dose e local", "Dose, laboratório, validade, cor e hora"], "a": 0, "why": "Missão 8."},
+      {"q": "Prescrita dopamina e o rótulo diz dobutamina. O que fazer?", "opts": ["Parar e comunicar: medicamento errado", "Administrar: são parecidos", "Administrar metade da dose"], "a": 0, "why": "Missão 8."},
+      {"q": "Pulso de 52 bpm antes de um digitálico. O que fazer?", "opts": ["Comunicar o responsável do setor", "Administrar normalmente", "Aplicar mais rápido"], "a": 0, "why": "Missão 9."},
+      {"q": "Qual insulina do módulo começa a agir em cerca de 30 minutos?", "opts": ["Regular ou simples", "NPH", "Protamina-zíncica"], "a": 0, "why": "Missão 9."}
+    ]
+  }
+}

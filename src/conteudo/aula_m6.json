@@ -1,0 +1,144 @@
+{
+  "id": "m6",
+  "tempo": 20,
+  "intro": "Aqui você aprende a ler uma prescrição, entender uma bula e saber a diferença entre medicamento de referência, genérico e similar. Tudo começa pelo papel: se ele está errado, o resto também fica em risco.",
+  "secoes": [
+    {
+      "titulo": "A prescrição médica: o que é e para que serve",
+      "blocos": [
+        {"t": "texto", "p": [
+          "A **prescrição médica (PM)**, também chamada de **receita médica**, é uma **ordem escrita** dada por um profissional capacitado: médico, odontólogo ou outro profissional qualificado. É o **documento e a principal fonte de informações** para quem vai preparar e administrar o medicamento.",
+          "O papel da enfermagem é **executar a prescrição**. Isso significa seguir exatamente o que está escrito, **mas também significa conferir** se ela está completa, legível e segura. Se faltar algo ou houver dúvida, o caminho é **parar e esclarecer**, não adivinhar."]},
+        {"t": "cards", "titulo": "O que uma prescrição completa traz", "cols": 1, "itens": [
+          {"t": "Data, local e identificação", "d": "A **data** da prescrição e o **nome do hospital, UBS ou centro médico**. Sem data, não dá para saber se a ordem ainda vale."},
+          {"t": "Nome do paciente", "d": "Quem vai receber. Sem o nome correto, o risco é dar o medicamento para a pessoa errada."},
+          {"t": "Nome do medicamento", "d": "Em **letra legível**. Se você precisa “adivinhar” a palavra, a prescrição não está adequada."},
+          {"t": "Dose", "d": "Quanto administrar."},
+          {"t": "Via de administração", "d": "Por onde administrar: oral, endovenosa, intramuscular etc."},
+          {"t": "Horário e/ou intervalo", "d": "Em que hora e de quanto em quanto tempo."},
+          {"t": "Assinatura e carimbo", "d": "Com o **registro no conselho** do profissional. Mostra quem prescreveu e que ele tem habilitação."}]},
+        {"t": "callout", "kind": "memo", "titulo": "Quando a ordem pode ser verbal", "texto": "A prescrição **só poderá ser verbal em situação de emergência**. Fora disso, ela precisa estar escrita."}
+      ]
+    },
+    {
+      "titulo": "Como ler uma prescrição, passo a passo",
+      "blocos": [
+        {"t": "receita", "titulo": "Exemplo de prescrição (caso fictício)", "linhas": [
+          {"k": "Data e local", "v": "15/10 · Hospital Exemplo, Clínica Médica", "n": "Confirma quando e onde a ordem foi feita."},
+          {"k": "Paciente", "v": "A. R. Lima · leito 12", "n": "Compare com a pulseira antes de administrar."},
+          {"k": "Medicamento", "v": "Dipirona sódica", "n": "Confira com o rótulo: é o mesmo princípio ativo?"},
+          {"k": "Dose", "v": "1 g", "n": "Compare com a apresentação disponível (mg/mL)."},
+          {"k": "Via", "v": "Endovenosa (EV)", "n": "A via de preparo e aplicação precisa ser esta."},
+          {"k": "Horário", "v": "6/6 h", "n": "A cada 6 horas: quatro vezes ao dia."},
+          {"k": "Assinatura e carimbo", "v": "Dr(a). Exemplo, registro no conselho", "n": "Prescrição validada por profissional habilitado."}]},
+        {"t": "texto", "titulo": "Siglas e abreviaturas mais comuns", "p": [
+          "As prescrições usam abreviaturas. Elas ajudam, mas também são fonte de erro, por isso é importante conhecê-las:"]},
+        {"t": "cards", "cols": 3, "itens": [
+          {"t": "VO", "d": "Via oral"},
+          {"t": "SL", "d": "Via sublingual"},
+          {"t": "VR", "d": "Via retal"},
+          {"t": "IM", "d": "Intramuscular"},
+          {"t": "EV", "d": "Endovenosa"},
+          {"t": "SC", "d": "Subcutânea"},
+          {"t": "6/6 h", "d": "De 6 em 6 horas"},
+          {"t": "8/8 h", "d": "De 8 em 8 horas"},
+          {"t": "12/12 h", "d": "De 12 em 12 horas"}]},
+        {"t": "callout", "kind": "nota", "titulo": "Siglas variam", "texto": "Algumas siglas mudam de um serviço para outro, e algumas são consideradas perigosas por serem confundidas com facilidade. Em caso de qualquer dúvida sobre uma sigla, **pergunte antes de executar**."}
+      ]
+    },
+    {
+      "titulo": "Tipos de prescrição",
+      "blocos": [
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Prescrição padrão", "d": "Contém **quanto de medicamento o paciente deve receber e por quanto tempo**. Permanece em efeito por **tempo indefinido ou por período especificado**."},
+          {"t": "Prescrição única", "d": "Contém a prescrição de um medicamento que o paciente deve usar **apenas uma vez**."},
+          {"t": "Prescrição imediata", "d": "Contém um medicamento que o paciente deve receber **imediatamente**, em geral por **problema urgente**."},
+          {"t": "Prescrição permanente", "d": "A prescrição médica de forma permanente, elaborada e executada pelas equipes de uma instituição de saúde. Hoje é bem difundida como **protocolo**."},
+          {"t": "Prescrição verbal e telefônica", "d": "**Não é a ideal e deve ser evitada**, pois traz risco iminente de erros. Pode ocorrer em situações de urgência e **deve ser transcrita pelo médico o quanto antes**."}]},
+        {"t": "callout", "kind": "atencao", "titulo": "Se uma ordem verbal for inevitável", "texto": "Em urgência, uma boa prática dos serviços é **repetir a ordem em voz alta** para que o prescritor confirme (o nome do medicamento, a dose e a via). E a transcrição pelo médico precisa ser cobrada, para que a ordem fique registrada por escrito."},
+        {"t": "pense", "q": "Um paciente em crise precisa de um medicamento agora. Que tipo de prescrição se encaixa?", "a": "A prescrição imediata, usada em geral para problemas urgentes. Se for dada oralmente, vale o cuidado das ordens verbais."}
+      ]
+    },
+    {
+      "titulo": "Rótulo e bula",
+      "blocos": [
+        {"t": "texto", "p": [
+          "O **rótulo** e a **bula** têm um objetivo único: garantir o **uso adequado e seguro** do medicamento. O módulo descreve o modelo regulatório americano (FDA); no Brasil a lógica é a mesma, e a bula é regulada pela **Anvisa**.",
+          "A bula é um **resumo de todos os estudos** feitos desde a descoberta do fármaco, com uma apresentação equilibrada da **utilidade e dos riscos**. Aprender a navegar nela economiza tempo e evita erros."]},
+        {"t": "cards", "titulo": "As partes da bula, na ordem", "cols": 2, "itens": [
+          {"t": "Descrição", "d": "Marca, nome científico, forma, via, composição, classe, nome químico e informações físicas e químicas (pH, esterilidade etc.)."},
+          {"t": "Farmacologia clínica", "d": "Ações no ser humano, absorção, biotransformação, ligação a proteínas, **meia-vida**, captação por órgãos ou pelo feto, toxicidade."},
+          {"t": "Indicações e uso", "d": "Para que o fármaco foi **aprovado** e as condições especiais de uso a curto e a longo prazo."},
+          {"t": "Contraindicações", "d": "Situações em que **não se deve usar**, porque os riscos superam o benefício. Inclui hipersensibilidade, terapias associadas, doenças, idade e sexo."},
+          {"t": "Advertências", "d": "**Reações adversas graves** e riscos de segurança, limites de uso e o que fazer se ocorrerem."},
+          {"t": "Precauções", "d": "Cuidados especiais, interações com alimentos e exames, efeitos na fertilidade, gestação, lactação e crianças."},
+          {"t": "Reações adversas", "d": "Efeitos indesejáveis previsíveis e imprevisíveis, organizados por sistema ou por gravidade e frequência."},
+          {"t": "Uso excessivo e dependência", "d": "Esquema legal para substâncias controladas, tipos de uso excessivo e dependência."},
+          {"t": "Dose excessiva", "d": "Sinais, sintomas e tratamento de **superdose**."},
+          {"t": "Dose e modo de administração", "d": "Dose usual, duração, ajustes para crianças, idosos e pessoas com disfunção renal ou hepática, e **velocidades especiais** de administração parenteral."},
+          {"t": "Formas do fármaco", "d": "Apresentações, concentrações e meios de identificação (cor, revestimento, número de unidades)."}]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Duas perguntas e onde achar a resposta", "texto": "“Posso dar este remédio a uma gestante?” → **Precauções** (e **Contraindicações**). “Em quanto tempo devo aplicar este medicamento por via EV?” → **Dose e modo de administração**."},
+        {"t": "pense", "q": "Você quer saber que sintomas indicam superdose. Em que parte da bula procura?", "a": "Em “Dose excessiva”, que traz sinais, sintomas e princípios de tratamento da superdose."}
+      ]
+    },
+    {
+      "titulo": "Referência, genérico e similar: uma história curta",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Quando um laboratório descobre e desenvolve um medicamento novo, ele leva muitos anos e investe muito dinheiro (o módulo cita 11 a 12 anos). Em troca, ganha **direito de patente**: só ele pode vender o produto durante um período (a proteção pode durar até 20 anos).",
+          "Quando a patente acaba, outros laboratórios podem produzir o mesmo princípio ativo. O Estado exige que provem **qualidade, segurança e eficácia**. É daí que nascem os **genéricos**. No Brasil, a **Lei nº 9.787, de 1999**, instituiu o medicamento genérico, em linha com as normas internacionais e com as diretrizes da OMS."]},
+        {"t": "texto", "titulo": "Os três tipos", "p": []},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Medicamento inovador / de referência", "d": "Em geral tem **marca comercial** e obteve o **primeiro registro**, normalmente como medicamento patenteado, com documentação de eficácia, segurança e qualidade. O **medicamento de referência** é o produto com o qual os outros pretendem ser **intercambiáveis**: ele é **eleito e divulgado pelo Ministério da Saúde**."},
+          {"t": "Medicamento genérico", "d": "Produto **intercambiável** com o de referência: mesmo fármaco, mesma dose, mesma forma farmacêutica e mesma via, com **mesma segurança e eficácia**. Em geral é produzido **após a expiração da patente**. **Não tem marca**: é identificado pela **DCB** (Denominação Comum Brasileira) ou, na ausência, pela **DCI** (Internacional)."},
+          {"t": "Medicamento similar", "d": "Tem os **mesmos princípios ativos, concentração, forma, via, indicação e posologia** do de referência, mas pode diferir em **tamanho, forma, prazo de validade, embalagem, rotulagem e excipientes**. Pode ter marca (similar com marca) ou apenas o nome do princípio ativo (similar sem marca)."}]},
+        {"t": "callout", "kind": "memo", "titulo": "Como reconhecer um genérico", "texto": "A embalagem traz o **nome do princípio ativo** (DCB ou DCI) e os dizeres: **“Medicamento genérico de acordo com a Lei nº 9.787/99”**."},
+        {"t": "callout", "kind": "nota", "titulo": "Atualização importante", "texto": "O módulo foi escrito logo depois da Lei dos Genéricos, em 1999, quando os similares **não precisavam provar equivalência** com o de referência. Hoje, a Anvisa também reconhece **similares intercambiáveis**. Confira a norma vigente e as orientações do seu serviço."}
+      ]
+    },
+    {
+      "titulo": "Como se prova que um genérico funciona igual",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Dois conceitos sustentam o genérico. Vamos entendê-los com calma:"]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Biodisponibilidade", "d": "É a **velocidade e a extensão** da absorção do princípio ativo a partir da forma farmacêutica, medidas pela curva de **concentração × tempo** no sangue ou pela excreção na urina. Não se aplica à via EV, pois nela não há absorção. Por definição, o fármaco por via EV é **100% biodisponível**."},
+          {"t": "Bioequivalência", "d": "É o **estudo comparativo** entre as biodisponibilidades de **dois medicamentos** com a mesma indicação, **mesma dose e mesma via extravascular**. Dois medicamentos são bioequivalentes quando **não há diferença estatisticamente significativa** entre a quantidade absorvida e a velocidade da absorção. A ideia é: se as concentrações no sangue são semelhantes, os efeitos tendem a ser os mesmos. Os estudos usam, em geral, **18 a 24 voluntários sadios**."}]},
+        {"t": "texto", "titulo": "Equivalente e alternativa farmacêutica", "p": [
+          "Dois produtos são **equivalentes farmacêuticos** quando têm **quantidades idênticas do mesmo fármaco** e a mesma forma farmacêutica. Mas equivalência farmacêutica **não garante** equivalência terapêutica, porque diferenças nos excipientes ou na fabricação podem mudar o desempenho no organismo. Já as **alternativas farmacêuticas** têm o mesmo princípio ativo, mas não necessariamente na mesma quantidade ou na mesma forma."]},
+        {"t": "callout", "kind": "nota", "titulo": "Nem todo genérico precisa do estudo", "texto": "Alguns medicamentos ficam **isentos** do estudo de bioequivalência, como soluções parenterais (IV, IM, SC) com o mesmo fármaco e concentração, gases medicinais, colírios em solução aquosa e medicamentos de uso tópico sem efeito sistêmico."}
+      ]
+    },
+    {
+      "titulo": "Na hora da troca: quem pode substituir e o que isso significa para a enfermagem",
+      "blocos": [
+        {"t": "lista", "ord": true, "itens": [
+          "O **farmacêutico** pode sugerir trocar o medicamento de **referência** pelo **genérico correspondente**, desde que o prescritor **não tenha restringido** isso de próprio punho, com algo como **“Não autorizo a substituição”**.",
+          "**Nunca** se substitui por um **similar**, mesmo que ele não tenha marca.",
+          "Se a prescrição for de um **similar com marca**, **não se deve substituir**.",
+          "A troca deve ser **anotada na prescrição**, com o carimbo do farmacêutico (nome e nº do CRF), data e assinatura, e o paciente deve ser **informado** sobre ela."]},
+        {"t": "callout", "kind": "atencao", "titulo": "O que você faz", "texto": "A enfermagem **administra o que foi prescrito e dispensado**. Se a embalagem que chegou até você não bate com a prescrição (outro nome, outra concentração, outra forma), **pare e comunique**. Pode ser uma substituição legítima, mas isso precisa estar registrado e confirmado, e não deduzido."},
+        {"t": "pense", "q": "A prescrição pede um medicamento de marca e a farmácia entregou um genérico. Você administra direto?", "a": "Só se a troca estiver registrada na prescrição pelo farmacêutico, com carimbo e assinatura. Se não estiver, pare e confirme com o enfermeiro ou a farmácia."}
+      ]
+    }
+  ],
+  "resumo": [
+    "Prescrição é uma ordem escrita e completa: data e local, paciente, medicamento legível, dose, via, horário/intervalo, assinatura e carimbo com registro no conselho.",
+    "Tipos: padrão, única, imediata, permanente (protocolo) e verbal/telefônica (evitar; só em urgência; transcrever o quanto antes).",
+    "A bula é o resumo de utilidade e riscos: descrição, farmacologia clínica, indicações, contraindicações, advertências, precauções, reações adversas, uso excessivo, dose excessiva, dose e modo de administração, formas.",
+    "Referência/inovador tem marca e foi o primeiro registro; genérico não tem marca, é intercambiável e identificado por DCB/DCI; similar pode diferir em tamanho, validade, embalagem e excipientes.",
+    "Genérico traz “Medicamento genérico de acordo com a Lei nº 9.787/99”.",
+    "Biodisponibilidade = velocidade e extensão da absorção (EV = 100%). Bioequivalência compara a biodisponibilidade de dois medicamentos.",
+    "Quem troca é o farmacêutico, só por genérico correspondente e sem proibição do prescritor. A enfermagem administra o que foi prescrito e dispensado e comunica divergências."
+  ],
+  "glossario": [
+    {"t": "Prescritor", "d": "Profissional habilitado que escreve a prescrição."},
+    {"t": "Patente", "d": "Direito exclusivo de fabricar e vender um produto por um período."},
+    {"t": "DCB e DCI", "d": "Denominação Comum Brasileira e Internacional: nomes oficiais dos princípios ativos."},
+    {"t": "Excipiente", "d": "Componente do medicamento que não é o princípio ativo."},
+    {"t": "Intercambiável", "d": "Que pode ser trocado por outro com a mesma segurança e eficácia."},
+    {"t": "Meia-vida", "d": "Tempo que o organismo leva para reduzir à metade a quantidade de fármaco no sangue."},
+    {"t": "Parenteral", "d": "Por injeção (EV, IM, SC)."},
+    {"t": "Extravascular", "d": "Fora dos vasos de sangue: vias em que há absorção."}
+  ]
+}

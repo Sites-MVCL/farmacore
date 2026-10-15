@@ -1,0 +1,202 @@
+{
+  "g1-termo": {
+    "tipo": "quiz", "titulo": "Qual termo?", "dica": "Leia a definição e escolha o conceito.", "rotulo": "Definição", "pts": 10,
+    "opts": ["Fármaco", "Medicamento", "Droga", "Remédio", "Placebo"],
+    "itens": [
+      {"q": "Substância que modifica a função fisiológica, com ou sem intenção benéfica.", "a": 2, "why": "Droga é o termo mais amplo: o que importa é modificar a função, não a intenção."},
+      {"q": "Fármaco cujas propriedades benéficas foram comprovadas cientificamente.", "a": 1, "why": "A comprovação científica do benefício é o que transforma um fármaco em medicamento."},
+      {"q": "Inclui até massagem, banhos, acupuntura, fé e crença usados em benefício da saúde.", "a": 3, "why": "Remédio é o termo mais abrangente: vai além de substâncias."},
+      {"q": "Preparação inativa dada para satisfazer a necessidade psicológica de “tomar algo”.", "a": 4, "why": "O placebo é feito com intenção de aliviar o sofrimento, mesmo com pouco ou nenhum princípio ativo."},
+      {"q": "Estrutura química conhecida que modifica uma função fisiológica já existente.", "a": 0, "why": "Fármaco é definido pela estrutura química conhecida e pela capacidade de modificar uma função."},
+      {"q": "Todo ___ é um fármaco, mas nem todo fármaco é um ___.", "a": 1, "why": "Todo medicamento é fármaco, mas nem todo fármaco foi comprovado como benéfico."}
+    ]
+  },
+  "g1-nomes": {
+    "tipo": "match", "titulo": "Ligue o nome à definição", "dica": "Toque em um nome e depois na definição correspondente.", "pts": 5,
+    "pares": [
+      {"l": "Nome químico", "r": "Deriva da estrutura molecular da substância"},
+      {"l": "Nome oficial", "r": "Consta nos livros oficiais, as farmacopeias"},
+      {"l": "Nome genérico", "r": "Nome do princípio ativo, sem marca"},
+      {"l": "Nome comercial", "r": "Nome dado pelo laboratório ao produto"}
+    ]
+  },
+  "g1-forma": {
+    "tipo": "quiz", "titulo": "Sólido, líquido ou gasoso?", "dica": "Classifique cada forma farmacêutica pelo estado físico.", "rotulo": "Forma", "pts": 5,
+    "opts": ["Sólido", "Líquido", "Gasoso"], "tons": ["c", "v", "a"],
+    "itens": [
+      {"q": "Cápsula", "a": 0, "why": "Sólido com invólucro de gelatina."},
+      {"q": "Xarope", "a": 1, "why": "Solução com dois terços de açúcar."},
+      {"q": "Aerossol (spray)", "a": 2, "why": "Aerossóis e gases estão no grupo dos gasosos."},
+      {"q": "Supositório", "a": 0, "why": "Sólido de formato cônico ou oval, para uso retal."},
+      {"q": "Colírio", "a": 1, "why": "Solução aquosa para a mucosa ocular."},
+      {"q": "Oxigênio", "a": 2, "why": "Gás medicinal."},
+      {"q": "Drágea", "a": 0, "why": "Sólido com revestimento de goma-laca, açúcar e corante."},
+      {"q": "Elixir", "a": 1, "why": "Líquido hidroalcoólico, açucarado ou glicerinado."},
+      {"q": "Pomada", "a": 0, "why": "No módulo, está entre as formas sólidas (pastosa ou semissólida)."},
+      {"q": "Emulsão", "a": 1, "why": "Preparação líquida feita de óleo e água."}
+    ]
+  },
+  "g1-origem": {
+    "tipo": "quiz", "titulo": "Qual é a origem?", "dica": "Natural, sintético ou semissintético?", "rotulo": "Origem", "pts": 10,
+    "opts": ["Natural", "Sintético", "Semissintético"],
+    "itens": [
+      {"q": "Extraído de uma planta ou de um órgão de animal.", "a": 0, "why": "Medicamentos naturais vêm de órgãos, glândulas, plantas ou peçonhas."},
+      {"q": "Produzido exclusivamente pelo trabalho de laboratório.", "a": 1, "why": "Os sintéticos são resultado do trabalho de laboratório."},
+      {"q": "Substância natural alterada quimicamente para mudar as características da ação.", "a": 2, "why": "A alteração de uma substância natural define o semissintético."}
+    ]
+  },
+
+  "g2-janela": {
+    "tipo": "janela", "titulo": "Painel de dose", "dica": "Arraste o controle por toda a barra. Visite as quatro zonas.", "pts": 5,
+    "zonas": [
+      {"id": "z0", "nome": "Sem efeito", "de": 0, "ate": 22, "tom": "n", "msg": "Abaixo da dose mínima: o fármaco ainda não produz o efeito terapêutico. O tratamento não está funcionando."},
+      {"id": "z1", "nome": "Terapêutica", "de": 22, "ate": 60, "tom": "ok", "msg": "Entre a dose mínima e a máxima: aqui está o efeito terapêutico desejado. É a janela alvo."},
+      {"id": "z2", "nome": "Tóxica", "de": 60, "ate": 85, "tom": "al", "msg": "Passou da dose máxima: surgem efeitos tóxicos, perturbações e intoxicação."},
+      {"id": "z3", "nome": "Letal", "de": 85, "ate": 100, "tom": "x", "msg": "Zona letal: a quantidade pode causar a morte."}
+    ]
+  },
+  "g2-fatores": {
+    "tipo": "pick", "titulo": "Quem modifica a dose?", "dica": "Marque tudo o que o módulo lista como fator que modifica a dosagem. Depois, confira.", "pts": 5,
+    "itens": [
+      {"t": "Idade", "ok": true, "why": "Crianças e idosos respondem de forma diferente."},
+      {"t": "Peso corporal", "ok": true, "why": "Está na lista de fatores do módulo."},
+      {"t": "Fatores genéticos", "ok": true, "why": "As enzimas variam de pessoa para pessoa."},
+      {"t": "Cor da embalagem", "ok": false, "why": "A aparência da caixa não muda a dose."},
+      {"t": "Condições do paciente", "ok": true, "why": "Função renal, hepática, cardíaca e doenças alteram a resposta."},
+      {"t": "Nome do laboratório", "ok": false, "why": "A marca não é um fator de dosagem."},
+      {"t": "Método de administração", "ok": true, "why": "A via e a técnica mudam a quantidade que chega ao sangue."},
+      {"t": "Fatores ambientais e temperatura", "ok": true, "why": "Constam no módulo entre os fatores que modificam a dosagem."},
+      {"t": "Tamanho da letra da bula", "ok": false, "why": "Não tem relação com a dose."},
+      {"t": "Sexo e fatores psicológicos", "ok": true, "why": "Também estão na lista do módulo."}
+    ]
+  },
+  "g2-efeitos": {
+    "tipo": "quiz", "titulo": "Qual efeito?", "dica": "Quando fármacos se encontram, ou quando o efeito foge do plano.", "rotulo": "Situação", "pts": 10,
+    "opts": ["Adição", "Potencialização", "Antagonismo", "Efeito adverso ou colateral", "Efeito cumulativo"],
+    "itens": [
+      {"q": "Os efeitos de dois fármacos se somam.", "a": 0, "why": "Adição é o efeito combinado de dois fármacos."},
+      {"q": "Um fármaco aumenta ou prolonga a ação de outro.", "a": 1, "why": "Esse é o conceito de potencialização."},
+      {"q": "Duas substâncias administradas têm efeito contrário.", "a": 2, "why": "É o antagonismo."},
+      {"q": "A droga é eliminada mais devagar do que absorvida e a concentração vai subindo (ex.: digitalina).", "a": 4, "why": "Medicamentos cumulativos exigem atenção às doses acumuladas."},
+      {"q": "Ação diferente do efeito planejado.", "a": 3, "why": "É o efeito adverso ou indesejado."},
+      {"q": "Efeito imprevisível, sem relação com a principal ação do fármaco.", "a": 3, "why": "É o efeito colateral. Nenhum medicamento é livre deles."}
+    ]
+  },
+
+  "g3-acao": {
+    "tipo": "quiz", "titulo": "Local, sistêmica, remota?", "dica": "Diga como cada situação se encaixa.", "rotulo": "Situação", "pts": 10,
+    "opts": ["Local", "Sistêmica", "Remota", "Local-geral"], "tons": ["c", "v", "a", "m"],
+    "itens": [
+      {"q": "Pomada aplicada diretamente em uma ferida.", "a": 0, "why": "Age onde foi aplicada, sem passar pelo sangue."},
+      {"q": "Antibiótico por via oral, que precisa ser absorvido e cair na corrente sanguínea.", "a": 1, "why": "Ação sistêmica: absorção, sangue e depois o local de ação."},
+      {"q": "Colírio instilado na conjuntiva.", "a": 0, "why": "Ação local na mucosa ocular."},
+      {"q": "A digitalina fortalece o coração, a circulação melhora e a diurese aumenta.", "a": 2, "why": "Um órgão estimulado que estimula outro: ação remota."},
+      {"q": "Epinefrina na mucosa nasal estanca a hemorragia, é absorvida e eleva a pressão arterial.", "a": 3, "why": "Efeito local, absorção e depois efeito geral."},
+      {"q": "Antisséptico na pele que impede o desenvolvimento de micro-organismos.", "a": 0, "why": "O antisséptico é um tipo de ação local."}
+    ]
+  },
+  "g3-tipos": {
+    "tipo": "match", "titulo": "Ligue o tipo de ação", "dica": "Toque em um termo e depois na função correspondente.", "pts": 5,
+    "pares": [
+      {"l": "Antisséptico", "r": "Impede o desenvolvimento de micro-organismos"},
+      {"l": "Adstringente", "r": "Contrai o tecido"},
+      {"l": "Emoliente", "r": "Lubrifica e amolece o tecido"},
+      {"l": "Anestésico", "r": "Paralisa as terminações nervosas sensoriais"},
+      {"l": "Estimulante", "r": "Aumenta a atividade de um órgão (ex.: cafeína)"},
+      {"l": "Depressor", "r": "Diminui as funções de um órgão (ex.: morfina)"}
+    ]
+  },
+  "g3-terapeutica": {
+    "tipo": "quiz", "titulo": "Curativa, paliativa ou substitutiva?", "dica": "Qual é o objetivo do tratamento?", "rotulo": "Situação", "pts": 10,
+    "opts": ["Curativa", "Paliativa", "Substitutiva"], "tons": ["g", "a", "v"],
+    "itens": [
+      {"q": "Antibiótico que elimina a bactéria causadora da infecção.", "a": 0, "why": "Remove o agente causador: ação curativa ou específica."},
+      {"q": "Analgésico que alivia a dor de cabeça.", "a": 1, "why": "Alivia o sintoma: ação paliativa ou sintomática."},
+      {"q": "Insulina em um paciente que não produz o suficiente.", "a": 2, "why": "Repõe uma substância ausente: ação substitutiva."},
+      {"q": "Antitérmico que baixa a febre, mas não remove a causa dela.", "a": 1, "why": "Trata o sintoma, sem eliminar a causa."},
+      {"q": "Hormônio tireoidiano no hipotireoidismo.", "a": 2, "why": "Repõe o hormônio que está em falta."},
+      {"q": "Antiparasitário que provoca a morte do parasita.", "a": 0, "why": "Elimina o agente causador."}
+    ]
+  },
+  "g3-receptor": {
+    "tipo": "agonista", "titulo": "Laboratório de receptores", "dica": "Teste os quatro cenários e veja o que acontece com a resposta da célula.", "pts": 5,
+    "estados": [
+      {"id": "livre", "nome": "Receptor livre", "msg": "O receptor está disponível, sem nenhuma ligação. Sem fármaco, não há resposta."},
+      {"id": "ago", "nome": "Agonista", "msg": "A chave certa: o agonista se encaixa e ativa o receptor. A resposta, o efeito, acontece."},
+      {"id": "ant", "nome": "Antagonista", "msg": "Interage com o receptor, mas não o estimula. O receptor fica ocupado e a resposta não acontece."},
+      {"id": "disp", "nome": "Os dois juntos", "msg": "Agonista e antagonista competitivo disputam o mesmo sítio. Com o antagonista ocupando o receptor, o agonista fica de fora e o efeito é bloqueado."}
+    ]
+  },
+  "g3-agonista": {
+    "tipo": "quiz", "titulo": "Agonista ou antagonista?", "dica": "Quem ativa e quem bloqueia?", "rotulo": "Característica", "pts": 10,
+    "opts": ["Agonista", "Antagonista"], "tons": ["g", "r"],
+    "itens": [
+      {"q": "Intensifica ou estimula um receptor.", "a": 0, "why": "Essa é a definição do agonista."},
+      {"q": "Interage com o receptor, mas não o estimula.", "a": 1, "why": "Ocupa o receptor sem ativá-lo."},
+      {"q": "Impede as ações de um agonista.", "a": 1, "why": "É o papel do antagonista."},
+      {"q": "Disputa com o agonista os sítios receptores (competitivo).", "a": 1, "why": "O antagonista competitivo compete pelo mesmo local."}
+    ]
+  },
+
+  "g4-adme": {
+    "tipo": "adme", "titulo": "A jornada ADME", "dica": "Toque nas estações, ou avance com o botão. Visite as quatro.", "pts": 5,
+    "estacoes": [
+      {"id": "abs", "nome": "Absorção", "sigla": "A", "local": "Local de administração",
+       "texto": "É a passagem do fármaco do local de administração para o plasma. Começa na escolha da via e termina quando a droga entra na corrente sanguínea.",
+       "pontos": ["As vias EV e intra-arterial não têm absorção: entram direto na circulação.", "Interferem: pH do meio, forma farmacêutica, doenças (como úlceras), dose, fluxo sanguíneo, motilidade gástrica, alimentos e a química do fármaco.", "Para a maioria dos fármacos, sem absorção não há ação farmacológica. Exceções: aerossóis e uso tópico."],
+       "enf": "Por isso a via prescrita importa tanto: ela define a velocidade e a quantidade que chegam ao sangue."},
+      {"id": "dist", "nome": "Distribuição", "sigla": "D", "local": "Circulação",
+       "texto": "Pela circulação, o fármaco vai até o local de ação. Chega primeiro aos órgãos mais irrigados (sistema nervoso central, pulmão, coração) e depois é redistribuído a tecidos menos irrigados, como o adiposo.",
+       "pontos": ["Parte do fármaco viaja ligada a proteínas do plasma, como a albumina. A fração ligada é um reservatório e não age; só a fração livre atua.", "Desnutrição, hepatite e cirrose reduzem as proteínas do plasma: sobra mais fármaco livre.", "Um fármaco muito ligado a proteínas pode ser deslocado por outro que também se liga muito."],
+       "enf": "Pacientes desnutridos ou com doença hepática podem responder de forma mais intensa. Observe e comunique alterações."},
+      {"id": "bio", "nome": "Biotransformação", "sigla": "M", "local": "Fígado, principalmente",
+       "texto": "O organismo transforma o fármaco em um composto mais hidrossolúvel, o que facilita a excreção. O fígado é o órgão principal, mas outros tecidos também metabolizam.",
+       "pontos": ["Fase 1: oxidação, redução e hidrólise, em grande parte pelo citocromo P-450.", "Fase 2: conjugação, como a ligação ao ácido glicurônico.", "O metabólito pode ser inativo, menos ativo ou até mais ativo. Pró-droga: só fica ativa depois de transformada (ex.: enalapril)."],
+       "enf": "Álcool, tabagismo e alguns fármacos podem aumentar a produção de enzimas e mudar o efeito de outros medicamentos."},
+      {"id": "exc", "nome": "Excreção", "sigla": "E", "local": "Rins, principalmente",
+       "texto": "Os compostos são removidos do organismo para o meio externo. Os locais de excreção se chamam emunctórios.",
+       "pontos": ["Rim: filtração glomerular, secreção tubular e reabsorção tubular.", "Também: fezes e bile, pulmões (gases e voláteis), suor, lágrimas, saliva e leite materno.", "Doenças dos rins (nefropatias) podem prejudicar a eliminação de alguns fármacos."],
+       "enf": "Pele e cabelo não excretam, mas armazenam algumas substâncias. Fármacos podem passar para o leite materno."}
+    ]
+  },
+  "g4-ordem": {
+    "tipo": "order", "titulo": "Monte a jornada", "dica": "Toque nas etapas na ordem em que acontecem (didaticamente).",
+    "passos": [
+      {"t": "Absorção", "d": "Do local de administração até a corrente sanguínea.", "dica": "A jornada começa na entrada."},
+      {"t": "Distribuição", "d": "O fármaco circula e chega ao local de ação.", "dica": "Depois de entrar no sangue, ele precisa circular."},
+      {"t": "Biotransformação", "d": "O fígado transforma em composto mais hidrossolúvel.", "dica": "Antes de sair, ele é transformado."},
+      {"t": "Excreção", "d": "Remoção do organismo, principalmente pelos rins.", "dica": "A saída é o fim da jornada."}
+    ]
+  },
+  "g4-passagem": {
+    "tipo": "quiz", "titulo": "Sofre o efeito de primeira passagem?", "dica": "O fármaco passa pelo fígado antes de chegar à circulação?", "rotulo": "Via", "pts": 10,
+    "opts": ["Sofre", "Sofre pouco", "Evita"], "tons": ["r", "a", "g"],
+    "itens": [
+      {"q": "Via oral.", "a": 0, "why": "O fármaco absorvido no intestino passa pelo fígado antes de chegar à circulação sistêmica."},
+      {"q": "Via retal.", "a": 1, "why": "O módulo cita a via retal sujeita ao efeito, mas em proporções bem reduzidas."},
+      {"q": "Via endovenosa.", "a": 2, "why": "Entra direto na circulação: não há absorção nem primeira passagem."},
+      {"q": "Via sublingual.", "a": 2, "why": "Reduz a biotransformação hepática por atingir diretamente a circulação sistêmica."}
+    ]
+  },
+  "g4-membrana": {
+    "tipo": "match", "titulo": "Ligue o mecanismo", "dica": "Toque em um mecanismo e depois na característica.", "pts": 5,
+    "pares": [
+      {"l": "Difusão passiva de lipossolúveis", "r": "Principal mecanismo de transporte dos fármacos"},
+      {"l": "Transporte ativo", "r": "Gasta energia e vai contra o gradiente"},
+      {"l": "Difusão facilitada", "r": "Usa transportador, sem gastar energia"},
+      {"l": "Lacunas intercelulares", "r": "Base da absorção IM e SC e da filtração nos rins"},
+      {"l": "Pinocitose", "r": "A membrana engloba uma vesícula com macromoléculas"}
+    ]
+  },
+  "g4-orgao": {
+    "tipo": "quiz", "titulo": "Qual órgão ou via?", "dica": "Onde cada processo acontece?", "rotulo": "Pista", "pts": 10,
+    "opts": ["Fígado", "Rim", "Pulmão", "Circulação"], "tons": ["a", "c", "v", "m"],
+    "itens": [
+      {"q": "Principal órgão da biotransformação.", "a": 0, "why": "O fígado prepara a droga para a excreção."},
+      {"q": "Filtra o sangue nos glomérulos e elimina fármacos hidrossolúveis.", "a": 1, "why": "Filtração glomerular, secreção e reabsorção tubular."},
+      {"q": "Via de eliminação de anestésicos voláteis.", "a": 2, "why": "O pulmão é via de administração e de eliminação para gases e voláteis."},
+      {"q": "Leva o fármaco até o local de ação.", "a": 3, "why": "A distribuição acontece pela circulação."},
+      {"q": "Na cirrose, falha em produzir proteínas do plasma e em metabolizar.", "a": 0, "why": "Os hepatócitos produzem as proteínas plasmáticas."}
+    ]
+  }
+}

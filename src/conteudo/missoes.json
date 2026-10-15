@@ -1,0 +1,320 @@
+{
+ "meta": {
+  "titulo": "FARMACORE",
+  "subtitulo": "Simulador de administração de medicamentos para técnicos de enfermagem",
+  "fonte": "Farmacologia — Técnico em Enfermagem, Módulo 1 (CETEP)",
+  "bonus": 25,
+  "niveis": [
+   {
+    "nome": "Recruta",
+    "a": 0
+   },
+   {
+    "nome": "Cadete",
+    "a": 0.15
+   },
+   {
+    "nome": "Operador",
+    "a": 0.35
+   },
+   {
+    "nome": "Especialista",
+    "a": 0.6
+   },
+   {
+    "nome": "Comandante",
+    "a": 0.85
+   }
+  ]
+ },
+ "missoes": [
+  {
+   "id": "m1",
+   "n": 1,
+   "titulo": "Vocabulário Farmacêutico",
+   "curto": "Vocabulário",
+   "sub": "Fármaco, droga, remédio: não são sinônimos.",
+   "min": 8,
+   "selo": "Decodificador",
+   "icone": "i-book",
+   "pulso": "Antes de administrar qualquer coisa, você precisa falar a língua da farmacologia. Vamos calibrar o seu vocabulário.",
+   "objetivo": "Diferenciar os conceitos básicos, reconhecer os quatro nomes de um medicamento e classificar formas farmacêuticas e origens.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "g1-termo"
+    },
+    {
+     "t": "game",
+     "id": "g1-nomes"
+    },
+    {
+     "t": "game",
+     "id": "g1-forma"
+    },
+    {
+     "t": "game",
+     "id": "g1-origem"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "n": 2,
+   "titulo": "Dose e Janela Terapêutica",
+   "curto": "Dose",
+   "sub": "A diferença entre remédio e veneno é a dose.",
+   "min": 8,
+   "selo": "Fiel da Balança",
+   "icone": "i-scale",
+   "pulso": "Dose é o botão de volume do medicamento. Muito baixo, não faz nada. Muito alto, machuca. Vamos achar a janela certa.",
+   "objetivo": "Distinguir dose mínima, máxima, tóxica e letal; listar fatores que modificam a dose; reconhecer adição, potencialização, antagonismo e efeitos indesejados.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "g2-janela"
+    },
+    {
+     "t": "game",
+     "id": "g2-fatores"
+    },
+    {
+     "t": "game",
+     "id": "g2-efeitos"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "n": 3,
+   "titulo": "Ação no Organismo",
+   "curto": "Ação",
+   "sub": "Onde o medicamento age e como ele conversa com as células.",
+   "min": 9,
+   "selo": "Mapa Molecular",
+   "icone": "i-target",
+   "pulso": "Esta é a farmacodinâmica: o que o fármaco faz no corpo. Spoiler: ele precisa de uma “fechadura” para funcionar.",
+   "objetivo": "Diferenciar ação local, sistêmica, remota e local-geral; reconhecer os tipos de ação terapêutica; entender agonistas e antagonistas.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "g3-acao"
+    },
+    {
+     "t": "game",
+     "id": "g3-tipos"
+    },
+    {
+     "t": "game",
+     "id": "g3-terapeutica"
+    },
+    {
+     "t": "game",
+     "id": "g3-receptor"
+    },
+    {
+     "t": "game",
+     "id": "g3-agonista"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "n": 4,
+   "titulo": "Farmacocinética: A Jornada",
+   "curto": "ADME",
+   "sub": "Absorção, distribuição, biotransformação e excreção.",
+   "min": 10,
+   "selo": "Navegador ADME",
+   "icone": "i-dna",
+   "pulso": "Agora o foco é o caminho: o que o corpo faz com o fármaco. Vou te mostrar a viagem completa de um comprimido.",
+   "objetivo": "Acompanhar as quatro etapas da farmacocinética, entender o efeito de primeira passagem e as formas de atravessar membranas.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "g4-adme"
+    },
+    {
+     "t": "game",
+     "id": "g4-ordem"
+    },
+    {
+     "t": "game",
+     "id": "g4-passagem"
+    },
+    {
+     "t": "game",
+     "id": "g4-membrana"
+    },
+    {
+     "t": "game",
+     "id": "g4-orgao"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "n": 5,
+   "titulo": "Vias de Administração",
+   "curto": "Vias",
+   "sub": "A estrada escolhida define a velocidade, a dose e o risco.",
+   "min": 10,
+   "selo": "Rota Certa",
+   "icone": "i-syringe",
+   "pulso": "A via é o endereço de entrega do medicamento. Escolheu errado, o pacote chega atrasado, incompleto ou nem chega.",
+   "objetivo": "Comparar as principais vias, suas vantagens e desvantagens, e escolher a via mais adequada a cada situação descrita no módulo.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "g5-vias"
+    },
+    {
+     "t": "game",
+     "id": "g5-qualvia"
+    },
+    {
+     "t": "game",
+     "id": "g5-procontra"
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "n": 6,
+   "titulo": "Prescrição, Rótulo e Genéricos",
+   "curto": "Prescrição",
+   "sub": "Ler certo é o primeiro passo de administrar certo.",
+   "min": 12,
+   "selo": "Leitor Clínico",
+   "icone": "i-clip",
+   "pulso": "Toda administração começa numa folha de papel. Se a prescrição falha, a cadeia inteira falha. Vamos treinar o olho clínico.",
+   "objetivo": "Reconhecer os elementos de uma prescrição, seus tipos, as partes da bula e a diferença entre medicamento de referência, genérico e similar.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "g6-inspect"
+    },
+    {
+     "t": "game",
+     "id": "g6-tipos"
+    },
+    {
+     "t": "game",
+     "id": "g6-bula"
+    },
+    {
+     "t": "game",
+     "id": "g6-generico"
+    },
+    {
+     "t": "game",
+     "id": "g6-bio"
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "n": 7,
+   "titulo": "Lei, Ética e Responsabilidade",
+   "curto": "Ética",
+   "sub": "Administrar medicamento é assumir uma responsabilidade legal.",
+   "min": 8,
+   "selo": "Guardião Ético",
+   "icone": "i-shield",
+   "pulso": "Administrar medicamentos é um dos maiores pesos sobre a equipe de enfermagem. Aqui você descobre onde a lei te protege e onde ela te cobra.",
+   "objetivo": "Reconhecer os artigos do Código de Ética citados no módulo e aplicá-los a situações do dia a dia.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "g7-erros"
+    },
+    {
+     "t": "game",
+     "id": "g7-decisao"
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "n": 8,
+   "titulo": "Os 5 Certos: Simulador",
+   "curto": "5 Certos",
+   "sub": "A regra mais importante da administração de medicamentos.",
+   "min": 14,
+   "selo": "Checagem Perfeita",
+   "icone": "i-eye",
+   "pulso": "Chegou a missão central. Eu vou te entregar prescrição, pulseira e medicamento. Você decide: administra ou para?",
+   "objetivo": "Aplicar a regra dos 5 certos para conferir prescrição, paciente e medicamento, e decidir entre administrar e parar para comunicar.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "g8-sequencia"
+    },
+    {
+     "t": "game",
+     "id": "g8-check"
+    },
+    {
+     "t": "game",
+     "id": "g8-qual"
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "n": 9,
+   "titulo": "Arsenal: Classes e Cuidados",
+   "curto": "Arsenal",
+   "sub": "As principais classes de medicamentos e o que a enfermagem precisa observar.",
+   "min": 18,
+   "selo": "Arsenal Completo",
+   "icone": "i-flask",
+   "pulso": "Hora de abrir o arsenal. Cada classe tem um cuidado de enfermagem associado. Vou te deixar explorar à vontade.",
+   "objetivo": "Reconhecer as classes de medicamentos por sistema, associar cada uma ao seu cuidado de enfermagem e entender as insulinas e o sistema nervoso autônomo.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "g9-codex"
+    },
+    {
+     "t": "game",
+     "id": "g9-classe"
+    },
+    {
+     "t": "game",
+     "id": "g9-cuidado"
+    },
+    {
+     "t": "game",
+     "id": "g9-insulina"
+    },
+    {
+     "t": "game",
+     "id": "g9-sna"
+    },
+    {
+     "t": "game",
+     "id": "g9-colin"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "n": 10,
+   "titulo": "Desafio Final",
+   "curto": "Desafio",
+   "sub": "Dezesseis perguntas misturando todas as missões.",
+   "min": 10,
+   "selo": "Comandante de Medicação",
+   "icone": "i-medal",
+   "pulso": "Última fase. Sem cronômetro, mas com tudo o que você aprendeu. Respire e confira com calma, como na vida real.",
+   "objetivo": "Mostrar que você domina os conceitos, as vias, a prescrição, a ética e os 5 certos.",
+   "treino": [
+    {
+     "t": "game",
+     "id": "final-quiz"
+    }
+   ]
+  }
+ ]
+}

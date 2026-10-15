@@ -1,0 +1,141 @@
+{
+  "id": "m1",
+  "tempo": 14,
+  "intro": "Nesta aula você começa do zero. Não é preciso saber nada de farmacologia: cada palavra nova é explicada antes de ser usada.",
+  "secoes": [
+    {
+      "titulo": "Por que um técnico de enfermagem estuda farmacologia?",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Boa parte do seu trabalho vai ser **preparar e administrar medicamentos**. Quem decide qual medicamento o paciente recebe é o prescritor (em geral, o médico). Mas quem coloca o remédio no corpo do paciente é a enfermagem. Isso coloca em suas mãos o último passo da cadeia, e é nesse último passo que muitos erros se escondem.",
+          "Estudar farmacologia serve para você responder, antes de cada administração, quatro perguntas simples: **o que é isso? para que serve? como age no corpo? o que pode dar errado?** Quando você sabe responder, você deixa de ser alguém que apenas “cumpre ordens” e passa a ser uma barreira de segurança para o paciente."]},
+        {"t": "callout", "kind": "memo", "titulo": "Ideia central do curso", "texto": "Conhecer o medicamento é uma forma de cuidar do paciente. O que você aprende aqui te ajuda a notar um erro antes que ele aconteça."},
+        {"t": "texto", "titulo": "Um pouco de história", "p": [
+          "As civilizações antigas misturavam **magia, religião e drogas** para tratar doenças. As drogas vinham de plantas ou animais e muitas vezes eram vistas como mágicas. Quem dominava esse conhecimento era respeitado e temido.",
+          "Com o tempo, o conhecimento sobre os medicamentos cresceu junto com outras ciências: a **anatomia** (como o corpo é feito), a **fisiologia** (como o corpo funciona), a **bioquímica** e a **química**. É por isso que a farmacologia de hoje se apoia na ciência, e não mais na crença."]}
+      ]
+    },
+    {
+      "titulo": "O que é Farmacologia? Os dois grandes blocos",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Farmacologia** é a ciência que estuda os fármacos sob todos os aspectos: de onde vêm, como agem e quais são os seus efeitos no ser humano.",
+          "Para facilitar, ela é dividida em dois blocos. Eles vão aparecer em todas as aulas, então vale fixar a diferença com uma analogia:"]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Analogia da encomenda", "texto": "Pense no medicamento como uma **encomenda**. A **farmacocinética** é a viagem da encomenda: ela entra, circula, é processada e sai. A **farmacodinâmica** é o que a encomenda faz quando chega à casa do destinatário."},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Farmacocinética", "tag": "o caminho", "d": "O que **o corpo faz com o fármaco**. Quatro etapas: absorção, distribuição, biotransformação e excreção. É o assunto da missão 4."},
+          {"t": "Farmacodinâmica", "tag": "a ação", "d": "O que **o fármaco faz no corpo**: onde age, como age e qual efeito produz. É o assunto da missão 3."}]},
+        {"t": "pense", "q": "Se eu pergunto “quanto tempo o remédio demora para sair do corpo?”, a pergunta é de farmacocinética ou de farmacodinâmica?", "a": "Farmacocinética. Ela trata do caminho do fármaco no corpo, incluindo a saída (excreção)."}
+      ]
+    },
+    {
+      "titulo": "Cinco palavras que parecem iguais, mas não são",
+      "blocos": [
+        {"t": "texto", "p": [
+          "No dia a dia, as pessoas usam “remédio”, “medicamento” e “droga” como se fossem a mesma coisa. Na farmacologia, cada palavra tem um significado próprio. Vamos entender uma de cada vez."]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Fármaco", "tag": "do grego pharmacon, “remédio”", "d": "É a **substância química** de estrutura conhecida e capaz de **modificar uma função que o corpo já tem**. Exemplo: o paracetamol, como molécula, é um fármaco."},
+          {"t": "Medicamento", "tag": "do latim medicamentum", "d": "É o fármaco que tem **benefícios comprovados cientificamente** e é apresentado de forma adequada ao uso (comprimido, ampola, xarope). Exemplo: o comprimido de paracetamol vendido na farmácia."},
+          {"t": "Droga", "tag": "do inglês drug", "d": "Qualquer substância que **modifica a função do corpo, com ou sem intenção de fazer bem**. Na farmacologia a palavra é mais ampla do que no uso popular, em que costuma lembrar substâncias ilícitas."},
+          {"t": "Remédio", "tag": "re + medior, “curar de novo”", "d": "É **tudo o que se usa em benefício da saúde**. Pode ser uma substância (animal, vegetal, mineral, sintética), mas também um procedimento (massagem, banho, acupuntura), a fé, a crença ou a influência de alguém."},
+          {"t": "Placebo", "tag": "do latim placeo, “agradar”", "d": "É algo feito com **intenção de aliviar o sofrimento**, mesmo em concentração mínima ou sem nenhum princípio ativo. Pode ser uma preparação inativa dada para satisfazer a necessidade psicológica de “tomar alguma coisa”."}]},
+        {"t": "callout", "kind": "memo", "titulo": "A frase que resume", "texto": "**Todo medicamento é um fármaco, mas nem todo fármaco é um medicamento.** Medicamento é o fármaco que já provou, pela ciência, que faz bem."},
+        {"t": "pense", "q": "Uma massagem relaxante pode ser chamada de remédio? E de medicamento?", "a": "De remédio, sim, porque remédio é tudo o que se usa em benefício da saúde, inclusive procedimentos. De medicamento, não: medicamento é um fármaco com benefício comprovado, e massagem não é substância."}
+      ]
+    },
+    {
+      "titulo": "O que tem dentro de um medicamento?",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Um comprimido não é feito só da substância que trata. Ele é uma mistura de componentes, chamada de **fórmula farmacêutica**. Pense num suco: a fruta é o que dá o sabor e o valor nutritivo, a água dá volume, e o açúcar corrige o gosto."]},
+        {"t": "cards", "cols": 3, "itens": [
+          {"t": "Princípio ativo", "tag": "a fruta", "d": "A substância que **tem a ação farmacológica**. É o que trata. É isolada de um órgão animal, de um vegetal ou produzida em laboratório."},
+          {"t": "Corretivo", "tag": "o açúcar", "d": "Corrige sabor, cor e aspecto: sabor, corantes e açúcares."},
+          {"t": "Veículo", "tag": "a água", "d": "Dá volume e corpo ao produto: talco, pós e outros."}]},
+        {"t": "callout", "kind": "atencao", "titulo": "Por que isso importa para você", "texto": "Quando uma prescrição, uma caixa ou um colega falam de um medicamento, o que importa para a segurança é o **princípio ativo**. Dois produtos com nomes diferentes podem ter o mesmo princípio ativo, e dois produtos com nomes parecidos podem ter princípios ativos totalmente diferentes."},
+        {"t": "texto", "titulo": "Alguns outros conceitos do módulo", "p": ["Você vai encontrar estes termos em bulas, prescrições e na rotina do serviço:"]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Medicamento simples", "d": "Feito a partir de **um único fármaco**. Exemplo: xarope de vitamina C."},
+          {"t": "Medicamento composto", "d": "Feito a partir de **vários fármacos**. Exemplo: comprimido de ácido salicílico com cafeína."},
+          {"t": "Uso externo", "d": "Aplicado na **superfície do corpo ou nas mucosas**. Exemplos: cremes e xampus."},
+          {"t": "Uso interno", "d": "Administrado **dentro do organismo**, pela boca ou pelas cavidades naturais (vagina, nariz, ânus, ouvidos, olhos)."},
+          {"t": "Medicamento oficial", "d": "Aquele que está **oficializado nas monografias** (livros oficiais)."},
+          {"t": "Medicamento oficinal ou de manipulação", "d": "Preparado **na própria farmácia**, segundo normas e doses de farmacopeia ou formulário."},
+          {"t": "Medicamento homeopático", "d": "Preparado a partir de substâncias naturais dos reinos **animal, vegetal e mineral**, e não apenas de plantas, como muita gente acredita."},
+          {"t": "Medicamento placebo", "d": "Substância ou preparação **inativa**, dada para satisfazer a necessidade psicológica do paciente de tomar um remédio."}]}
+      ]
+    },
+    {
+      "titulo": "Os quatro nomes de um medicamento",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Um mesmo medicamento pode aparecer na prescrição, no rótulo e na caixa com **nomes diferentes**. Se você não sabe disso, pode achar que são remédios distintos e dar duas vezes a mesma coisa, ou o contrário, achar que são o mesmo quando não são.",
+          "O exemplo do módulo é o **paracetamol**:"]},
+        {"t": "tabela", "cab": ["Nome", "O que é", "Exemplo (paracetamol)"], "linhas": [
+          ["Nome químico", "Descreve a estrutura da molécula. É longo e usado por químicos.", "N-acetil-p-aminofenol"],
+          ["Nome oficial", "O que consta nos livros oficiais (farmacopeias).", "paracetamol"],
+          ["Nome genérico", "O nome do **princípio ativo**. É aceito no mundo todo e não pertence a nenhuma marca.", "paracetamol"],
+          ["Nome comercial", "O nome que o **laboratório dá ao seu produto**. Outro laboratório não pode usar o mesmo nome.", "Tylenol®"]]},
+        {"t": "texto", "p": [
+          "Outros termos que vão aparecer: a **denominação genérica** é o nome de aceitação universal usado para o princípio ativo sem marca; o **nome de marca** é de propriedade do fabricante, que tem direitos de patente sobre a comercialização; o **medicamento de referência** é o produto que está no mercado há bastante tempo e serve de modelo de comparação; e o **medicamento similar** tem o mesmo fármaco, concentração, forma farmacêutica e via do medicamento de referência, mas **não tem comprovada a bioequivalência** com ele. Na missão 6 você vai entender esses dois últimos em detalhe."]},
+        {"t": "callout", "kind": "exemplo", "titulo": "Como ler uma caixa de remédio", "texto": "Procure sempre **duas** informações: o nome grande (comercial, quando existe) e, logo abaixo ou ao lado, o **nome do princípio ativo**. Se o nome comercial da caixa não é o que está na prescrição, confira se o princípio ativo é o mesmo antes de seguir. Na dúvida, pergunte ao enfermeiro ou ao farmacêutico."},
+        {"t": "pense", "q": "A prescrição pede “paracetamol” e a caixa diz “Tylenol”. Pode ser o mesmo medicamento?", "a": "Sim. Paracetamol é o nome genérico (princípio ativo) e Tylenol é um nome comercial. Mas só se confirma olhando o princípio ativo escrito na caixa."}
+      ]
+    },
+    {
+      "titulo": "Formas farmacêuticas: como o medicamento se apresenta",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Forma farmacêutica** é a maneira física pela qual o medicamento chega até você. É a diferença entre um comprimido, um xarope e um spray, mesmo que o princípio ativo seja o mesmo. A forma importa porque ela influencia **por onde** o remédio entra e **com que velocidade** age.",
+          "Os medicamentos são encontrados em três estados físicos: sólido, líquido e gasoso."]},
+        {"t": "cards", "titulo": "Sólidos", "cols": 2, "itens": [
+          {"t": "Comprimido", "d": "Consistência sólida e formato variável, obtido por compressão da substância medicamentosa em moldes."},
+          {"t": "Pó", "d": "Tomado em colheradas ou acondicionado em sachês."},
+          {"t": "Drágea", "d": "O princípio ativo fica no **núcleo**, com revestimento de goma-laca, açúcar e corante. Usada quando o sabor é desagradável, quando a absorção deve ocorrer no intestino ou quando o fármaco agride a mucosa."},
+          {"t": "Cápsula", "d": "O medicamento fica dentro de um **invólucro de gelatina**, que elimina o sabor desagradável, facilita a deglutição e/ou a liberação."},
+          {"t": "Pastilha", "d": "Sólido de forma circular, com o princípio ativo unido a açúcar e mucilagem, para **dissolver devagar na boca**."},
+          {"t": "Supositório", "d": "Cônico ou oval, para **via retal**. Pode ter ação local ou sistêmica. Também chamado óvulo ou lápis, conforme o formato e o uso."},
+          {"t": "Pomada", "d": "Forma pastosa ou semissólida, de veículo oleoso, em que o princípio ativo é o pó."},
+          {"t": "Creme", "d": "Exclusivo para uso tópico: na pele, vaginal e retal."}]},
+        {"t": "cards", "titulo": "Líquidos", "cols": 2, "itens": [
+          {"t": "Solução", "d": "Mistura homogênea de líquidos, ou de um líquido com um sólido."},
+          {"t": "Xarope", "d": "Solução que contém **dois terços de açúcar**."},
+          {"t": "Elixir", "d": "Preparação líquida **hidroalcoólica**, açucarada ou glicerinada, de uso oral, com substâncias aromáticas e medicamentosas."},
+          {"t": "Emulsão", "d": "Preparação feita de **dois líquidos que não se misturam**, óleo e água."},
+          {"t": "Colírio", "d": "Solução aquosa para uso na **mucosa ocular**."}]},
+        {"t": "cards", "titulo": "Gasosos", "cols": 2, "itens": [
+          {"t": "Gás", "d": "Oxigênio, carbogênio e outros gases medicinais."},
+          {"t": "Aerossol", "d": "O medicamento é liberado em forma de névoa por um spray. Exemplo: o spray de salbutamol."}]},
+        {"t": "callout", "kind": "atencao", "titulo": "Revestimento tem motivo", "texto": "Drágeas e cápsulas existem por razões como sabor, proteção da mucosa, absorção no intestino ou liberação lenta. **Não corte, macere ou abra** sem antes confirmar com o enfermeiro ou o farmacêutico."},
+        {"t": "pense", "q": "Por que um fabricante faria uma drágea em vez de um comprimido simples?", "a": "Porque o fármaco pode ter sabor desagradável, precisar ser absorvido só no intestino ou irritar a mucosa. O revestimento resolve esses problemas."}
+      ]
+    },
+    {
+      "titulo": "De onde vêm os medicamentos?",
+      "blocos": [
+        {"t": "texto", "p": ["Segundo a origem, os medicamentos podem ser de três tipos:"]},
+        {"t": "cards", "cols": 3, "itens": [
+          {"t": "Naturais", "tag": "da natureza", "d": "**Extraídos** de órgãos, glândulas, plantas ou peçonhas de animais."},
+          {"t": "Sintéticos", "tag": "do laboratório", "d": "Preparados com auxílio de matéria-prima natural, mas resultado **exclusivamente do trabalho de laboratório**. Exemplo: alguns antibióticos."},
+          {"t": "Semissintéticos", "tag": "natural + laboratório", "d": "Resultam de **alterações em substâncias naturais**, feitas para modificar as características da ação."}]},
+        {"t": "pense", "q": "Uma substância extraída de uma planta é depois modificada em laboratório para agir por mais tempo. Qual é a origem?", "a": "Semissintética: parte de uma substância natural, que é alterada para mudar as características da ação."}
+      ]
+    }
+  ],
+  "resumo": [
+    "Farmacologia estuda os fármacos. Farmacocinética é o caminho do fármaco no corpo; farmacodinâmica é o que ele faz no corpo.",
+    "Fármaco é a substância; medicamento é o fármaco com benefício comprovado; droga modifica a função com ou sem intenção benéfica; remédio é tudo o que se usa em benefício da saúde; placebo alivia o sofrimento sem (ou com pouquíssimo) princípio ativo.",
+    "Fórmula farmacêutica = princípio ativo + corretivo + veículo.",
+    "Um medicamento tem nome químico, oficial, genérico (princípio ativo) e comercial (marca do laboratório). Na dúvida, confira o princípio ativo.",
+    "Formas farmacêuticas: sólidas (comprimido, drágea, cápsula, pastilha, supositório, pomada), líquidas (solução, xarope, elixir, emulsão, colírio) e gasosas (gases e aerossóis).",
+    "Origem: natural, sintética ou semissintética."
+  ],
+  "glossario": [
+    {"t": "Princípio ativo", "d": "A substância do medicamento que tem a ação farmacológica."},
+    {"t": "Forma farmacêutica", "d": "A maneira física de apresentação (comprimido, xarope, colírio...)."},
+    {"t": "Fórmula farmacêutica", "d": "O conjunto de componentes do produto: princípio ativo, corretivo e veículo."},
+    {"t": "Farmacopeia", "d": "Livro oficial que reúne normas e informações sobre os medicamentos."},
+    {"t": "Mucosa", "d": "Camada úmida que reveste o interior de órgãos e cavidades, como a boca e o nariz."},
+    {"t": "Tópico", "d": "De uso na superfície do corpo, como na pele."}
+  ]
+}

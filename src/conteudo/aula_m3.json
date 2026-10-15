@@ -1,0 +1,117 @@
+{
+  "id": "m3",
+  "tempo": 15,
+  "intro": "Esta é a aula de farmacodinâmica: o que o fármaco faz no corpo. Vamos começar pelo básico: onde o medicamento age e como ele “conversa” com as células.",
+  "secoes": [
+    {
+      "titulo": "Farmacodinâmica: o que o fármaco faz no corpo",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Farmacodinâmica** é o estudo dos mecanismos pelos quais as drogas produzem alterações **bioquímicas ou fisiológicas** no organismo. Em linguagem simples: ela responde às perguntas **onde o fármaco age**, **como age** e **qual é o efeito**.",
+          "A ação começa em escala minúscula, dentro e ao redor das células. O fármaco encontra componentes celulares, como **proteínas, enzimas ou receptores**, e interage com eles. A resposta que vem dessa interação é o **efeito** do medicamento."]},
+        {"t": "fluxo", "titulo": "Do fármaco ao efeito", "passos": [
+          {"t": "Fármaco", "d": "chega ao local"},
+          {"t": "Alvo celular", "d": "proteína, enzima ou receptor"},
+          {"t": "Interação", "d": "o fármaco “conversa” com o alvo"},
+          {"t": "Efeito", "d": "a resposta do organismo"}]},
+        {"t": "callout", "kind": "memo", "titulo": "Diferença que não pode confundir", "texto": "**Ação** é a interação do fármaco com o alvo na célula. **Efeito** é a resposta que resulta dessa ação. Ex.: a ação é ocupar o receptor; o efeito é o coração bater mais forte."}
+      ]
+    },
+    {
+      "titulo": "Onde o medicamento age?",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Um medicamento pode agir **só no ponto em que foi colocado** ou pode **viajar pelo sangue** até outro lugar. Uma pergunta ajuda a distinguir: **o fármaco precisa cair na corrente sanguínea para funcionar?**"]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Ação local", "tag": "não passa pelo sangue", "d": "O fármaco exerce o efeito **no local da aplicação**, sem passar pela corrente sanguínea. Exemplos: pomadas e colírios. Pode ocorrer na pele (pomada em uma ferida) ou nas mucosas (supositório retal, aplicação vaginal, colírio na conjuntiva)."},
+          {"t": "Ação sistêmica ou geral", "tag": "passa pelo sangue", "d": "O fármaco é **absorvido**, entra na **corrente sanguínea** e por ela chega ao órgão ou tecido sobre o qual age. Exemplo: antibióticos."},
+          {"t": "Ação remota", "tag": "um órgão estimula outro", "d": "O efeito aparece em **partes distantes** do organismo: uma droga estimula um órgão, que por sua vez estimula outro. Exemplo do módulo: a digitalina age no coração, aumenta a circulação e, com isso, aumenta a atividade diurética (a produção de urina)."},
+          {"t": "Ação local-geral", "tag": "começa local e vira geral", "d": "Uma droga aplicada produz **efeito local**, é **absorvida** e provoca também **efeito geral**. Exemplo do módulo: a epinefrina aplicada na mucosa nasal estanca a hemorragia local, é absorvida pela circulação e aumenta a pressão arterial."}]},
+        {"t": "pense", "q": "Um colírio é pingado no olho e alivia a irritação ali mesmo, sem precisar entrar no sangue. Que tipo de ação é?", "a": "Ação local. O efeito ocorre no local da aplicação, na mucosa ocular."}
+      ]
+    },
+    {
+      "titulo": "Seis jeitos de agir localmente",
+      "blocos": [
+        {"t": "texto", "p": ["Quando a ação é local, ela pode ter diferentes finalidades. O módulo lista seis tipos:"]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Antisséptico", "d": "**Impede o desenvolvimento** de micro-organismos. Exemplos: álcool iodado e clorexidina."},
+          {"t": "Adstringente", "d": "**Contrai** o tecido. Exemplo: loção para fechar os poros."},
+          {"t": "Irritante", "d": "Medicamento que **irrita os tecidos**."},
+          {"t": "Paliativo", "d": "Aplicado no local para **aliviar a dor**."},
+          {"t": "Emoliente", "d": "**Lubrifica e amolece** o tecido."},
+          {"t": "Anestésico", "d": "**Paralisa as terminações nervosas sensoriais**, tirando a sensibilidade no local."}]}
+      ]
+    },
+    {
+      "titulo": "Cinco jeitos de agir no corpo todo",
+      "blocos": [
+        {"t": "texto", "p": ["Na ação sistêmica, o fármaco precisa ser absorvido e entrar no sangue. Aqui o módulo destaca cinco tipos:"]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Estimulante", "d": "**Aumenta a atividade** de um órgão ou tecido. Exemplo: a cafeína estimula o sistema nervoso central (SNC)."},
+          {"t": "Depressor", "d": "**Diminui as funções** de um tecido ou órgão. Exemplo: a morfina deprime o SNC."},
+          {"t": "Cumulativo", "d": "A eliminação é **mais lenta que a absorção**, e a concentração vai aumentando. Exemplo: digitalina."},
+          {"t": "Anti-infeccioso", "d": "Capaz de **destruir os micro-organismos** responsáveis por uma infecção."},
+          {"t": "Antagônico", "d": "Duas ou mais substâncias administradas têm **efeito contrário**."}]},
+        {"t": "callout", "kind": "nota", "titulo": "SNC", "texto": "**SNC** é a sigla de Sistema Nervoso Central: o cérebro e a medula espinhal. Você vai ver essa sigla muitas vezes ao longo do curso."}
+      ]
+    },
+    {
+      "titulo": "Para que serve o tratamento? Três finalidades",
+      "blocos": [
+        {"t": "texto", "p": ["Ao receber um medicamento, o paciente está passando por um tipo de tratamento. As ações terapêuticas mais comuns são:"]},
+        {"t": "cards", "cols": 3, "itens": [
+          {"t": "Curativa", "tag": "ou específica", "d": "**Remove o agente causador** da doença. Exemplo: o antibiótico elimina a bactéria."},
+          {"t": "Paliativa", "tag": "ou sintomática", "d": "**Alivia sintomas** de uma doença, sem necessariamente tratar a causa. Exemplo: analgésico."},
+          {"t": "Substitutiva", "tag": "reposição", "d": "**Repõe substâncias** que estão ausentes no organismo. Exemplo: insulina."}]},
+        {"t": "callout", "kind": "memo", "titulo": "Paliativo não é “pior”", "texto": "Tratar o sintoma é importante: um analgésico alivia a dor e traz conforto, mesmo sem resolver a causa. As três finalidades são diferentes, não hierárquicas."},
+        {"t": "pense", "q": "Um paciente com febre recebe um antitérmico. A febre baixa, mas a infecção que a causou continua. Qual é a ação terapêutica?", "a": "Paliativa (sintomática): ela alivia o sintoma, mas não remove a causa."}
+      ]
+    },
+    {
+      "titulo": "Receptores: a fechadura e as chaves",
+      "blocos": [
+        {"t": "texto", "p": [
+          "Na superfície ou dentro das células existem estruturas chamadas **receptores**. Cada um funciona como uma **fechadura**. Quando a “chave” certa encaixa e gira, a fechadura abre e a célula reage. Os fármacos fazem o papel de chaves, de vários tipos:"]},
+        {"t": "cards", "cols": 1, "itens": [
+          {"t": "Agonista", "tag": "a chave que abre", "d": "Fármaco que **intensifica ou estimula** um receptor. Ele se encaixa e produz a resposta. Exemplo do módulo: a **dobutamina** estimula receptores beta do coração e aumenta a força de contração."},
+          {"t": "Antagonista", "tag": "a chave que trava", "d": "Fármaco que **interage com o receptor, mas não o estimula**. Ele ocupa a fechadura e **impede as ações de um agonista**. Exemplo clássico (complemento ao módulo): os betabloqueadores, como o propranolol, bloqueiam receptores beta."}]},
+        {"t": "cards", "cols": 2, "itens": [
+          {"t": "Antagonista competitivo", "d": "**Compete com o agonista** pelos sítios receptores: os dois disputam a mesma fechadura."},
+          {"t": "Antagonista não competitivo", "d": "**Liga-se aos sítios receptores e bloqueia** os efeitos do agonista."}]},
+        {"t": "pense", "q": "Por que um antagonista, que “não faz nada” no receptor, pode ter um efeito importante?", "a": "Porque ocupa o receptor e impede que o agonista (inclusive o natural do corpo) produza a resposta. O efeito dele é bloquear."}
+      ]
+    },
+    {
+      "titulo": "Farmacoterapia: o paciente também conta",
+      "blocos": [
+        {"t": "texto", "p": [
+          "**Farmacoterapia** é o uso de medicamentos para **combater doenças, prevenir e diagnosticar**. Escolher o fármaco adequado é só metade da tarefa: é preciso olhar para o paciente que vai receber."]},
+        {"t": "lista", "titulo": "Fatores individuais que mudam a resposta", "itens": [
+          "Idade",
+          "Função cardiovascular, gastrointestinal, hepática (fígado) e renal (rins)",
+          "Dieta",
+          "Doenças que o paciente já tem",
+          "Interação com outros medicamentos que ele usa"]},
+        {"t": "callout", "kind": "atencao", "titulo": "O que isso significa no seu plantão", "texto": "Ao administrar, observe o paciente, pergunte sobre queixas novas e **registre e comunique** o que for diferente. Seu olhar é parte da farmacoterapia."}
+      ]
+    }
+  ],
+  "resumo": [
+    "Farmacodinâmica estuda o que o fármaco faz no corpo: a ação (interação com proteínas, enzimas ou receptores) gera o efeito.",
+    "Ação local: age no ponto de aplicação, sem passar pelo sangue. Sistêmica: é absorvida e age pelo sangue. Remota: um órgão estimulado estimula outro. Local-geral: começa local e depois vira geral.",
+    "Ações locais: antisséptico, adstringente, irritante, paliativo, emoliente e anestésico.",
+    "Ações sistêmicas: estimulante, depressor, cumulativo, anti-infeccioso e antagônico.",
+    "Ações terapêuticas: curativa (remove a causa), paliativa (alivia sintomas) e substitutiva (repõe o que falta).",
+    "Agonista estimula o receptor. Antagonista ocupa o receptor sem estimulá-lo e impede o agonista; pode ser competitivo ou não competitivo.",
+    "Farmacoterapia exige olhar para o paciente: idade, rins, fígado, coração, intestino, dieta, doenças e interações."
+  ],
+  "glossario": [
+    {"t": "Receptor", "d": "Estrutura da célula com a qual o fármaco interage, como uma fechadura."},
+    {"t": "Enzima", "d": "Proteína que acelera reações químicas no corpo."},
+    {"t": "SNC", "d": "Sistema nervoso central: cérebro e medula espinhal."},
+    {"t": "Diurese", "d": "Produção e eliminação de urina."},
+    {"t": "Mucosa", "d": "Camada úmida que reveste o interior de órgãos e cavidades."},
+    {"t": "Sintoma", "d": "Sinal ou queixa causado por uma doença, como dor ou febre."}
+  ]
+}
